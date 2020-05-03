@@ -1,0 +1,3095 @@
+SU_WAP>display system info 
+2
+local telnet flag is , diag source is telnet
+Begin to collect the data
+Open device /dev/pts/2 OK! iFile = 5.
+
+=======================================================
+Start run collect command:WAP:display version
+ display version
+
+hardware version          = AD6.A
+main software version     = V3R017C10S201
+standby software version  = V3R017C10S201
+uboot version             = 2010.03
+
+
+=======================================================
+Start run collect command:WAP:display sn
+ display sn
+
+sn = 485754436358BF9F
+
+
+=======================================================
+Start run collect command:WAP:display inner version
+ display inner version
+
+MainVersion      : V300R017C10SPC201B255 
+StandbyVersion   : V300R017C10SPC201B255 
+ComponentVersion : not exist
+ResourceVersion  : not exist
+
+
+=======================================================
+Start run collect command:WAP:display deviceInfo
+ display deviceInfo
+
+*************** device information ***************
+Manufacturer     = Huawei Technologies Co., Ltd
+ManufacturerOUI  = 00259E
+ModelName        = HG8010H
+Description      = EchoLife HG8010H GPON Terminal (CLASS B+/PRODUCT ID:2102312FEJ6RK8031219/CHIP:00070020170104)
+ManufactureInfo  = 2102312FEJ6RK8031219.C412
+ProductClass     = HG8010H
+SpecVersion      = 1.0
+ProvisioningCode = 
+UpTime           = 0 day(s) 00:21:42
+ReleaseTime      = 2018-09-08_17:12:15 
+UpPort mode      = 1
+*************************************************
+
+
+=======================================================
+Start run collect command:WAP:display apmChipStatus
+ display apmChipStatus
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:WAP:display batteryStatus
+ display batteryStatus
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:WAP:display boardItem
+ display boardItem
+
+board item = 025JGU6RK8147035
+
+
+=======================================================
+Start run collect command:WAP:display cwmp debug
+ display cwmp debug
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:WAP:display machineItem
+ display machineItem
+
+machine item = 2102312FEJ6RK8031219
+
+
+=======================================================
+Start run collect command:WAP:display swm state
+ display swm state
+
+*****************SWM STATE:*****************
+* STATE:IDLE
+* OPER: NONE
+* PROG: 0% 
+********************************************
+
+
+=======================================================
+Start run collect command:WAP:display sysinfo
+ display sysinfo
+
+*************** system infomation ***************
+CpuUsed  = 1 Percent(s)
+MemUsed  = 35 Percent(s)
+CurTime  = 1981-01-01 00:21:46
+*************************************************
+
+
+=======================================================
+Start run collect command:WAP:display syslog
+ display syslog
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:WAP:display timer type 5
+ display timer type 5
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:WAP:display swm bootstate
+ display swm bootstate
+
+*****************BOOT STATE:*****************
+* StructCrc:1031841972  
+* Magic1: 1515870810
+* Magic2: 2779096485        
+* BootCount:0
+* StartArea: 0    
+* RunArea: 0 
+* Flag: 0 
+********************************************
+
+
+=======================================================
+Start run collect command:WAP:display bmsxml crc
+ display bmsxml crc
+
+prevcrc:
+no prevcrc file!
+oldcrc:
+
+
+=======================================================
+Start run collect command:WAP:display tr069 info
+ display tr069 info
+
+ERROR::Command is not existed
+
+
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/panic
+ cat /proc/kbox/regions/panic
+------------------kbox restart:[    8.533822]----------------
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+bbsp ptpdrv install ...... [OK]
+[Error]received netlink trace message. src pid:0;
+pppoe_module_init load success!
+l2base For BBSP Install Successfully...
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+l2ext For BBSP Install Successfully...
+pdt QOS install successfully...
+attach vd info success, ring_len = 1024 ! 
+INIT VD SUCCESS!
+ker_video_diag For BBSP Install Successfully...
+<LDSP> system has no slave space for bob 
+SD511X test self OK
+Optic test self NoCheck
+WIFI test self NoCheck
+PHY[1] test self OK
+PHY[2] test self OK
+PHY[3] test self OK
+PHY[4] test self OK
+PHY[5] test self NoCheck
+ExtRF  test self NoCheck
+<LDSP>hn5176 read status ui_loop:2
+
+bob chip id is 0x00c0
+<LDSP> HN5176 optic . . .
+
+<LDSP> bob optic was calibrated 
+
+@@@ reset key press: MSecond[200 ms] @@@
+
+@@@ reset key press: MSecond[400 ms] @@@
+
+@@@ reset key press: MSecond[600 ms] @@@
+
+@@@ reset key press: MSecond[800 ms] @@@
+
+@@@ reset key press: MSecond[1000 ms] @@@
+create ker_tftp proc ok!
+
+@@@@@@ tftpc_init success @@@@@@
+
+@@@ reset key press: MSecond[1200 ms] @@@
+
+@@@ reset key press: MSecond[1400 ms] @@@
+
+@@@ reset key press: MSecond[1600 ms] @@@
+
+@@@ reset key press: MSecond[1800 ms] @@@
+
+@@@ reset key press: MSecond[2000 ms] @@@
+
+@@@ reset key released: release count [1] @@@
+
+@@@ reset key released: release count [2] @@@
+
+@@@ reset key released: release count [3] @@@
+<LDSP> optic para load success! 
+<LDSP> HN5176 optic init success! 
+
+ gpon_api module is installed
+hs_gmac_func_register ret=0x0! 
+
+hi_kernel_dp_ponlink_init! mode:0
+
+dump address [0x00000000]
+=============================================================
+[0x00000000] - 0x00000050  0x00000060  0x00000000  0x00000002
+[0x00000010] - 0x000000bd  0x000000a3  0x00000088  0x00000066
+[0x00000020] - 0x00000023  0x00000054  0x00000080  0x00000064
+[0x00000030] - 0x00000022  0x00000010  0x00000000  0x00000000
+[0x00000040] - 0x0000008a  0x000000e2  0x00000000  0x00000000
+[0x00000050] - 0x00000018  0x00000025  0x00000006  0x00000086
+[0x00000060] - 0x00000074  0x00000002  0x00000008  0x0000005e
+[0x00000070] - 0x00000020  0x00000000  0x00000000  0x0000000d
+[0x00000080] - 0x00000085  0x00000005  0x00000000  0x00000060
+=============================================================
+GPON init success ! 
+
+==gemport iso force 0
+[0360] hi_pdu_collision_check, faltal error: pdu_class[0] pdu[44](thick_A)  collide with trans_act[0]
+[8336] hi_egress_car_resource_get_511x, info: car id 1
+[8148] hi_ingress_car_resource_get_511x, info: car id 2
+[8336] hi_egress_car_resource_get_511x, info: car id 3
+hi_omci_callback_hook: hw_ker_gmac_omci_recv_speedup
+
+[GONT_ReadRogueStatus]File not exist or Unable to open!
+
+[GONT_ReadEmergencyStatus]File not exist or Unable to open!
+[PLOAM]ONUID(0): O1 => O1
+Init Access Mode To GPON .................
+The link of ETH0 is up, uni_phy
+
+eth0,status:f100    
+eth status changed: port 0, status 0
+[Error]received netlink trace message. src pid:319;
+Set kmsgread process pid to:320;
+warning: `/bin/write_proc' has both setuid-root and effective capabilities. Therefore not raising all capabilities.
+
+@@@ reset key press: MSecond[200 ms] @@@
+
+@@@ reset key released: release count [1] @@@
+
+@@@ reset key released: release count [2] @@@
+
+@@@ reset key press: MSecond[400 ms] @@@
+
+@@@ reset key press: MSecond[600 ms] @@@
+
+@@@ reset key press: MSecond[800 ms] @@@
+
+@@@ reset key press: MSecond[1000 ms] @@@
+
+@@@ reset key press: MSecond[1200 ms] @@@
+
+@@@ reset key press: MSecond[1400 ms] @@@
+
+@@@ reset key press: MSecond[1600 ms] @@@
+
+@@@ reset key press: MSecond[1800 ms] @@@
+
+@@@ reset key press: MSecond[2000 ms] @@@
+
+@@@ reset key press: MSecond[2200 ms] @@@
+
+@@@ reset key press: MSecond[2400 ms] @@@
+
+@@@ reset key press: MSecond[2600 ms] @@@
+
+@@@ reset key press: MSecond[2800 ms] @@@
+
+@@@ reset key press: MSecond[3000 ms] @@@
+
+@@@ reset key press: MSecond[3200 ms] @@@
+
+@@@ reset key press: MSecond[3400 ms] @@@
+
+@@@ reset key press: MSecond[3600 ms] @@@
+
+@@@ reset key press: MSecond[3800 ms] @@@
+
+@@@ reset key press: MSecond[4000 ms] @@@
+
+@@@ reset key press: MSecond[4200 ms] @@@
+
+@@@ reset key press: MSecond[4400 ms] @@@
+
+@@@ reset key press: MSecond[4600 ms] @@@
+
+@@@ reset key press: MSecond[4800 ms] @@@
+
+@@@ reset key press: MSecond[5000 ms] @@@
+
+@@@ reset key press: MSecond[5200 ms] @@@
+
+@@@ reset key press: MSecond[5400 ms] @@@
+
+@@@ reset key press: MSecond[5600 ms] @@@
+
+@@@ reset key press: MSecond[5800 ms] @@@
+
+@@@ reset key press: MSecond[6000 ms] @@@
+
+@@@ reset key press: MSecond[6200 ms] @@@
+
+@@@ reset key press: MSecond[6400 ms] @@@
+
+@@@ reset key press: MSecond[6600 ms] @@@
+
+@@@ reset key press: MSecond[6800 ms] @@@
+
+@@@ reset key press: MSecond[7000 ms] @@@
+
+@@@ reset key press: MSecond[7200 ms] @@@
+
+@@@ reset key press: MSecond[7400 ms] @@@
+
+@@@ reset key press: MSecond[7600 ms] @@@
+
+@@@ reset key press: MSecond[7800 ms] @@@
+
+@@@ reset key press: MSecond[8000 ms] @@@
+
+@@@ reset key press: MSecond[8200 ms] @@@
+
+@@@ reset key press: MSecond[8400 ms] @@@
+
+@@@ reset key press: MSecond[8600 ms] @@@
+
+@@@ reset key press: MSecond[8800 ms] @@@
+
+@@@ reset key press: MSecond[9000 ms] @@@
+
+@@@ reset key press: MSecond[9200 ms] @@@
+
+@@@ reset key press: MSecond[9400 ms] @@@
+
+@@@ reset key press: MSecond[9600 ms] @@@
+
+@@@ reset key press: MSecond[9800 ms] @@@
+
+@@@ reset key press: MSecond[10000 ms] @@@
+
+@@@ reset key press: MSecond[10200 ms] @@@
+
+@@@ reset key press: MSecond[10400 ms] @@@
+
+@@@ reset key press: MSecond[10600 ms] @@@
+
+@@@ reset key press: MSecond[10800 ms] @@@
+
+@@@ reset key press: MSecond[11000 ms] @@@
+
+@@@ reset key press: MSecond[11200 ms] @@@
+
+@@@ reset key press: MSecond[11400 ms] @@@
+
+@@@ reset key press: MSecond[11600 ms] @@@
+
+@@@ reset key press: MSecond[11800 ms] @@@
+
+@@@ reset key press: MSecond[12000 ms] @@@
+
+@@@ reset key press: MSecond[12200 ms] @@@
+
+@@@ reset key press: MSecond[12400 ms] @@@
+
+@@@ reset key press: MSecond[12600 ms] @@@
+
+@@@ reset key press: MSecond[12800 ms] @@@
+
+@@@ reset key press: MSecond[13000 ms] @@@
+
+@@@ reset key press: MSecond[13200 ms] @@@
+
+@@@ reset key press: MSecond[13400 ms] @@@
+
+@@@ reset key press: MSecond[13600 ms] @@@
+
+@@@ reset key press: MSecond[13800 ms] @@@
+
+@@@ reset key press: MSecond[14000 ms] @@@
+
+@@@ reset key press: MSecond[14200 ms] @@@
+
+@@@ reset key press: MSecond[14400 ms] @@@
+
+@@@ reset key press: MSecond[14600 ms] @@@
+
+@@@ reset key press: MSecond[14800 ms] @@@
+
+@@@ reset key press: MSecond[15000 ms] @@@
+
+@@@ reset key press: MSecond[15200 ms] @@@
+
+@@@ reset key press: MSecond[15400 ms] @@@
+
+@@@ reset key press: MSecond[15600 ms] @@@
+
+@@@ reset key press: MSecond[15800 ms] @@@
+
+@@@ reset key press: MSecond[16000 ms] @@@
+
+@@@ reset key press: MSecond[16200 ms] @@@
+
+@@@ reset key press: MSecond[16400 ms] @@@
+
+@@@ reset key press: MSecond[16600 ms] @@@
+
+@@@ reset key press: MSecond[16800 ms] @@@
+
+@@@ reset key press: MSecond[17000 ms] @@@
+
+@@@ reset key press: MSecond[17200 ms] @@@
+
+@@@ reset key press: MSecond[17400 ms] @@@
+
+@@@ reset key press: MSecond[17600 ms] @@@
+
+@@@ reset key press: MSecond[17800 ms] @@@
+
+@@@ reset key press: MSecond[18000 ms] @@@
+
+@@@ reset key press: MSecond[18200 ms] @@@
+
+@@@ reset key press: MSecond[18400 ms] @@@
+
+@@@ reset key press: MSecond[18600 ms] @@@
+
+@@@ reset key press: MSecond[18800 ms] @@@
+
+@@@ reset key press: MSecond[19000 ms] @@@
+
+@@@ reset key press: MSecond[19200 ms] @@@
+
+@@@ reset key press: MSecond[19400 ms] @@@
+
+@@@ reset key press: MSecond[19600 ms] @@@
+
+@@@ reset key press: MSecond[19800 ms] @@@
+
+@@@ reset key press: MSecond[20000 ms] @@@
+
+@@@ reset key press: MSecond[20200 ms] @@@
+
+@@@ reset key press: MSecond[20400 ms] @@@
+
+@@@ reset key released: release count [1] @@@
+
+@@@ reset key released: release count [2] @@@
+
+@@@ reset key released: release count [3] @@@
+Restarting system.
+Wdt chip reset!!
+
+----reset by wdt----
+------------------kbox restart:[    8.526414]----------------
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+bbsp ptpdrv install ...... [OK]
+[Error]received netlink trace message. src pid:0;
+pppoe_module_init load success!
+l2base For BBSP Install Successfully...
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+l2ext For BBSP Install Successfully...
+pdt QOS install successfully...
+attach vd info success, ring_len = 1024 ! 
+INIT VD SUCCESS!
+ker_video_diag For BBSP Install Successfully...
+<LDSP> system has no slave space for bob 
+SD511X test self OK
+Optic test self NoCheck
+WIFI test self NoCheck
+PHY[1] test self OK
+PHY[2] test self OK
+PHY[3] test self OK
+PHY[4] test self OK
+PHY[5] test self NoCheck
+ExtRF  test self NoCheck
+<LDSP>hn5176 read status ui_loop:1
+
+bob chip id is 0x00c0
+<LDSP> HN5176 optic . . .
+
+<LDSP> bob optic was calibrated 
+create ker_tftp proc ok!
+
+@@@@@@ tftpc_init success @@@@@@
+<LDSP> optic para load success! 
+<LDSP> HN5176 optic init success! 
+
+ gpon_api module is installed
+hs_gmac_func_register ret=0x0! 
+
+hi_kernel_dp_ponlink_init! mode:0
+
+dump address [0x00000000]
+=============================================================
+[0x00000000] - 0x00000050  0x00000060  0x00000000  0x00000002
+[0x00000010] - 0x000000bd  0x000000a3  0x00000088  0x00000066
+[0x00000020] - 0x00000023  0x00000054  0x00000080  0x00000063
+[0x00000030] - 0x00000023  0x00000010  0x00000000  0x00000000
+[0x00000040] - 0x0000008a  0x000000e2  0x00000000  0x00000000
+[0x00000050] - 0x00000018  0x00000025  0x00000006  0x00000086
+[0x00000060] - 0x00000074  0x00000002  0x00000008  0x0000005e
+[0x00000070] - 0x00000020  0x00000000  0x00000000  0x0000000d
+[0x00000080] - 0x00000085  0x00000005  0x00000000  0x00000060
+=============================================================
+GPON init success ! 
+
+==gemport iso force 0
+[0360] hi_pdu_collision_check, faltal error: pdu_class[0] pdu[44](thick_A)  collide with trans_act[0]
+[8336] hi_egress_car_resource_get_511x, info: car id 1
+[8148] hi_ingress_car_resource_get_511x, info: car id 2
+[8336] hi_egress_car_resource_get_511x, info: car id 3
+hi_omci_callback_hook: hw_ker_gmac_omci_recv_speedup
+
+[GONT_ReadRogueStatus]File not exist or Unable to open!
+
+[GONT_ReadEmergencyStatus]File not exist or Unable to open!
+[PLOAM]ONUID(0): O1 => O1
+Init Access Mode To GPON .................[Error]received netlink trace message. src pid:315;
+Set kmsgread process pid to:316;
+
+The link of ETH0 is up, uni_phy
+
+eth0,status:f100    
+eth status changed: port 0, status 0
+warning: `/bin/write_proc' has both setuid-root and effective capabilities. Therefore not raising all capabilities.
+Lock Spi Flash(cs1):BP~0xf!
+Unlock Spi Flash(cs1):BP~0xf!
+Restarting system.
+Wdt chip reset!!
+
+----reset by wdt----
+------------------kbox restart:[    8.514564]----------------
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+bbsp ptpdrv install ...... [OK]
+[Error]received netlink trace message. src pid:0;
+pppoe_module_init load success!
+l2base For BBSP Install Successfully...
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+[Error]received netlink trace message. src pid:0;
+l2ext For BBSP Install Successfully...
+pdt QOS install successfully...
+attach vd info success, ring_len = 1024 ! 
+INIT VD SUCCESS!
+ker_video_diag For BBSP Install Successfully...
+<LDSP> system has no slave space for bob 
+SD511X test self OK
+Optic test self NoCheck
+WIFI test self NoCheck
+PHY[1] test self OK
+PHY[2] test self OK
+PHY[3] test self OK
+PHY[4] test self OK
+PHY[5] test self NoCheck
+ExtRF  test self NoCheck
+<LDSP>hn5176 read status ui_loop:1
+
+bob chip id is 0x00c0
+<LDSP> HN5176 optic . . .
+
+<LDSP> bob optic was calibrated 
+create ker_tftp proc ok!
+
+@@@@@@ tftpc_init success @@@@@@
+<LDSP> optic para load success! 
+<LDSP> HN5176 optic init success! 
+
+ gpon_api module is installed
+hs_gmac_func_register ret=0x0! 
+
+hi_kernel_dp_ponlink_init! mode:0
+
+dump address [0x00000000]
+=============================================================
+[0x00000000] - 0x00000050  0x00000060  0x00000000  0x00000002
+[0x00000010] - 0x000000bd  0x000000a3  0x00000088  0x00000066
+[0x00000020] - 0x00000023  0x00000054  0x00000080  0x00000063
+[0x00000030] - 0x00000023  0x00000010  0x00000000  0x00000000
+[0x00000040] - 0x0000008a  0x000000e2  0x00000000  0x00000000
+[0x00000050] - 0x00000018  0x00000025  0x00000006  0x00000086
+[0x00000060] - 0x00000074  0x00000002  0x00000008  0x0000005e
+[0x00000070] - 0x00000020  0x00000000  0x00000000  0x0000000d
+[0x00000080] - 0x00000085  0x00000005  0x00000000  0x00000060
+=============================================================
+GPON init success ! 
+
+==gemport iso force 0
+[0360] hi_pdu_collision_check, faltal error: pdu_class[0] pdu[44](thick_A)  collide with trans_act[0]
+[8336] hi_egress_car_resource_get_511x, info: car id 1
+[8148] hi_ingress_car_resource_get_511x, info: car id 2
+[8336] hi_egress_car_resource_get_511x, info: car id 3
+hi_omci_callback_hook: hw_ker_gmac_omci_recv_speedup
+
+[GONT_ReadRogueStatus]File not exist or Unable to open!
+
+[GONT_ReadEmergencyStatus]File not exist or Unable to open!
+[PLOAM]ONUID(0): O1 => O1
+Init Access Mode To GPON .................
+The link of ETH0 is up, uni_phy
+
+eth0,status:f100    
+eth status changed: port 0, status 0
+[Error]received netlink trace message. src pid:318;
+Set kmsgread process pid to:319;
+warning: `/bin/write_proc' has both setuid-root and effective capabilities. Therefore not raising all capabilities.
+
+Spi flash protect is OFF
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_0
+ cat /proc/kbox/regions/ks_0
+cat: can't open '/proc/kbox/regions/ks_0': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_1
+ cat /proc/kbox/regions/ks_1
+cat: can't open '/proc/kbox/regions/ks_1': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_2
+ cat /proc/kbox/regions/ks_2
+cat: can't open '/proc/kbox/regions/ks_2': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_3
+ cat /proc/kbox/regions/ks_3
+cat: can't open '/proc/kbox/regions/ks_3': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_4
+ cat /proc/kbox/regions/ks_4
+cat: can't open '/proc/kbox/regions/ks_4': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/kbox/regions/ks_main
+ cat /proc/kbox/regions/ks_main
+cat: can't open '/proc/kbox/regions/ks_main': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /var/init_debug.txt
+ cat /var/init_debug.txt
+cat: can't open '/var/init_debug.txt': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:uptime
+ uptime
+/bin/sh: uptime: not found
+
+=======================================================
+Start run collect command:SHELL:free
+ free
+             total         used         free       shared      buffers
+Mem:         58216        21064        37152            0         1688
+-/+ buffers:              19376        38840
+Swap:            0            0            0
+
+=======================================================
+Start run collect command:SHELL:cat /proc/meminfo
+ cat /proc/meminfo
+MemTotal:          58216 kB
+MemFree:           37140 kB
+Buffers:            1688 kB
+Cached:             5392 kB
+SwapCached:            0 kB
+Active:             6968 kB
+Inactive:           5144 kB
+Active(anon):       5032 kB
+Inactive(anon):        0 kB
+Active(file):       1936 kB
+Inactive(file):     5144 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:          5052 kB
+Mapped:             3968 kB
+Shmem:                 0 kB
+Slab:               3556 kB
+SReclaimable:        556 kB
+SUnreclaim:         3000 kB
+KernelStack:         768 kB
+PageTables:          496 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       29108 kB
+Committed_AS:      23820 kB
+VmallocTotal:     966656 kB
+VmallocUsed:      166732 kB
+VmallocChunk:     753720 kB
+
+=======================================================
+Start run collect command:SHELL:wap.ssp.ps
+ wap.ssp.ps
+  PID   TID CPU    VmSize Stat Prio Policy U-Time S-Time Command          WChan            
+    1     1 0        356k S    120  0      0      51     init                             
+    2     2 0          0k SW   120  0      0      0      kthreadd                         
+    3     3 0          0k SW   120  0      0      9      ksoftirqd/0                      
+    4     4 0          0k SW   120  0      0      0      kworker/0:0                      
+    5     5 0          0k SW   100  0      0      0      kworker/0:0H                     
+    6     6 0          0k SW   120  0      0      0      kworker/u2:0                     
+    8     8 0          0k SW   100  0      0      0      khelper                          
+    9     9 0          0k SW   100  0      0      0      writeback                        
+   10    10 0          0k SW   100  0      0      0      bioset                           
+   11    11 0          0k SW   100  0      0      0      crypto                           
+   12    12 0          0k SW   100  0      0      0      kblockd                          
+   13    13 0          0k SW   120  0      0      0      khungtaskd                       
+   14    14 0          0k SW   120  0      0      719    kworker/0:1                      
+   15    15 0          0k SW   120  0      0      0      kswapd0                          
+   16    16 0          0k SW   120  0      0      0      fsnotify_mark                    
+   19    19 0          0k SW   100  0      0      0      deferwq                          
+   20    20 0          0k SW   120  0      0      0      kworker/u2:1                     
+   45    45 0          0k SW   130  0      0      36     jffs2_gcd_mtd10                  
+   56    56 0        444k S    120  0      0      55     collect_pipe                     
+   59    59 0          0k SW   100  0      0      0      kworker/0:1H                     
+   70    70 0          0k SW   120  0      0      4      wap_wq                           
+  100   100 0          0k DW   120  0      0      53     phy_manager                      
+  174   174 0          0k SW   100  0      0      0      dev_workqueue                    
+  184   184 0       2048k S    120  3      6      168    bbsp                             
+  184   195 0       2048k S    120  3      0      0      os_nl_recv                       
+  184   257 0       2048k S    120  3      0      0      bbsp_Mid_102_T                   
+  184   260 0       2048k S    120  3      0      0      event_nl_msg                     
+  184   275 0       2048k S    120  3      0      0      BBSP_PORTCHECK_                  
+  184   312 0       2048k S    120  3      0      0      BBSP_RINGCHK_RE                  
+  186   186 0        340k S    120  0      1      10     sh                               
+  188   188 0       1328k S    120  3      0      65     igmp                             
+  188   198 0       1328k S    120  3      0      0      os_nl_recv                       
+  188   264 0       1328k S    120  3      0      0      event_nl_msg                     
+  188   269 0       1328k S    120  3      0      0      igmp_Mid_67_T                    
+  188   270 0       1328k S    120  3      0      0      IGMP_TASK                        
+  188   313 0       1328k S    120  3      0      0      IGMP_RECVMSG                     
+  189   189 0        340k S    120  0      0      2      sh                               
+  191   191 0       1588k S    120  3      5      50     amp                              
+  191   197 0       1588k S    120  3      0      0      os_nl_recv                       
+  191   271 0       1588k S    120  3      0      2      event_nl_msg                     
+  191   272 0       1588k S    120  3      0      0      amp_Mid_155_T                    
+  191   273 0       1588k S    120  3      1      3      amp                              
+  191   274 0       1588k S    120  3      0      0      amp                              
+  191   314 0       1588k S    94   2      0      0      GPON_Monitor                     
+  203   203 0          0k SW   100  0      0      0      optic_status_wo                  
+  205   205 0        564k S    120  0      0      21     hw_ldsp_xpon_ad                  
+  205   209 0        564k S    120  3      0      0      hw_ldsp_xpon_ad                  
+  206   206 0        340k S    120  0      0      0      sh                               
+  208   208 0       2216k S    120  3      44     106    ssmp                             
+  208   210 0       2216k S    120  3      2      1      os_nl_recv                       
+  208   215 0       2216k S    120  3      0      0      event_nl_msg                     
+  208   216 0       2216k S    120  3      0      0      dm-resetkey                      
+  208   221 0       2216k S    120  3      55     64     ssmp                             
+  208   385 0       2216k S    120  3      0      0      telnet-listener                  
+  208   582 0       2216k S    120  3      0      0      telnet-proxy                     
+  222   222 0        340k S    120  0      0      0      sh                               
+  223   223 0        340k S    120  0      0      1      sh                               
+  227   227 0       2308k S    120  3      15     20     ethoam                           
+  227   254 0       2308k S    120  3      0      0      os_nl_recv                       
+  227   256 0       2308k S    120  3      0      2      event_nl_msg                     
+  227   316 0       2308k S    120  3      0      0      ETHOAM_RECVMSG                   
+  232   232 0       2136k S    120  3      10     52     omci                             
+  232   251 0       2136k S    120  3      0      0      os_nl_recv                       
+  232   255 0       2136k S    120  3      0      1      event_nl_msg                     
+  232   258 0       2136k S    120  3      0      0      omci_Mid_215_T                   
+  232   261 0       2136k S    96   2      0      0      OMCI_PRO_RecvMa                  
+  232   262 0       2136k S    95   2      0      0      OMCI_PRO_SendMa                  
+  232   278 0       2136k S    120  3      0      0      omci_Mid_151_T                   
+  232   291 0       2136k S    120  3      0      0      omci_Mid_35_T                    
+  244   244 0        368k S    120  0      0      10     sh                               
+  263   263 0        788k S    120  0      0      16     procmonitor                      
+  263   265 0        788k S    120  3      0      0      os_nl_recv                       
+  263   266 0        788k S    90   2      0      0      PM_WatchDog                      
+  263   267 0        788k S    120  3      0      0      event_nl_msg                     
+  263   268 0        788k S    120  3      0      0      procmonitor                      
+  318   318 0       1808k S    120  3      48     37     clid                             
+  318   319 0       1808k S    120  3      0      1      os_nl_recv                       
+  318   320 0       1808k S    120  3      0      0      event_nl_msg                     
+  318   321 0       1808k S    120  3      0      1      ptyt-serv                        
+  318   322 0       1808k S    120  3      0      1      ptym-conn                        
+  318   323 0       1808k S    120  3      1      0      ptyt-sw                          
+  318   379 0       1808k S    120  3      12     2      ptys-serv                        
+  318   380 0       1808k S    120  3      0      0      clid_Mid_11_T                    
+  318   382 0       1808k S    120  3      0      0      clid_Mid_198_T                   
+  318   383 0       1808k S    120  3      0      0      clid_Mid_12_T                    
+  318   384 0       1808k S    120  3      0      0      clid_Mid_360_T                   
+  318   583 0       1808k S    120  3      9      9      ptym-serv                        
+  318   584 0       1808k S    120  3      0      0      ptym-sw                          
+  324   324 0        364k S    120  3      0      0      sh                               
+  367   367 0          0k SW   120  0      0      0      kgontregd                        
+  368   368 0          0k SW   120  0      0      0      kgontupd                         
+  585   585 0        380k S    120  3      0      1      sh                               
+  596   596 0        388k S    120  3      0      0      sh                               
+  598   598 0        580k S    120  3      0      1      collect_exe                      
+  620   620 0        336k S    120  3      0      0      sh                               
+  621   621 0        376k S    120  3      0      1      wap.ssp.ps                       
+  622   622 0        292k R    120  3      0      0      cat                              
+
+=======================================================
+Start run collect command:SHELL:cat /proc/slabinfo
+ cat /proc/slabinfo
+cat: can't open '/proc/slabinfo': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:dlw
+ dlw
+Max last words 300; total last words 157.
+PID    TID    CPU  Date       Time     Jiffies    Cout Ret        Arg1       Arg2       Arg3       Arg4       Line  File 
+73     73     0    1981-01-01 00:00:00 0xffff8c40 1    0x00000258 0x0001fbcc 0x00000188 0x000000d8 0x00000000 2045  nd/hw_ssp_ker_log.c 
+77     77     0    1981-01-01 00:00:00 0xffff8c55 2    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2069  w_ssp_ker_flowlog.c 
+117    117    0    1981-01-01 00:00:04 0xffff8d9f 1    0xf7500008 0x00000005 0x00000005 0x00000000 0x00000000 4379  ev/hw_ker_drv_dev.c 
+120    120    0    1981-01-01 00:00:04 0xffff8db1 1    0xf7205409 0x00000004 0xffffffff 0x00000000 0x00000000 828   _ker_dm_chip_attr.c 
+120    120    0    1981-01-01 00:00:04 0xffff8dbc 1    0xf7205001 0xc3295b98 0x00000004 0x00000000 0x00000000 946   _ker_dm_chip_attr.c 
+121    121    0    1981-01-01 00:00:04 0xffff8e02 5    0x00000001 0x00000001 0x00000000 0x00000000 0x00000000 1115  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:04 0xffff8df1 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1312  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:04 0xffff8e02 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2313  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:04 0xffff8e02 1    0xf7205401 0x00000000 0x00000004 0x00000000 0x00000000 4505  hw_ker_dm_pd_attr.c 
+156    156    0    1981-01-01 00:00:06 0xffff8e71 4    0xf720e008 0xbfa87a11 0xc27c9e44 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+157    157    0    1981-01-01 00:00:06 0xffff8e7d 4    0xf720e008 0xbfa98c48 0xc27cbe24 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+158    158    0    1981-01-01 00:00:06 0xffff8e7e 3    0xf720e008 0xbfaa2c74 0xbfaa3028 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+172    172    0    1981-01-01 00:00:06 0xffff8eac 1    0xf7500012 0x00000000 0x00000000 0x00000000 0x00000000 5479  ev/hw_ker_drv_dev.c 
+208    208    0    1981-01-01 00:00:12 0xffff90fa 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1648  _dm_pdt_factparam.c 
+208    208    0    1981-01-01 00:00:12 0xffff90fa 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2013  _dm_pdt_factparam.c 
+208    208    0    1981-01-01 00:21:12 0x00017d4e 15   0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+208    208    0    1981-01-01 00:00:13 0xffff9154 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 5360  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:12:26 0x0000afb0 168  0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 580   hw_xml_basic_db.c   
+208    208    0    1981-01-01 00:00:13 0xffff9156 3    0xf710e059 0x00000000 0x00000000 0x00000000 0x00000000 4518  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 4508  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 423   hw_os_semaphore.c   
+208    208    0    1981-01-01 00:00:13 0xffff9156 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 460   hw_os_semaphore.c   
+208    208    0    1981-01-01 00:00:13 0xffff9156 5    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 50    hw_os_string.c      
+208    208    0    1981-01-01 00:00:13 0xffff9156 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 1    0xf710e028 0x2e0a0300 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+208    208    0    1981-01-01 00:00:13 0xffff9156 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+208    208    0    1981-01-01 00:00:13 0xffff9156 5    0xf7102104 0xc0084429 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+208    208    0    1981-01-01 00:00:13 0xffff9156 5    0x00000016 0x00000000 0x00000000 0x00000000 0x00000000 350   hw_timer_api.c      
+208    208    0    1981-01-01 00:00:13 0xffff9156 5    0x00000016 0x00000004 0x00000000 0x00000000 0x00000000 3069  hw_basic_dia_api.c  
+208    208    0    1981-01-01 00:21:46 0x00018a43 80   0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+208    208    0    1981-01-01 00:00:13 0xffff915e 1    0x00000003 0x00000000 0x00000000 0x00000000 0x00000000 6865  hw_dm_pdt_init.c    
+208    208    0    1981-01-01 00:00:13 0xffff915e 1    0x00000001 0xaa5555aa 0x00000000 0x00000000 0x00000000 796   hw_dm_init.c        
+208    208    0    1981-01-01 00:00:13 0xffff916b 1    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 5652  hw_dm_pdt_init.c    
+232    232    0    1981-01-01 00:00:18 0xffff933a 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+188    188    0    1981-01-01 00:00:15 0xffff9247 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+188    188    0    1981-01-01 00:00:15 0xffff9247 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6415  hw_igmp_snooping.c  
+188    188    0    1981-01-01 00:00:15 0xffff9247 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6500  hw_igmp_snooping.c  
+188    188    0    1981-01-01 00:00:15 0xffff9247 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6723  hw_igmp_snooping.c  
+191    191    0    1981-01-01 00:00:16 0xffff9268 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 981   bll_led.c           
+191    191    0    1981-01-01 00:00:17 0xffff92cd 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:16 0xffff9297 3    0x00000001 0x00000003 0x00000000 0x00000000 0x00000000 751   ge/hw_ker_vbridge.c 
+232    232    0    1981-01-01 00:00:18 0xffff9353 9    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+232    232    0    1981-01-01 00:00:16 0xffff9299 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92bb 2    0xf7102104 0xc0d84420 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+232    232    0    1981-01-01 00:00:17 0xffff92bc 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 320   hw_amp_omci_dep.c   
+184    184    0    1981-01-01 00:00:18 0xffff934f 12   0xf7301015 0xffffffff 0x00000000 0x00000000 0x00000000 145   hw_netdev_api.c     
+184    184    0    1981-01-01 00:00:17 0xffff92ca 3    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1918  l2m_macbridge.c     
+184    184    0    1981-01-01 00:00:18 0xffff934f 11   0x00000001 0x0000000c 0x00000000 0x00000000 0x00000000 4612  l2m_vlan_main.c     
+184    184    0    1981-01-01 00:00:17 0xffff92c7 1    0x00000001 0x00000001 0x00000001 0x00000000 0x00000002 1977  prtcl_pkt.c         
+191    191    0    1981-01-01 00:00:17 0xffff92c8 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:17 0xffff92c8 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1025  hw_amp_qos.c        
+188    188    0    1981-01-01 00:00:17 0xffff92c9 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+184    184    0    1981-01-01 00:00:17 0xffff92d4 5    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1612  l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000004 0x00000000 0x00000001 0x00000000 742   /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000012 0x20030012 0x00000000 0x00000000 749   hw_ker_drv_common.c 
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1695  /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x20030012 0x000000b0 0x00000000 0x00000000 159   hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1161  hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1501  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1794  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 442   l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 456   l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92cc 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 182   hw_ctp.c            
+184    184    0    1981-01-01 00:00:17 0xffff92d0 4    0x00000001 0x00000085 0x00000000 0x00000000 0x00000000 140   hw_os_sigcall.c     
+191    191    0    1981-01-01 00:00:17 0xffff92ce 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1676  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e029 0x0000008a 0x2729a100 0x00000000 0x00000000 1035  hw_xml_basic_db.c   
+184    184    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 279   hw_amp_onu.c        
+184    184    0    1981-01-01 00:00:17 0xffff92d0 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1075  l2base_diag_main.c  
+191    191    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1194  hw_amp_onu.c        
+184    184    0    1981-01-01 00:00:17 0xffff92d0 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6067  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92d4 2    0xf720f011 0x00000000 0x00000000 0x00000000 0x00000000 104   broadcast_adapt.c   
+227    227    0    1981-01-01 00:00:17 0xffff92de 3    0xf720581e 0x00000003 0x00000004 0x00000003 0x00000005 214   re/hw_ker_dm_topo.c 
+227    227    0    1981-01-01 00:00:17 0xffff92de 3    0xf720581e 0x00000004 0x00000005 0x00000000 0x00000000 1218  hw_dm_basic.c       
+227    227    0    1981-01-01 00:00:17 0xffff92ff 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+227    227    0    1981-01-01 00:00:17 0xffff92ff 2    0xf710e028 0x2e2b0a00 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+227    227    0    1981-01-01 00:00:17 0xffff92ff 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+227    227    0    1981-01-01 00:00:17 0xffff92ff 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+232    232    0    1981-01-01 00:00:18 0xffff933d 4    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+318    318    0    1981-01-01 00:21:18 0x00017f8f 10   0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+318    318    0    1981-01-01 00:00:17 0xffff9311 2    0xf710e063 0x00000000 0x00000000 0x00000000 0x00000000 1338  hw_dm_ver.c         
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1422  hw_dm_ver.c         
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1429  hw_dm_ver.c         
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 115   hw_cli_init.c       
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1204  hw_cli_init.c       
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1261  hw_cli_init.c       
+318    318    0    1981-01-01 00:00:17 0xffff9311 1    0xf710d00a 0x00000000 0x00000000 0x00000000 0x00000000 576   hw_timer.c          
+318    318    0    1981-01-01 00:00:17 0xffff9312 1    0xf7202001 0x00000006 0x00000006 0x00000000 0x00000000 2289  hw_cli_user.c       
+318    318    0    1981-01-01 00:00:17 0xffff9312 1    0xf7202001 0x00000006 0x00000000 0x00000000 0x00000000 2811  hw_cli_user.c       
+318    318    0    1981-01-01 00:21:16 0x00017ece 4    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 617   hw_cli_user.c       
+232    232    0    1981-01-01 00:00:18 0xffff933b 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 74    i_me_extend_ont-g.c 
+184    260    0    1981-01-01 00:00:18 0xffff933b 4    0x00000001 0x200a0100 0x00000000 0x00000000 0x00000000 1378  l2_qos_main.c       
+184    260    0    1981-01-01 00:00:18 0xffff933b 3    0x00000001 0x00000003 0x00000000 0x200a0100 0x00000000 1929  prtcl_pkt.c         
+232    232    0    1981-01-01 00:00:18 0xffff933c 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 344   i_me_extend_ont-g.c 
+191    273    0    1981-01-01 00:00:18 0xffff933d 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1899  bll_onu_msc.c       
+191    273    0    1981-01-01 00:00:18 0xffff933d 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1216  bll_onu.c           
+318    318    0    1981-01-01 00:00:18 0xffff934b 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 662   _xml_basic_dbmain.c 
+318    318    0    1981-01-01 00:00:18 0xffff934b 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 382   _xml_basic_dbmain.c 
+318    318    0    1981-01-01 00:00:18 0xffff934b 6    0xf710e029 0x00b4adc0 0x00000000 0x00000000 0x00000000 567   hw_cli_cmdtree.c    
+191    271    0    1981-01-01 00:00:19 0xffff939a 1    0x00000002 0x00000000 0x00000000 0x00000000 0x00000000 323   bll_led.c           
+318    318    0    1981-01-01 00:00:19 0xffff93ac 1    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+208    210    0    1981-01-01 00:00:24 0xffff95bc 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 3080  _xml_basic_dbmain.c 
+208    210    0    1981-01-01 00:00:24 0xffff95bc 2    0xf710e028 0x0000000b 0x00000000 0x00000000 0x00000000 1624  hw_xml_basic_db.c   
+318    387    0    1981-01-01 00:21:16 0x00017ec5 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 5040  _xml_basic_dbmain.c 
+391    391    0    1981-01-01 00:00:36 0xffff9a71 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+391    391    0    1981-01-01 00:00:36 0xffff9a73 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+318    387    0    1981-01-01 00:21:26 0x00018288 17   0xf7202060 0x00000000 0x00000000 0x00000000 0x00000000 3903  hw_cli_exec.c       
+318    387    0    1981-01-01 00:21:51 0x00018c55 135  0xf7202001 0x00000036 0x00000035 0x00000000 0x00000000 521   hw_cli_exec.c       
+318    387    0    1981-01-01 00:17:48 0x00012d4c 4    0x80004000 0x00000000 0x00000001 0x00000000 0x00000000 2457  hw_cli_basecmd.c    
+318    387    0    1981-01-01 00:17:48 0x00012d4c 2    0xffffffff 0x00000001 0x00000000 0x00000000 0x00000000 3926  hw_cli_exec.c       
+318    387    0    1981-01-01 00:17:48 0x00012d4c 2    0xffffffff 0x00000000 0x00000000 0x00000002 0x00000000 2936  hw_cli_init.c       
+208    386    0    1981-01-01 00:17:48 0x00012d4c 2    0xffffffff 0x00000000 0x00000000 0x00000002 0x00000000 911   hw_clip_init.c      
+432    432    0    1981-01-01 00:04:33 0xfffff6f5 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+432    432    0    1981-01-01 00:04:33 0xfffff6f5 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+318    428    0    1981-01-01 00:05:33 0x00000e65 3    0xf7202014 0x00000000 0x00000000 0x00000000 0x00000000 208   hw_cli_basecmd.c    
+318    428    0    1981-01-01 00:05:13 0x0000069b 1    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1198  hw_tool_aisproc.c   
+318    428    0    1981-01-01 00:05:13 0x0000069b 1    0x00000001 0x00000200 0x00b9f098 0x00000000 0x00000000 1266  hw_tool_aisproc.c   
+318    428    0    1981-01-01 00:05:13 0x0000069b 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 391   hw_cli_basecmd.c    
+318    428    0    1981-01-01 00:05:13 0x000006a4 1    0xf7202060 0x00000001 0x00000000 0x00000000 0x00000000 83    hw_cli_basecmd.c    
+318    428    0    1981-01-01 00:12:15 0x0000ab3f 14   0xf720200c 0x00000000 0x00000000 0x00000000 0x00000000 602   hw_cli_exec.c       
+318    428    0    1981-01-01 00:12:12 0x0000aa55 5    0xf720200d 0x00000000 0x00000000 0x00000000 0x00000000 827   hw_cli_exec.c       
+318    428    0    1981-01-01 00:12:12 0x0000aa55 5    0xf720200d 0x00000001 0x00000000 0x00000000 0x00000000 1121  hw_cli_edit.c       
+191    273    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000002 0x00000001 0x00000001 0x00102001 705   bll_eth.c           
+191    273    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000002 0x00000000 0x00000000 0x00000000 1524  bll_eth.c           
+191    273    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000002 0x00000000 0x00000000 0x00000000 651   bll_eth_rpc.c       
+191    273    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000000 0x00000000 0x00000000 0x00000000 1746  hw_msg_send.c       
+191    273    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000002 0x00000000 0x00000000 0x00000000 2560  hw_amp_cli.c        
+318    428    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x4760400a 0x0000004c 0x00000038 0x0004000b 1479  hw_cfg_api.c        
+318    428    0    1981-01-01 00:08:09 0x00004b25 2    0xf7606001 0x00000000 0x00000000 0x00000000 0x00000000 2994  hw_cli_exec.c       
+318    428    0    1981-01-01 00:08:09 0x00004b25 6    0xf7606001 0x00000000 0x00000000 0x00000000 0x00000000 3763  hw_cli_exec.c       
+318    428    0    1981-01-01 00:13:17 0x0000c3a0 3    0xf720200a 0x00000000 0x00000000 0x00000000 0x00000000 1546  hw_cli_cmdtree.c    
+318    428    0    1981-01-01 00:07:59 0x00004748 4    0xf7202015 0x00000000 0x00000000 0x00000000 0x00000000 2837  hw_cli_exec.c       
+208    221    0    1981-01-01 00:12:24 0x0000aeb3 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1169  hw_dm_service.c     
+208    221    0    1981-01-01 00:21:37 0x000186ed 4    0xf710e063 0x00000000 0x00000000 0x00000000 0x00000000 1338  hw_dm_ver.c         
+208    221    0    1981-01-01 00:21:37 0x000186ed 2    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1422  hw_dm_ver.c         
+208    221    0    1981-01-01 00:21:37 0x000186ed 2    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1429  hw_dm_ver.c         
+208    221    0    1981-01-01 00:21:37 0x000186ed 2    0xf710e06a 0x00000000 0x00000000 0x00000000 0x00000000 1461  hw_dm_ver.c         
+208    221    0    1981-01-01 00:21:37 0x000186ed 2    0xf710e06a 0x00000000 0x00000000 0x00000000 0x00000000 120   hw_dm_app.c         
+318    379    0    1981-01-01 00:21:51 0x00018c55 14   0xf7202014 0x00000000 0x00000000 0x00000000 0x00000000 3815  hw_cli_exec.c       
+208    221    0    1981-01-01 00:13:04 0x0000bea9 1    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+208    221    0    1981-01-01 00:13:04 0x0000bea9 1    0xf7104046 0x00000000 0x00000000 0x00000000 0x00000000 54    entcenter_adapter.c 
+208    221    0    1981-01-01 00:21:50 0x00018beb 6    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1133  hw_msg_send.c       
+208    221    0    1981-01-01 00:21:50 0x00018beb 2    0xf7202001 0x00000002 0x00000000 0x00000000 0x00000000 2185  hw_smp_wapinit.c    
+318    379    0    1981-01-01 00:13:17 0x0000c36f 2    0xf720200b 0x00000013 0xffffffff 0x00000005 0x00000000 147   hw_cli_send_rcv.c   
+318    379    0    1981-01-01 00:13:17 0x0000c36f 2    0xf720200b 0x00000000 0x00000000 0x00000000 0x00000000 191   hw_cli_send_rcv.c   
+318    379    0    1981-01-01 00:13:15 0x0000c2cc 1    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 3357  hw_cli_exec.c       
+318    379    0    1981-01-01 00:13:15 0x0000c2cc 1    0xf7202051 0x00000000 0x00000000 0x00000000 0x00000000 3700  hw_cli_exec.c       
+580    580    0    1981-01-01 00:13:17 0x0000c36f 2    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 865   nd/hw_ssp_ker_log.c 
+580    580    0    1981-01-01 00:13:17 0x0000c36f 2    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 911   nd/hw_ssp_ker_log.c 
+318    428    0    1981-01-01 00:13:17 0x0000c3a0 1    0xf720205d 0x00000000 0x00000000 0x00000000 0x00000000 913   hw_cli_shellcmd.c   
+318    428    0    1981-01-01 00:13:17 0x0000c3a0 1    0xf720205d 0x00000000 0x00000000 0x00000000 0x00000000 1052  hw_cli_shellcmd.c   
+587    587    0    1981-01-01 00:21:16 0x00017ed0 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+587    587    0    1981-01-01 00:21:16 0x00017ed1 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+
+=======================================================
+Start run collect command:SHELL:dlog
+ dlog
+/bin/sh: dlog: not found
+
+=======================================================
+Start run collect command:SHELL:cat /proc/sysvipc/msg
+ cat /proc/sysvipc/msg
+       key      msqid perms      cbytes       qnum lspid lrpid   uid   gid  cuid  cgid      stime      rtime      ctime
+         0          0   707           0          0   318   208  4004  2002  4004  2002  347156510  347156510  347155212
+         0      32769   707           0          0   263   232  4004  2002  4004  2002  347156509  347156509  347155215
+         0      65538   707           0          0   227   227  4004  2002  4004  2002  347156417  347156417  347155215
+         0      98307   707           0          0     0     0  4004  2002  4004  2002          0          0  347155215
+         0     131076   707           0          0   318   184  4004  2002  4004  2002  347155699  347155699  347155215
+         0     163845   707           0          0   409   273  4004  2002  4004  2002  347155857  347155857  347155215
+         0     196614   707           0          0   232   257     0     0     0     0  347155218  347155218  347155215
+         0     229383   707           0          0   232   268  4004  2002  4004  2002  347156509  347156509  347155216
+         0     262152   707           0          0   184   188  4004  2002  4004  2002  347155217  347155217  347155216
+         0     294921   707           0          0     0     0  4004  2002  4004  2002          0          0  347155216
+         0     327690   707           0          0     0     0  4004  2002  4004  2002          0          0  347155216
+         0     360459   707           0          0     0     0  4004  2002  4004  2002          0          0  347155216
+         0     393228   707           0          0     0     0  4004  2002  4004  2002          0          0  347155217
+         0     425997   707           0          0   208   318  4004  2002  4004  2002  347156510  347156510  347155217
+ 538251627     458766     0           0          0   208   322  4004  2002  4004  2002  347156472  347156472  347155217
+         0     491535   707           0          0     0     0  4004  2002  4004  2002          0          0  347155219
+         0     524304   707           0          0     0     0  4004  2002  4004  2002          0          0  347155219
+         0     557073   707           0          0   208   383  4004  2002  4004  2002  347156510  347156510  347155219
+         0     589842   707           0          0     0     0  4004  2002  4004  2002          0          0  347155219
+         0     622611   707           0          0     0     0  4004  2002  4004  2002          0          0  347155219
+         0     655380   707           0          0     0     0  4004  2002  4004  2002          0          0  347155236
+
+=======================================================
+Start run collect command:SHELL:cat /proc/wap_proc/wap_timer
+ cat /proc/wap_proc/wap_timer
+Current Timers:31;
+PID   TID   TMID       Ticks        TMOUT    Flag       PF
+188   198   0x30a09005 0            0        0x00000004 0x00000000;
+188   198   0x30a09065 0            0        0x00000004 0x00000000;
+188   198   0x30a09225 0            0        0x00000004 0x00000000;
+208   210   0x30a09285 0            0        0x00000004 0x00000000;
+208   210   0x30a09305 0            0        0x00000004 0x00000000;
+208   210   0x30a09325 0            0        0x00000004 0x00000000;
+208   210   0x30a09345 0            0        0x00000004 0x00000000;
+208   210   0x30a09365 0            0        0x00000004 0x00000000;
+208   210   0x30a09385 2160000      0        0x0000000c 0xb6db85d1;
+188   198   0x30a093a5 0            0        0x00000004 0x00000000;
+227   254   0x30a27c05 60000        2        0x0000000c 0xb6df131c;
+191   197   0x30a27c25 1500         86       0x0000000c 0xb6e89281;
+191   197   0x30a27c45 6000         21       0x0000000c 0xb6e8637d;
+188   198   0x30a27ce5 0            0        0x00000004 0x00000000;
+188   198   0x30a27d05 100          1295     0x0000000c 0xb6dd1e1d;
+184   195   0x30a27dc5 0            0        0x00000004 0x00000000;
+318   319   0x30a6b645 0            0        0x00000004 0x00000000;
+318   319   0x30a6b7a5 0            0        0x00000004 0x00000000;
+232   251   0x30a841a5 0            0        0x00000004 0x00000000;
+232   251   0x30a84265 0            0        0x00000004 0x00000000;
+232   251   0x30a84285 0            0        0x00000004 0x00000000;
+232   251   0x30a842a5 0            0        0x00000004 0x00000000;
+232   251   0x30a842c5 0            0        0x00000004 0x00000000;
+232   251   0x30a842e5 0            0        0x00000004 0x00000000;
+232   251   0x30a84305 0            0        0x00000004 0x00000000;
+232   251   0x30a84325 0            0        0x00000001 0x00000000;
+232   251   0x30a84345 0            0        0x00000004 0x00000000;
+232   251   0x30a84365 0            0        0x00000004 0x00000000;
+583   319   0x30a846e5 30000        0        0x00000004 0x0000f977;
+232   251   0x30a9f8c5 0            0        0x00000004 0x00000000;
+184   195   0x30a9f8e5 0            0        0x00000004 0x00000000;
+
+=======================================================
+Start run collect command:SHELL:ls -l /var/*
+ ls -l /var/*
+-rw-r--r--    1         1 /var/OKstartframe
+-rw-r-----    1         0 /var/SD5116L.txt
+-rw-r--r--    1    117917 /var/UnzipedC.xml
+-rwxr-xr-x    1        64 /var/board_cfg.txt
+-rw-r-----    1        64 /var/board_version
+prwxr-xr-x    1         0 /var/collect_ctrl_fifo
+prwxr-xr-x    1         0 /var/collect_data_fifo
+-rw-r--r--    1         2 /var/collectshflag
+-rw-r--r--    1     57994 /var/console.log
+-rw-r--r--    1         0 /var/diacollectisrunning
+-rw-r--r--    1        34 /var/diacollectresult
+-rw-r--r--    1        56 /var/faultcollectid
+-rwxr-xr-x    1         0 /var/gpon_up_mode.txt
+-rw-r--r--    1       133 /var/group
+-rw-r--r--    1       739 /var/hw_flashcfg.xml
+-rwxr-xr-x    1      1478 /var/hw_ldsp_cfg.txt
+-rw-r--r--    1      4896 /var/lastsysinfo.tar.gz
+-r--r--r--    1         0 /var/panicinfo_t1322
+-rw-r--r--    1       264 /var/passwd
+-rwxr-xr-x    1        37 /var/productclass.cfg
+-rwxr-x---    1         0 /var/ssmploadconfig
+-rw-r--r--    1         1 /var/ssmploaddata
+-rwxr-x---    1         0 /var/start_watchdog
+-rw-r--r--    1         4 /var/swm
+-rw-r--r--    1        56 /var/telnetid
+-rw-r--r--    1        11 /var/transchnl.pts
+-rw-r--r--    1        52 /var/upnpd_pdtinfo
+
+/var/cli:
+total 0
+
+/var/config:
+total 0
+
+/var/service:
+total 0
+
+/var/srv_user:
+total 0
+
+/var/tmp:
+total 0
+
+/var/web:
+total 0
+
+=======================================================
+Start run collect command:SHELL:ls -l /var/*/*
+ ls -l /var/*/*
+ls: /var/*/*: No such file or directory
+
+=======================================================
+Start run collect command:SHELL:ls -l /var/*/*/*
+ ls -l /var/*/*/*
+ls: /var/*/*/*: No such file or directory
+
+=======================================================
+Start run collect command:SHELL:dmesg
+ dmesg
+<6>Booting Linux on physical CPU 0x0
+<5>Linux version 3.10.53-HULK2 (ci@SZXRTOSCI10000) (gcc version 4.7.1 (SDK V100R005C00SPC030B050) ) #1 Fri May 25 00:51:07 CST 2018
+<4>CPU: ARMv7 Processor [414fc091] revision 1 (ARMv7), cr=50c53c7d
+<4>CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<6>Machine: Hisilicon A9, model: HISI-CA9
+<6>skbuff priv len is 128.
+<4>Memory policy: ECC disabled, Data cache writeback
+<7>On node 0 totalpages: 15104
+<7>free_area_init_node: node 0, pgdat c0190d80, node_mem_map c01a4000
+<7>  Normal zone: 118 pages used for memmap
+<7>  Normal zone: 0 pages reserved
+<7>  Normal zone: 15104 pages, LIFO batch:3
+<6>CPU: All CPU(s) started in SVC mode.
+<6>[dts]:cpu type is 5115
+<4>[DTS][CPU]-->WARN:Find slave_boot_addr fail, make sure the soc isn't SMP!
+<4>[DTS][CPU]-->WARN:Find slave_boot_times fail, maybe the soc isn't SMP or 	we reset 1 times as default.
+<7>pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+<7>pcpu-alloc: [0] 0 
+<4>Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 14986
+<5>Kernel command line: noalign mem=59M flashsize=0x1000000 console=ttyAMA1,115200 root=/dev/mtdblock8 mtdparts=hi_sfc:0x40000(startcode)ro,0x40000(bootA)ro,0x40000(bootB)ro,0x40000(flashcfg)ro,0x40000(slave_param)ro,0x200000(kernelA)ro,0x200000(kernelB)ro,0x480000(rootfsA)ro,0x480000(rootfsB)ro,0x180000(file_system),-(reserved) pcie0_sel=x1 maxcpus=0 l2_cache=off flash_control=sfc user_debug=0x1f panic=1 skb_priv=128 debug_ll=off quiet
+<6>PID hash table entries: 256 (order: -2, 1024 bytes)
+<6>Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+<6>Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>Memory: 59MB = 59MB total
+<5>Memory: 58144k/58144k available, 2272k reserved, 0K highmem
+<5>Virtual kernel memory layout:
+<5>    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>    fixmap  : 0xffe00000 - 0xfffe0000   (1920 kB)
+<5>    vmalloc : 0xc4000000 - 0xff000000   ( 944 MB)
+<5>    lowmem  : 0xc0000000 - 0xc3b00000   (  59 MB)
+<5>    modules : 0xbf800000 - 0xc0000000   (   8 MB)
+<5>      .text : 0xc0008000 - 0xc01513fc   (1317 kB)
+<5>      .init : 0xc0152000 - 0xc016408c   (  73 kB)
+<5>      .data : 0xc0166000 - 0xc0192108   ( 177 kB)
+<5>       .bss : 0xc0192108 - 0xc01a1e58   (  64 kB)
+<6>SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+<6>NR_IRQS:512
+<4>Can't find irq_group in dtb.
+<6>sched_clock: 32 bits at 100MHz, resolution 10ns, wraps every 42949ms
+<6>Calibrating delay loop... 996.14 BogoMIPS (lpj=4980736)
+<6>pid_max: default: 4096 minimum: 301
+<6>Mount-cache hash table entries: 512
+<6>CPU: Testing write buffer coherency: ok
+<6>Setting up static identity map for 0xc0107840 - 0xc0107870
+<6>NET: Registered protocol family 16
+<6>DMA: preallocated 256 KiB pool for atomic coherent allocations
+<6>bio: create slab <bio-0> at 0
+<6>Switching to clocksource arm,sp804
+<6>NET: Registered protocol family 2
+<6>TCP established hash table entries: 512 (order: 0, 4096 bytes)
+<6>TCP bind hash table entries: 512 (order: 0, 6144 bytes)
+<6>TCP: Hash tables configured (established 512 bind 512)
+<6>TCP: reno registered
+<6>UDP hash table entries: 128 (order: 0, 4096 bytes)
+<6>UDP-Lite hash table entries: 128 (order: 0, 4096 bytes)
+<6>NET: Registered protocol family 1
+<6>squashfs: version 4.0 (2009/01/31) Phillip Lougher
+<6>msgmni has been set to 113
+<6>io scheduler noop registered (default)
+<6>brd: module loaded
+<4>Spi id table Version 1.22
+<4>SD511x chip id:0x51163100
+<4>Spi Flash Controller V300 Device Driver, Version 1.10
+<4>Spi(cs1) ID: 0xC2 0x20 0x18 0xC2 0x20 0x18
+<4>Spi(cs1): Block:3223625264KB Chip:3223625264MB (Name:MX25L12835F)
+<4>Unlock Spi Flash(cs1):BP~0xf!
+<5>Hisilicon flash: registering whole flash at once as master MTD
+<5>11 cmdlinepart partitions found on MTD device hi_sfc
+<5>Creating 11 MTD partitions on "hi_sfc":
+<5>0x000000000000-0x000000040000 : "startcode"
+<5>0x000000040000-0x000000080000 : "bootA"
+<5>0x000000080000-0x0000000c0000 : "bootB"
+<5>0x0000000c0000-0x000000100000 : "flashcfg"
+<5>0x000000100000-0x000000140000 : "slave_param"
+<5>0x000000140000-0x000000340000 : "kernelA"
+<5>0x000000340000-0x000000540000 : "kernelB"
+<5>0x000000540000-0x0000009c0000 : "rootfsA"
+<5>0x0000009c0000-0x000000e40000 : "rootfsB"
+<5>0x000000e40000-0x000000fc0000 : "file_system"
+<5>0x000000fc0000-0x000001000000 : "reserved"
+<4>Special nand id table Version 1.33
+<6>TCP: cubic registered
+<6>NET: Registered protocol family 17
+<6>ThumbEE CPU extension supported.
+<4>kbox: load OK
+<3>Warning: unable to open an initial console.
+<6>squashfs_cache_init: sqcachesize=3.
+<6>VFS: Mounted root (squashfs filesystem) readonly on device 31:8.
+<6>Freeing unused kernel memory: 72K (c0152000 - c0164000)
+<1>******** Total Boot time: 113 ms, uncompress initrd cost 0 ms ********
+<6>Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<6>1010e000.uart: ttyAMA0 at MMIO 0x1010e000 (irq = 77) is a 16550A
+<6>1010f000.uart: ttyAMA1 at MMIO 0x1010f000 (irq = 78) is a 16550A
+<6>console [ttyAMA1] enabled
+<4>hi_wdt: User-Mode!
+<4>register_reset_notifier success
+<4>hi_wdt: Init sucessfull!
+<6>jffs2: version 2.2. (NAND) (SUMMARY)  © 2001-2006 Red Hat, Inc.
+<4>hw_ssp_basic: module license 'Huawei Tech. Co., Ltd.' taints kernel.
+<4>Disabling lock debugging due to kernel taint
+<4>hw_dm_init successfully...
+<3>current lastword info:Add=0xc420b000;max_num=300;Add1=0xc4201000;Add2=0xc4206000;Add3=0xc420b000;
+<4>reload log OK!
+<4>
+<4> SYSCTL module is installed
+<4>
+<4> SPI module is installed
+<4>regist : vd success ! 
+<4>PIE USE 1 cpus
+<4>
+<4> PIE module is installed
+<4>
+<4> GPIO module is installed
+<4>
+<4> I2C module is installed
+<4>
+<4> TIMER23 module is installed
+<4>
+<4> SERDES module is intalled 
+<4>
+<4> DMA module is installed
+<4>
+<4> CHIP module is installed
+<4>set mac work mode ge...set port mode PMODE_SGMII...set port tx/rx enable...set mac work mode ge...set port mode PMODE_SGMII...set port tx/rx enable...
+<4> hi_adp_cnt module is installed
+<4>
+<4> BRIDGE module is installed
+<4>
+<4> PON_LP module is installed
+<4>
+<4> GPON module is installed
+<4>
+<4> OAM module is installed
+<4>
+<4> ------ SOC is 5116L PILOT ------ 
+<4>COMMON For LDSP Install Successfully...
+<4>I2C For LDSP Install Successfully...
+<4>GPIO For LDSP Install Successfully...
+<4>OPTIC For LDSP Install Successfully...
+<4>KEY For LDSP Install Successfully...
+<4>LED For LDSP Install Successfully...
+<4>RF For LDSP Install Successfully...
+<4><ldsp>board version is 9
+<4><ldsp>pcb version is 0
+<4><ldsp>orig board version is 9
+<4>DEV For LDSP Install Successfully...
+<4>
+<4>[DM]ui_curr_soc_type = 5, ui_curr_soc_sub_type = 0 
+<4>
+<4> ----------other CPU TYPE ------------
+<4>hw_dm_pdt_init_file_names /etc/wap/dm.cfg/pd_relation_5116l.cfg  /etc/wap/dm.cfg/topo_relation_5116l.cfg
+<4>SoftVersion=[V300R017C10SPC201B255], ResVersion=[] Active=[0] Dir=[]
+<4>hw_dm_init_data successfully...
+<4>load ft
+<4>WARNING: Spec SPEC_TR143_WAITTIME value  is error, and discarded.
+<4>AMP Module Install Successfully...
+<4>PLOAM For LDSP Install Successfully...
+<4>GMAC Module Install Successfully...
+<4>PPM For LDSP Install Successfully...
+<4>kbox:create region panic, size=520192
+<6>PPP generic driver version 2.4.2
+<6>NET: Registered protocol family 24
+<4>bbsp ptpdrv install ...... [OK]
+<4>[Error]received netlink trace message. src pid:0;
+<4>pppoe_module_init load success!
+<4>l2base For BBSP Install Successfully...
+<4>[Error]received netlink trace message. src pid:0;
+<4>[Error]received netlink trace message. src pid:0;
+<4>[Error]received netlink trace message. src pid:0;
+<4>[Error]received netlink trace message. src pid:0;
+<4>l2ext For BBSP Install Successfully...
+<4>pdt QOS install successfully...
+<4>attach vd info success, ring_len = 1024 ! 
+<4>INIT VD SUCCESS!
+<4>ker_video_diag For BBSP Install Successfully...
+<4><LDSP> system has no slave space for bob 
+<4>SD511X test self OK
+<4>Optic test self NoCheck
+<4>WIFI test self NoCheck
+<4>PHY[1] test self OK
+<4>PHY[2] test self OK
+<4>PHY[3] test self OK
+<4>PHY[4] test self OK
+<4>PHY[5] test self NoCheck
+<4>ExtRF  test self NoCheck
+<4><LDSP>hn5176 read status ui_loop:1
+<4>
+<4>bob chip id is 0x00c0
+<4><LDSP> HN5176 optic . . .
+<4>
+<4><LDSP> bob optic was calibrated 
+<4>create ker_tftp proc ok!
+<4>
+<4>@@@@@@ tftpc_init success @@@@@@
+<4><LDSP> optic para load success! 
+<4><LDSP> HN5176 optic init success! 
+<4>
+<4> gpon_api module is installed
+<6>hs_gmac_func_register ret=0x0! 
+<6>
+<6>hi_kernel_dp_ponlink_init! mode:0
+<6>
+<4>dump address [0x00000000]
+=============================================================
+[0x00000000] - 0x00000050  0x00000060  0x00000000  0x00000002
+[0x00000010] - 0x000000bd  0x000000a3  0x00000088  0x00000066
+[0x00000020] - 0x00000023  0x00000054  0x00000080  0x00000063
+[0x00000030] - 0x00000023  0x00000010  0x00000000  0x00000000
+[0x00000040] - 0x0000008a  0x000000e2  0x00000000  0x00000000
+[0x00000050] - 0x00000018  0x00000025  0x00000006  0x00000086
+[0x00000060] - 0x00000074  0x00000002  0x00000008  0x0000005e
+[0x00000070] - 0x00000020  0x00000000  0x00000000  0x0000000d
+[0x00000080] - 0x00000085  0x00000005  0x00000000  0x00000060
+=============================================================
+<4>
+<6>GPON init success ! 
+<6>
+<4>==gemport iso force 0
+<4>[0360] hi_pdu_collision_check, faltal error: pdu_class[0] pdu[44](thick_A)  collide with trans_act[0]
+<4>[8336] hi_egress_car_resource_get_511x, info: car id 1
+<4>[8148] hi_ingress_car_resource_get_511x, info: car id 2
+<4>[8336] hi_egress_car_resource_get_511x, info: car id 3
+<4>hi_omci_callback_hook: hw_ker_gmac_omci_recv_speedup
+<4>
+<4>[GONT_ReadRogueStatus]File not exist or Unable to open!
+<4>
+<4>[GONT_ReadEmergencyStatus]File not exist or Unable to open!
+<4>[PLOAM]ONUID(0): O1 => O1
+<4>
+<4>The link of ETH0 is up, uni_phy
+<4>
+<4>eth0,status:f100    
+<4>eth status changed: port 0, status 0
+<4>[Error]received netlink trace message. src pid:318;
+<1>Set kmsgread process pid to:319;
+<6>warning: `/bin/write_proc' has both setuid-root and effective capabilities. Therefore not raising all capabilities.
+<4>
+<4>Spi flash protect is OFF
+
+=======================================================
+Start run collect command:SHELL:cat /mnt/jffs2/panicinfo
+ cat /mnt/jffs2/panicinfo
+cat: can't open '/mnt/jffs2/panicinfo': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/wap_proc/wap_debug_log
+ cat /proc/wap_proc/wap_debug_log
+cat: can't open '/proc/wap_proc/wap_debug_log': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/wap_proc/panicinfo
+ cat /proc/wap_proc/panicinfo
+
+=======================================================
+Start run collect command:SHELL:cat /mnt/jffs2/wap_syslog.0
+ cat /mnt/jffs2/wap_syslog.0
+cat: can't open '/mnt/jffs2/wap_syslog.0': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /mnt/jffs2/wap_syslog
+ cat /mnt/jffs2/wap_syslog
+cat: can't open '/mnt/jffs2/wap_syslog': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /var/log/message.0
+ cat /var/log/message.0
+cat: can't open '/var/log/message.0': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /var/log/message
+ cat /var/log/message
+cat: can't open '/var/log/message': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:dlw 1
+ dlw 1
+Max last words 300; total last words 168.
+PID    TID    CPU  Date       Time     Jiffies    Cout Ret        Arg1       Arg2       Arg3       Arg4       Line  File 
+73     73     0    1981-01-01 00:00:00 0xffff8c41 1    0x00000258 0x0001fbcc 0x00000188 0x000000d8 0x00000000 2045  nd/hw_ssp_ker_log.c 
+77     77     0    1981-01-01 00:00:00 0xffff8c55 2    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2069  w_ssp_ker_flowlog.c 
+117    117    0    1981-01-01 00:00:04 0xffff8d9f 1    0xf7500008 0x00000005 0x00000005 0x00000000 0x00000000 4379  ev/hw_ker_drv_dev.c 
+120    120    0    1981-01-01 00:00:04 0xffff8db1 1    0xf7205409 0x00000004 0xffffffff 0x00000000 0x00000000 828   _ker_dm_chip_attr.c 
+120    120    0    1981-01-01 00:00:04 0xffff8dbc 1    0xf7205001 0xc3277b98 0x00000004 0x00000000 0x00000000 946   _ker_dm_chip_attr.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 5    0x00000001 0x00000001 0x00000000 0x00000000 0x00000000 1115  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:04 0xffff8df3 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1312  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2313  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 1    0xf7205401 0x00000000 0x00000004 0x00000000 0x00000000 4505  hw_ker_dm_pd_attr.c 
+156    156    0    1981-01-01 00:00:06 0xffff8e74 4    0xf720e008 0xbfa87a11 0xc27c1e44 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+157    157    0    1981-01-01 00:00:06 0xffff8e80 4    0xf720e008 0xbfa98c48 0xc27c3e24 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+158    158    0    1981-01-01 00:00:06 0xffff8e81 3    0xf720e008 0xbfaa2c74 0xbfaa3028 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+172    172    0    1981-01-01 00:00:06 0xffff8eaf 1    0xf7500012 0x00000000 0x00000000 0x00000000 0x00000000 5479  ev/hw_ker_drv_dev.c 
+205    205    0    1981-01-01 00:00:12 0xffff90df 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1648  _dm_pdt_factparam.c 
+205    205    0    1981-01-01 00:00:12 0xffff90df 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2013  _dm_pdt_factparam.c 
+205    205    0    1981-01-01 00:23:59 0x0001be6c 19   0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+205    205    0    1981-01-01 00:00:12 0xffff90f8 1    0x0000ff00 0x00000000 0x00000000 0x00000000 0x00000000 2986  hw_xml_basic_db.c   
+205    205    0    1981-01-01 00:00:12 0xffff90f9 1    0x00000100 0x00000002 0x00000000 0x00000000 0x00000000 1999  hw_os_fileio.c      
+205    205    0    1981-01-01 00:00:13 0xffff9129 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 5360  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:45:33 0x0003b7a4 198  0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 580   hw_xml_basic_db.c   
+205    205    0    1981-01-01 00:00:13 0xffff912b 3    0xf710e059 0x00000000 0x00000000 0x00000000 0x00000000 4518  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 4508  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 423   hw_os_semaphore.c   
+205    205    0    1981-01-01 00:00:13 0xffff912b 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 460   hw_os_semaphore.c   
+205    205    0    1981-01-01 00:00:13 0xffff912b 5    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 50    hw_os_string.c      
+205    205    0    1981-01-01 00:00:13 0xffff912b 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 1    0xf710e028 0x2e0a0300 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+205    205    0    1981-01-01 00:00:13 0xffff912b 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+205    205    0    1981-01-01 00:00:13 0xffff912b 5    0xf7102104 0xc0084429 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+205    205    0    1981-01-01 00:00:13 0xffff912b 5    0x00000016 0x00000000 0x00000000 0x00000000 0x00000000 350   hw_timer_api.c      
+205    205    0    1981-01-01 00:00:13 0xffff912b 5    0x00000016 0x00000004 0x00000000 0x00000000 0x00000000 3069  hw_basic_dia_api.c  
+205    205    0    1981-01-01 00:42:55 0x000379f0 16   0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+205    205    0    1981-01-01 00:00:13 0xffff912c 1    0x00000003 0x00000000 0x00000000 0x00000000 0x00000000 6865  hw_dm_pdt_init.c    
+205    205    0    1981-01-01 00:00:13 0xffff912c 1    0x00000001 0xaa5555aa 0x00000000 0x00000000 0x00000000 796   hw_dm_init.c        
+205    205    0    1981-01-01 00:00:13 0xffff9139 1    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 5652  hw_dm_pdt_init.c    
+226    226    0    1981-01-01 00:00:17 0xffff9311 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+188    188    0    1981-01-01 00:00:15 0xffff9220 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+188    188    0    1981-01-01 00:00:15 0xffff9220 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6415  hw_igmp_snooping.c  
+191    191    0    1981-01-01 00:00:15 0xffff9220 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 981   bll_led.c           
+188    188    0    1981-01-01 00:00:15 0xffff9220 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6500  hw_igmp_snooping.c  
+188    188    0    1981-01-01 00:00:15 0xffff9220 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6723  hw_igmp_snooping.c  
+191    191    0    1981-01-01 00:00:16 0xffff92ab 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:16 0xffff9276 3    0x00000001 0x00000003 0x00000000 0x00000000 0x00000000 751   ge/hw_ker_vbridge.c 
+226    226    0    1981-01-01 00:00:18 0xffff9328 6    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+226    226    0    1981-01-01 00:00:16 0xffff9279 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:16 0xffff9299 2    0xf7102104 0xc0d84420 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+184    184    0    1981-01-01 00:00:18 0xffff9326 12   0xf7301015 0xffffffff 0x00000000 0x00000000 0x00000000 145   hw_netdev_api.c     
+184    184    0    1981-01-01 00:00:16 0xffff92a8 3    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1918  l2m_macbridge.c     
+184    184    0    1981-01-01 00:00:18 0xffff9326 11   0x00000001 0x0000000c 0x00000000 0x00000000 0x00000000 4612  l2m_vlan_main.c     
+226    226    0    1981-01-01 00:00:16 0xffff92a1 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 320   hw_amp_omci_dep.c   
+188    188    0    1981-01-01 00:00:16 0xffff92a6 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+191    191    0    1981-01-01 00:00:16 0xffff92a6 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:16 0xffff92a6 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1025  hw_amp_qos.c        
+184    184    0    1981-01-01 00:00:16 0xffff92a9 1    0x00000001 0x00000001 0x00000001 0x00000000 0x00000002 1977  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:17 0xffff92b5 5    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+191    191    0    1981-01-01 00:00:16 0xffff92ad 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1676  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:16 0xffff92ad 1    0xf710e029 0x0000008a 0x2729a100 0x00000000 0x00000000 1035  hw_xml_basic_db.c   
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1612  l2_qos_main.c       
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000004 0x00000000 0x00000001 0x00000000 742   /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000012 0x20030012 0x00000000 0x00000000 749   hw_ker_drv_common.c 
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1695  /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x20030012 0x000000b0 0x00000000 0x00000000 159   hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1161  hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1501  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1794  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 442   l2_qos_main.c       
+184    184    0    1981-01-01 00:00:16 0xffff92ad 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 456   l2_qos_main.c       
+191    191    0    1981-01-01 00:00:16 0xffff92ae 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 279   hw_amp_onu.c        
+191    191    0    1981-01-01 00:00:16 0xffff92ae 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1194  hw_amp_onu.c        
+184    184    0    1981-01-01 00:00:16 0xffff92af 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 182   hw_ctp.c            
+184    184    0    1981-01-01 00:00:16 0xffff92b1 4    0x00000001 0x00000085 0x00000000 0x00000000 0x00000000 140   hw_os_sigcall.c     
+184    184    0    1981-01-01 00:00:16 0xffff92b1 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:16 0xffff92b1 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:16 0xffff92b1 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1075  l2base_diag_main.c  
+184    184    0    1981-01-01 00:00:16 0xffff92b1 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 6067  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92b5 2    0xf720f011 0x00000000 0x00000000 0x00000000 0x00000000 104   broadcast_adapt.c   
+224    224    0    1981-01-01 00:00:17 0xffff92b8 3    0xf720581e 0x00000003 0x00000004 0x00000003 0x00000005 214   re/hw_ker_dm_topo.c 
+224    224    0    1981-01-01 00:00:17 0xffff92b8 3    0xf720581e 0x00000004 0x00000005 0x00000000 0x00000000 1218  hw_dm_basic.c       
+224    224    0    1981-01-01 00:00:17 0xffff92d9 7    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+224    224    0    1981-01-01 00:00:17 0xffff92d9 4    0xf710e028 0x2e2b0a00 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+224    224    0    1981-01-01 00:00:17 0xffff92d9 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+224    224    0    1981-01-01 00:00:17 0xffff92d9 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+226    226    0    1981-01-01 00:00:17 0xffff9313 4    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+315    315    0    1981-01-01 00:35:02 0x0002c13e 10   0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+315    315    0    1981-01-01 00:00:17 0xffff92ec 2    0xf710e063 0x00000000 0x00000000 0x00000000 0x00000000 1338  hw_dm_ver.c         
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1422  hw_dm_ver.c         
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1429  hw_dm_ver.c         
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 115   hw_cli_init.c       
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1204  hw_cli_init.c       
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1261  hw_cli_init.c       
+315    315    0    1981-01-01 00:00:17 0xffff92ec 1    0xf710d00a 0x00000000 0x00000000 0x00000000 0x00000000 576   hw_timer.c          
+315    315    0    1981-01-01 00:00:17 0xffff92ed 1    0xf7202001 0x00000006 0x00000006 0x00000000 0x00000000 2289  hw_cli_user.c       
+315    315    0    1981-01-01 00:00:17 0xffff92ed 1    0xf7202001 0x00000006 0x00000000 0x00000000 0x00000000 2811  hw_cli_user.c       
+315    315    0    1981-01-01 00:24:03 0x0001bff4 5    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 617   hw_cli_user.c       
+226    226    0    1981-01-01 00:00:17 0xffff9312 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 74    i_me_extend_ont-g.c 
+184    256    0    1981-01-01 00:00:17 0xffff9312 4    0x00000001 0x200a0100 0x00000000 0x00000000 0x00000000 1378  l2_qos_main.c       
+184    256    0    1981-01-01 00:00:17 0xffff9312 3    0x00000001 0x00000003 0x00000000 0x200a0100 0x00000000 1929  prtcl_pkt.c         
+226    226    0    1981-01-01 00:00:17 0xffff9312 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 344   i_me_extend_ont-g.c 
+191    260    0    1981-01-01 00:00:17 0xffff9313 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1899  bll_onu_msc.c       
+191    260    0    1981-01-01 00:00:17 0xffff9313 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1216  bll_onu.c           
+315    315    0    1981-01-01 00:00:18 0xffff9329 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 662   _xml_basic_dbmain.c 
+315    315    0    1981-01-01 00:00:18 0xffff9329 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 382   _xml_basic_dbmain.c 
+315    315    0    1981-01-01 00:00:18 0xffff9329 6    0xf710e029 0x00b3adc0 0x00000000 0x00000000 0x00000000 567   hw_cli_cmdtree.c    
+315    315    0    1981-01-01 00:00:18 0xffff9352 1    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+191    254    0    1981-01-01 00:00:19 0xffff937d 1    0x00000002 0x00000000 0x00000000 0x00000000 0x00000000 323   bll_led.c           
+205    207    0    1981-01-01 00:00:24 0xffff9597 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 3080  _xml_basic_dbmain.c 
+205    207    0    1981-01-01 00:00:24 0xffff9597 2    0xf710e028 0x0000000b 0x00000000 0x00000000 0x00000000 1624  hw_xml_basic_db.c   
+315    405    0    1981-01-01 00:06:05 0x00001ae0 6    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+315    405    0    1981-01-01 00:45:31 0x0003b702 6    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 5040  _xml_basic_dbmain.c 
+409    409    0    1981-01-01 00:04:24 0xfffff36e 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+409    409    0    1981-01-01 00:04:24 0xfffff370 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x00000000 0x00000000 0x00000000 0x00000000 825   /rf/hw_ker_drv_rf.c 
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x00000003 0x2000b003 0x00000000 0x00000000 749   hw_ker_drv_common.c 
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x00000000 0x00000000 0x00000000 0x00000000 105   /rf/hw_ker_hlp_rf.c 
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x00000080 0x00000004 0x00000000 0x00000000 139   hw_amp_hlp.c        
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x2000b003 0x00000000 0x00000004 0x00000000 188   hw_amp_hlp.c        
+191    260    0    1981-01-01 00:36:01 0x0002d874 2    0xf7501001 0x2000b003 0xffffffff 0x00000000 0x00000000 1218  hw_amp_drv_optic.c  
+191    260    0    1981-01-01 00:04:46 0xfffffbf0 1    0xf7501001 0xffffffff 0x00000000 0x00000000 0x00000000 849   hw_amp_drv_optic.c  
+205    404    0    1981-01-01 00:11:31 0x00009a13 2    0xffffffff 0x00000000 0x00000000 0x00000002 0x00000000 911   hw_clip_init.c      
+415    415    0    1981-01-01 00:06:16 0x00001f4b 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+205    416    0    1981-01-01 00:23:49 0x0001ba77 2    0xffffffff 0x00000000 0x00000000 0x00000002 0x00000000 886   hw_clip_init.c      
+315    417    0    1981-01-01 00:35:02 0x0002c13e 4    0xf720200b 0x00000013 0xffffffff 0x00000005 0x00000000 147   hw_cli_send_rcv.c   
+315    417    0    1981-01-01 00:35:02 0x0002c13e 4    0xf720200b 0x00000000 0x00000000 0x00000000 0x00000000 191   hw_cli_send_rcv.c   
+315    417    0    1981-01-01 00:08:33 0x00005489 1    0xf720200b 0x00000000 0x00000000 0x00000000 0x00000000 497   hw_cli_send_rcv.c   
+315    417    0    1981-01-01 00:08:33 0x00005489 1    0xf720200b 0x00000000 0x00000000 0x00000000 0x00000000 1466  hw_cli_user.c       
+425    425    0    1981-01-01 00:15:13 0x0000f0fa 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+425    425    0    1981-01-01 00:15:13 0x0000f0fa 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+315    421    0    1981-01-01 00:50:17 0x000426d3 77   0xf7202001 0x000000a0 0x0000009f 0x00000000 0x00000000 521   hw_cli_exec.c       
+315    421    0    1981-01-01 00:26:48 0x00020085 11   0xf7202014 0x00000000 0x00000000 0x00000000 0x00000000 208   hw_cli_basecmd.c    
+315    421    0    1981-01-01 00:50:17 0x000426d3 21   0xf720200c 0x00000000 0x00000000 0x00000000 0x00000000 602   hw_cli_exec.c       
+315    421    0    1981-01-01 00:27:19 0x00020c4c 2    0xf7202001 0x00000000 0x00000000 0x00000000 0x00000000 372   hw_cli_basecmd.c    
+315    421    0    1981-01-01 00:23:49 0x0001ba83 1    0xf720200b 0x00000000 0x00000000 0x00000005 0x00000000 2924  hw_cli_init.c       
+459    459    0    1981-01-01 00:24:03 0x0001bff6 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+459    459    0    1981-01-01 00:24:03 0x0001bff6 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 627   hw_tool_aiscli.c    
+315    455    0    1981-01-01 00:24:23 0x0001c794 2    0xf7202060 0x00000001 0x00000000 0x00000000 0x00000000 83    hw_cli_basecmd.c    
+315    455    0    1981-01-01 00:49:49 0x00041bf6 35   0xf7202060 0x00000000 0x00000000 0x00000000 0x00000000 3903  hw_cli_exec.c       
+205    218    0    1981-01-01 00:50:08 0x0004232f 50   0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1133  hw_msg_send.c       
+315    455    0    1981-01-01 00:47:03 0x0003db16 5    0xf7202015 0x00000000 0x00000000 0x00000000 0x00000000 2728  hw_cli_exec.c       
+315    455    0    1981-01-01 00:47:03 0x0003db16 12   0xf7202015 0x00000000 0x00000000 0x00000000 0x00000000 3763  hw_cli_exec.c       
+315    455    0    1981-01-01 00:45:11 0x0003af31 2    0xf7202033 0x00000000 0x00000000 0x00000000 0x00000000 1877  hw_cli_user.c       
+315    455    0    1981-01-01 00:45:52 0x0003bf5c 4    0xf7202045 0x00000000 0x00000000 0x00000000 0x00000000 3622  hw_cli_exec.c       
+315    455    0    1981-01-01 00:34:20 0x0002b0da 1    0xf7202015 0x00000000 0x00000000 0x00000000 0x00000000 2837  hw_cli_exec.c       
+205    218    0    1981-01-01 00:34:41 0x0002b91d 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1169  hw_dm_service.c     
+315    372    0    1981-01-01 00:34:42 0x0002b987 1    0xf7104022 0x47700000 0x00000048 0x00000038 0x0002000b 1479  hw_cfg_api.c        
+315    372    0    1981-01-01 00:34:42 0x0002b987 1    0xf7104022 0x00000000 0x00000000 0x00000000 0x00000000 2994  hw_cli_exec.c       
+315    372    0    1981-01-01 00:34:55 0x0002be93 6    0xf7104022 0x00000000 0x00000000 0x00000000 0x00000000 3815  hw_cli_exec.c       
+315    372    0    1981-01-01 00:35:02 0x0002c153 3    0xf720200a 0x00000000 0x00000000 0x00000000 0x00000000 1546  hw_cli_cmdtree.c    
+226    226    0    1981-01-01 00:35:01 0x0002c124 9    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1133  hw_msg_send.c       
+191    260    0    1981-01-01 00:34:43 0x0002b9f2 1    0x000008ad 0x00000000 0x000000ff 0x00000000 0x00000000 394   /hw_ker_drv_ploam.c 
+191    260    0    1981-01-01 00:34:50 0x0002bc86 104  0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1133  hw_msg_send.c       
+191    260    0    1981-01-01 00:47:16 0x0003e01a 2    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+191    260    0    1981-01-01 00:34:54 0x0002be2a 4    0xf7605001 0x00000005 0x00000000 0x00000000 0x00000000 1963  bll_eth_rpc.c       
+191    260    0    1981-01-01 00:34:54 0x0002be2a 4    0xf7605001 0x00000000 0x00000000 0x00000000 0x00000000 2035  bll_eth_rpc.c       
+315    372    0    1981-01-01 00:34:55 0x0002be93 5    0xf7104022 0x48600020 0x00000010 0x00000014 0x00000000 1077  hw_cfg_api.c        
+315    372    0    1981-01-01 00:34:55 0x0002be93 5    0xf7104022 0x00000005 0x00000000 0x00000000 0x00000000 2774  hw_cli_exec.c       
+226    226    0    1981-01-01 00:34:56 0x0002bf12 1    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+315    455    0    1981-01-01 00:35:02 0x0002c153 1    0xf720205d 0x00000000 0x00000000 0x00000000 0x00000000 913   hw_cli_shellcmd.c   
+315    455    0    1981-01-01 00:35:02 0x0002c153 1    0xf720205d 0x00000000 0x00000000 0x00000000 0x00000000 1052  hw_cli_shellcmd.c   
+191    260    0    1981-01-01 00:36:01 0x0002d874 1    0xf7501001 0x00000004 0x00000000 0x00000000 0x00000000 140   /rf/hw_ker_drv_rf.c 
+315    455    0    1981-01-01 00:46:15 0x0003c822 4    0xf720200d 0x00000000 0x00000000 0x00000000 0x00000000 827   hw_cli_exec.c       
+315    455    0    1981-01-01 00:46:15 0x0003c822 4    0xf720200d 0x00000001 0x00000000 0x00000000 0x00000000 1121  hw_cli_edit.c       
+315    455    0    1981-01-01 00:45:50 0x0003be4f 6    0xf7202001 0x00000014 0x0000000e 0x00000000 0x00000000 527   hw_cli_exec.c       
+315    455    0    1981-01-01 00:45:52 0x0003bf5c 2    0xf720202f 0x00000000 0x00000000 0x00000000 0x00000000 1938  hw_cli_user.c       
+315    455    0    1981-01-01 00:50:27 0x00042a87 5    0xf7102104 0xc0184424 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+205    218    0    1981-01-01 00:50:40 0x00042fad 1    0x00000001 0x00000015 0x00000000 0x00000000 0x00000000 2146  hw_xml_basic_db.c   
+205    218    0    1981-01-01 00:50:42 0x0004307d 1    0xffffffff 0x000000cd 0x000000da 0x01234567 0x00000000 0     system reboot       
+
+=======================================================
+Start run collect command:SHELL:dlw 2
+ dlw 2
+Max last words 300; total last words 117.
+PID    TID    CPU  Date       Time     Jiffies    Cout Ret        Arg1       Arg2       Arg3       Arg4       Line  File 
+73     73     0    1981-01-01 00:00:00 0xffff8c41 1    0x00000258 0x0001fbcc 0x00000188 0x000000d8 0x00000000 2045  nd/hw_ssp_ker_log.c 
+73     73     0    1981-01-01 00:00:00 0xffff8c41 1    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1968  nd/hw_ssp_ker_log.c 
+73     73     0    1981-01-01 00:00:00 0xffff8c46 3    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 2142  w_ssp_ker_flowlog.c 
+73     73     0    1981-01-01 00:00:00 0xffff8c46 2    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1945  w_ssp_ker_flowlog.c 
+73     73     0    1981-01-01 00:00:00 0xffff8c46 2    0xffffffff 0xfffffffe 0x00000000 0x00000000 0x00000000 2077  w_ssp_ker_flowlog.c 
+77     77     0    1981-01-01 00:00:00 0xffff8c58 2    0xffffffff 0xfffffffe 0x00000000 0x00000000 0x00000000 2077  w_ssp_ker_flowlog.c 
+117    117    0    1981-01-01 00:00:04 0xffff8da3 1    0xf7500008 0x00000005 0x00000005 0x00000000 0x00000000 4379  ev/hw_ker_drv_dev.c 
+120    120    0    1981-01-01 00:00:04 0xffff8db5 1    0xf7205409 0x00000004 0xffffffff 0x00000000 0x00000000 828   _ker_dm_chip_attr.c 
+120    120    0    1981-01-01 00:00:04 0xffff8dc0 1    0xf7205001 0xc3275b98 0x00000004 0x00000000 0x00000000 946   _ker_dm_chip_attr.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 5    0x00000001 0x00000001 0x00000000 0x00000000 0x00000000 1115  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:04 0xffff8df4 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1312  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2313  w_ssp_ker_feature.c 
+121    121    0    1981-01-01 00:00:05 0xffff8e04 1    0xf7205401 0x00000000 0x00000004 0x00000000 0x00000000 4505  hw_ker_dm_pd_attr.c 
+156    156    0    1981-01-01 00:00:06 0xffff8e77 4    0xf720e008 0xbfa87a11 0xc2789e44 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+157    157    0    1981-01-01 00:00:06 0xffff8e84 4    0xf720e008 0xbfa98c48 0xc2817e24 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+158    158    0    1981-01-01 00:00:06 0xffff8e85 3    0xf720e008 0xbfaa2c74 0xbfaa3028 0xffffffff 0x00000000 2488  w_ssp_ker_feature.c 
+172    172    0    1981-01-01 00:00:06 0xffff8eb4 1    0xf7500012 0x00000000 0x00000000 0x00000000 0x00000000 5479  ev/hw_ker_drv_dev.c 
+209    209    0    1981-01-01 00:00:12 0xffff911a 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1648  _dm_pdt_factparam.c 
+209    209    0    1981-01-01 00:00:12 0xffff911a 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 2013  _dm_pdt_factparam.c 
+209    209    0    1981-01-01 00:05:46 0x00001397 21   0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+209    209    0    1981-01-01 00:00:13 0xffff9175 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 5360  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:05:46 0x00001362 208  0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 580   hw_xml_basic_db.c   
+209    209    0    1981-01-01 00:00:13 0xffff9176 3    0xf710e059 0x00000000 0x00000000 0x00000000 0x00000000 4518  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9176 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 4508  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9177 3    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+209    209    0    1981-01-01 00:00:13 0xffff9176 2    0xffffffff 0x00000011 0x00000000 0x00000000 0x00000000 4549  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9176 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 423   hw_os_semaphore.c   
+209    209    0    1981-01-01 00:00:13 0xffff9176 2    0xffffffff 0xffffffff 0x00000016 0x00000000 0x00000000 460   hw_os_semaphore.c   
+209    209    0    1981-01-01 00:00:13 0xffff9176 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9176 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9176 3    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+209    209    0    1981-01-01 00:00:13 0xffff9176 1    0xf710e028 0x2e0a0300 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+209    209    0    1981-01-01 00:00:13 0xffff9177 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+209    209    0    1981-01-01 00:05:46 0x00001396 6    0xf7102104 0xc0184424 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+209    209    0    1981-01-01 00:00:13 0xffff9177 5    0x00000016 0x00000000 0x00000000 0x00000000 0x00000000 350   hw_timer_api.c      
+209    209    0    1981-01-01 00:00:13 0xffff9177 5    0x00000016 0x00000004 0x00000000 0x00000000 0x00000000 3069  hw_basic_dia_api.c  
+209    209    0    1981-01-01 00:00:13 0xffff917e 1    0x00000003 0x00000000 0x00000000 0x00000000 0x00000000 6865  hw_dm_pdt_init.c    
+209    209    0    1981-01-01 00:00:13 0xffff917e 1    0x00000002 0xaa5555aa 0x00000000 0x00000000 0x00000000 796   hw_dm_init.c        
+209    209    0    1981-01-01 00:00:13 0xffff917f 1    0xaa5555aa 0x00000000 0x00000000 0x00000000 0x00000000 659   hw_dm_init.c        
+209    209    0    1981-01-01 00:00:14 0xffff918c 1    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 5652  hw_dm_pdt_init.c    
+233    233    0    1981-01-01 00:00:18 0xffff9352 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:16 0xffff925b 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 981   bll_led.c           
+191    191    0    1981-01-01 00:00:17 0xffff92eb 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92b4 3    0x00000001 0x00000003 0x00000000 0x00000000 0x00000000 751   ge/hw_ker_vbridge.c 
+233    233    0    1981-01-01 00:00:18 0xffff9369 6    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1203  hw_os_crypt.c       
+233    233    0    1981-01-01 00:00:17 0xffff92b9 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1965  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92d9 2    0xf7102104 0xc0d84420 0x00000000 0x00000000 0x00000000 1086  nd/hw_ssp_ker_dia.c 
+233    233    0    1981-01-01 00:00:17 0xffff92da 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 320   hw_amp_omci_dep.c   
+184    184    0    1981-01-01 00:00:18 0xffff9366 12   0xf7301015 0xffffffff 0x00000000 0x00000000 0x00000000 145   hw_netdev_api.c     
+184    184    0    1981-01-01 00:00:17 0xffff92e9 3    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1918  l2m_macbridge.c     
+184    184    0    1981-01-01 00:00:18 0xffff9366 11   0x00000001 0x0000000c 0x00000000 0x00000000 0x00000000 4612  l2m_vlan_main.c     
+184    184    0    1981-01-01 00:00:17 0xffff92e5 1    0x00000001 0x00000001 0x00000001 0x00000000 0x00000002 1977  prtcl_pkt.c         
+188    188    0    1981-01-01 00:00:17 0xffff92e7 1    0xf710d039 0x00000000 0x00000000 0x00000000 0x00000000 1044  hw_timer_api.c      
+191    191    0    1981-01-01 00:00:17 0xffff92e8 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+191    191    0    1981-01-01 00:00:17 0xffff92e8 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1025  hw_amp_qos.c        
+184    184    0    1981-01-01 00:00:17 0xffff92f4 5    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 1612  l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000004 0x00000000 0x00000001 0x00000000 742   /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000012 0x20030012 0x00000000 0x00000000 749   hw_ker_drv_common.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1695  /l2/ker/hw_ker_l2.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x20030012 0x000000b0 0x00000000 0x00000000 159   hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1161  hw_l2_prtcl.c       
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000004 0x00000002 0x00000000 0x00000004 1501  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 1794  prtcl_pkt.c         
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 442   l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0xfc000101 0x00000000 0x00000000 0x00000000 0x00000000 456   l2_qos_main.c       
+184    184    0    1981-01-01 00:00:17 0xffff92ec 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 182   hw_ctp.c            
+184    184    0    1981-01-01 00:00:17 0xffff92ef 4    0x00000001 0x00000085 0x00000000 0x00000000 0x00000000 140   hw_os_sigcall.c     
+184    184    0    1981-01-01 00:00:17 0xffff92ef 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2184  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ef 1    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 1954  _xml_basic_dbmain.c 
+184    184    0    1981-01-01 00:00:17 0xffff92ef 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 1075  l2base_diag_main.c  
+184    184    0    1981-01-01 00:00:17 0xffff92f4 2    0xf720f011 0x00000000 0x00000000 0x00000000 0x00000000 104   broadcast_adapt.c   
+228    228    0    1981-01-01 00:00:17 0xffff92f8 3    0xf720581e 0x00000003 0x00000004 0x00000003 0x00000005 214   re/hw_ker_dm_topo.c 
+228    228    0    1981-01-01 00:00:17 0xffff92f8 3    0xf720581e 0x00000004 0x00000005 0x00000000 0x00000000 1218  hw_dm_basic.c       
+228    228    0    1981-01-01 00:00:18 0xffff9319 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7218  _xml_basic_dbmain.c 
+228    228    0    1981-01-01 00:00:18 0xffff931a 4    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7357  _xml_basic_dbmain.c 
+228    228    0    1981-01-01 00:00:18 0xffff931a 8    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 7384  _xml_basic_dbmain.c 
+228    228    0    1981-01-01 00:00:18 0xffff931a 4    0xf710e028 0x2e2b0a00 0x00000000 0x00000000 0x00000000 1463  hw_xml_basic_db.c   
+233    233    0    1981-01-01 00:00:18 0xffff9353 4    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+319    319    0    1981-01-01 00:00:18 0xffff936b 2    0xf7100000 0x00000002 0x00000000 0x00000000 0x00000000 379   hw_os_fileio.c      
+319    319    0    1981-01-01 00:00:18 0xffff932d 2    0xf710e063 0x00000000 0x00000000 0x00000000 0x00000000 1338  hw_dm_ver.c         
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1422  hw_dm_ver.c         
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf7204004 0x00000000 0x00000000 0x00000000 0x00000000 1429  hw_dm_ver.c         
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 115   hw_cli_init.c       
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1204  hw_cli_init.c       
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf710e053 0x00000000 0x00000000 0x00000000 0x00000000 1261  hw_cli_init.c       
+319    319    0    1981-01-01 00:00:18 0xffff932d 1    0xf710d00a 0x00000000 0x00000000 0x00000000 0x00000000 576   hw_timer.c          
+319    319    0    1981-01-01 00:00:18 0xffff932e 1    0xf7202001 0x00000006 0x00000006 0x00000000 0x00000000 2289  hw_cli_user.c       
+319    319    0    1981-01-01 00:00:18 0xffff932e 1    0xf7202001 0x00000006 0x00000000 0x00000000 0x00000000 2811  hw_cli_user.c       
+319    319    0    1981-01-01 00:00:18 0xffff933a 1    0x0000004e 0x00000000 0x00000000 0x00000000 0x00000000 617   hw_cli_user.c       
+233    233    0    1981-01-01 00:00:18 0xffff9352 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 74    i_me_extend_ont-g.c 
+184    258    0    1981-01-01 00:00:18 0xffff9353 4    0x00000001 0x200a0100 0x00000000 0x00000000 0x00000000 1378  l2_qos_main.c       
+184    258    0    1981-01-01 00:00:18 0xffff9353 3    0x00000001 0x00000003 0x00000000 0x200a0100 0x00000000 1929  prtcl_pkt.c         
+233    233    0    1981-01-01 00:00:18 0xffff9353 1    0x00000001 0x00000000 0x00000000 0x00000000 0x00000000 344   i_me_extend_ont-g.c 
+191    260    0    1981-01-01 00:00:18 0xffff9353 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1899  bll_onu_msc.c       
+191    260    0    1981-01-01 00:00:18 0xffff9353 1    0xf760501a 0x00000000 0x00000000 0x00000000 0x00000000 1216  bll_onu.c           
+319    319    0    1981-01-01 00:00:18 0xffff936a 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 662   _xml_basic_dbmain.c 
+319    319    0    1981-01-01 00:00:18 0xffff936a 6    0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 382   _xml_basic_dbmain.c 
+319    319    0    1981-01-01 00:00:18 0xffff936a 6    0xf710e029 0x01713dc0 0x00000000 0x00000000 0x00000000 567   hw_cli_cmdtree.c    
+319    319    0    1981-01-01 00:00:19 0xffff93b5 1    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+191    257    0    1981-01-01 00:00:19 0xffff93b9 1    0x00000002 0x00000000 0x00000000 0x00000000 0x00000000 323   bll_led.c           
+209    211    0    1981-01-01 00:00:25 0xffff95d6 1    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 3080  _xml_basic_dbmain.c 
+209    211    0    1981-01-01 00:00:25 0xffff95d6 1    0xf710e028 0x0000000b 0x00000000 0x00000000 0x00000000 1624  hw_xml_basic_db.c   
+209    217    0    1981-01-01 00:05:44 0x00001295 1    0xf720f011 0xffffffff 0x00000000 0x00000000 0x00000000 243   hw_ssp_featureapi.c 
+209    217    0    1981-01-01 00:05:44 0x00001295 1    0xf7104046 0x00000000 0x00000000 0x00000000 0x00000000 54    entcenter_adapter.c 
+209    404    0    1981-01-01 00:05:44 0x00001297 2    0xf7204020 0x6a161977 0x00000000 0x00000000 0x00000000 1079  hw_swm_dev.c        
+209    404    0    1981-01-01 00:05:44 0x00001297 2    0x6a161977 0x00000000 0x00000000 0x00000000 0x00000000 471   hw_swm_dev.c        
+209    404    0    1981-01-01 00:05:46 0x00001362 18   0x00000001 0x26384a00 0x00000000 0x00000000 0x00000000 2203  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x00001362 104  0xf710e029 0x00000000 0x00000000 0x00000000 0x00000000 2195  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x00001362 3    0xf710e059 0x00000000 0x00000000 0x00000000 0x00000000 2084  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x00001362 7    0xf710e028 0x26384a03 0x00000000 0x00000000 0x00000000 2253  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x00001362 2    0xf710e028 0x00000000 0x00000000 0x00000000 0x00000000 2070  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x00001361 2    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 1051  hw_os_crypt.c       
+209    404    0    1981-01-01 00:05:46 0x00001361 2    0xffffffff 0x00000000 0x00000000 0x00000000 0x00000000 2111  hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:46 0x0000136f 1    0xf720900b 0x00000000 0x00000000 0x00000000 0x00000000 339   hw_swm_cfgreset.c   
+209    404    0    1981-01-01 00:05:52 0x000015ab 1    0x00000001 0x00000015 0x00000000 0x00000000 0x00000000 2146  hw_xml_basic_db.c   
+209    404    0    1981-01-01 00:05:54 0x0000167b 1    0xffffffff 0x000000d1 0x00000194 0x01234567 0x00000000 0     system reboot       
+
+=======================================================
+Start run collect command:SHELL:df
+ df
+/bin/sh: df: not found
+
+=======================================================
+Start run collect command:SHELL:mount
+ mount
+rootfs on / type rootfs (rw)
+/dev/root on / type squashfs (ro,relatime)
+proc on /proc type proc (rw,relatime)
+none on /var type tmpfs (rw,relatime,nodev,nosuid,size=5m,mode=755)
+/dev/mtdblock10 on /mnt/jffs2 type jffs2 (rw,relatime)
+devpts on /dev/pts type devpts (rw,relatime,mode=620)
+none on /tmp type tmpfs (rw,relatime,nodev,nosuid,size=1m)
+
+=======================================================
+Start run collect command:SHELL:ls -l /mnt/jffs2/*
+ ls -l /mnt/jffs2/*
+-rwxr-xr-x    1         2 /mnt/jffs2/Updateflag_bak
+-rw-r--r--    1         1 /mnt/jffs2/cfmflag
+-rw-rw-rw-    1        17 /mnt/jffs2/customize.txt
+-rw-rw-rw-    1        72 /mnt/jffs2/customizepara.txt
+-rw-r--r--    1         2 /mnt/jffs2/fsok
+-rw-r--r--    1         5 /mnt/jffs2/hard_version
+-rw-r--r--    1      2874 /mnt/jffs2/hw_boardinfo
+-rw-r--r--    1      2874 /mnt/jffs2/hw_boardinfo.bak
+-rw-r--r--    1        89 /mnt/jffs2/hw_bootcfg.xml
+-rw-r--r--    1     16744 /mnt/jffs2/hw_ctree.xml
+-rw-r--r--    1     16728 /mnt/jffs2/hw_ctree_bak.xml
+-rw-r--r--    1     16312 /mnt/jffs2/hw_default_ctree.xml
+----------    1    129996 /mnt/jffs2/hwontlog.bin
+-rw-r--r--    1       275 /mnt/jffs2/keyreleasecount.txt
+-rw-r--r--    1        21 /mnt/jffs2/main_version
+-rw-r--r--    1         0 /mnt/jffs2/oldcrc
+-rw-r--r--    1         2 /mnt/jffs2/onlinecounter
+-rwxr-xr-x    1         4 /mnt/jffs2/ontstatusfile
+-rw-r--r--    1      1052 /mnt/jffs2/optic_init_par.bin
+-rw-r--r--    1         0 /mnt/jffs2/reboot_info
+-rw-rw-rw-    1        21 /mnt/jffs2/recovername
+-rw-r--r--    1         1 /mnt/jffs2/resetkey
+-rwxr-x---    1         0 /mnt/jffs2/rootfs_upgrade
+-rw-r--r--    1         4 /mnt/jffs2/scflie_0
+-rw-r--r--    1         4 /mnt/jffs2/scflie_1
+-rw-r--r--    1         0 /mnt/jffs2/xmlcfgerrorcode
+
+/mnt/jffs2/customize:
+total 134
+-rw-r--r--    1    136678 customize_relation.cfg
+
+=======================================================
+Start run collect command:SHELL:cat /var/settimefile                                                
+ cat /var/settimefile
+cat: can't open '/var/settimefile': No such file or directory
+
+=======================================================
+Start run collect command:SHELL: ls  -l  /dev/
+  ls  -l  /dev/
+total 0
+crw-r--r--    1    5,   1 console
+lrwxrwxrwx    1        13 fd -> /proc/self/fd
+crw-r--r--    1    1,   7 full
+crw-r--r--    1   10, 128 hlp
+crw-r--r--    1    1,  11 kmsg
+crw-r--r--    1    1,   1 mem
+crw-r--r--    1   90,   0 mtd0
+crw-r--r--    1   90,   2 mtd1
+crw-r--r--    1   90,  20 mtd10
+crw-r--r--    1   90,  22 mtd11
+crw-r--r--    1   90,  24 mtd12
+crw-r--r--    1   90,  26 mtd13
+crw-r--r--    1   90,  28 mtd14
+crw-r--r--    1   90,  30 mtd15
+crw-r--r--    1   90,  32 mtd16
+crw-r--r--    1   90,   4 mtd2
+crw-r--r--    1   90,   6 mtd3
+crw-r--r--    1   90,   8 mtd4
+crw-r--r--    1   90,  10 mtd5
+crw-r--r--    1   90,  12 mtd6
+crw-r--r--    1   90,  14 mtd7
+crw-r--r--    1   90,  16 mtd8
+crw-r--r--    1   90,  18 mtd9
+brw-r--r--    1   31,   0 mtdblock0
+brw-r--r--    1   31,   1 mtdblock1
+brw-r--r--    1   31,  10 mtdblock10
+brw-r--r--    1   31,  11 mtdblock11
+brw-r--r--    1   31,  12 mtdblock12
+brw-r--r--    1   31,  13 mtdblock13
+brw-r--r--    1   31,  14 mtdblock14
+brw-r--r--    1   31,  15 mtdblock15
+brw-r--r--    1   31,  16 mtdblock16
+brw-r--r--    1   31,   2 mtdblock2
+brw-r--r--    1   31,   3 mtdblock3
+brw-r--r--    1   31,   4 mtdblock4
+brw-r--r--    1   31,   5 mtdblock5
+brw-r--r--    1   31,   6 mtdblock6
+brw-r--r--    1   31,   7 mtdblock7
+brw-r--r--    1   31,   8 mtdblock8
+brw-r--r--    1   31,   9 mtdblock9
+crw-r--r--    1    1,   8 null
+crw-r--r--    1  108,   0 ppp
+crw-r--r--    1    5,   2 ptmx
+drwxr-xr-x    2         0 pts
+brw-r--r--    1    1,   0 ram0
+crw-r--r--    1    1,   8 random
+drwxr-xr-x    2         3 shm
+crw-r--r--    1    5,   0 tty
+crw-r--r--    1    4,  64 ttyAMA0
+crw-r--r--    1    4,  65 ttyAMA1
+crw-r--r--    1  254,   0 ubi0
+crw-r--r--    1  254,   1 ubi0_0
+crw-r--r--    1  254,   2 ubi0_1
+crw-r--r--    1  254,  11 ubi0_10
+crw-r--r--    1  254,  12 ubi0_11
+crw-r--r--    1  254,  13 ubi0_12
+crw-r--r--    1  254,  14 ubi0_13
+crw-r--r--    1  254,   3 ubi0_2
+crw-r--r--    1  254,   4 ubi0_3
+crw-r--r--    1  254,   5 ubi0_4
+crw-r--r--    1  254,   6 ubi0_5
+crw-r--r--    1  254,   7 ubi0_6
+crw-r--r--    1  254,   8 ubi0_7
+crw-r--r--    1  254,   9 ubi0_8
+crw-r--r--    1  254,  10 ubi0_9
+crw-r--r--    1   10,  63 ubi_ctrl
+crw-r--r--    1    1,   9 urandom
+crw-r--r--    1   10, 100 vd
+crw-r--r--    1    1,   5 zero
+
+=======================================================
+Start run collect command:SHELL:cat /var/usbsdinfo
+ cat /var/usbsdinfo
+cat: can't open '/var/usbsdinfo': No such file or directory
+
+=======================================================
+Start run collect command:SHELL:cat /proc/mtd
+ cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 01000000 00010000 "hi_sfc"
+mtd1: 00040000 00010000 "startcode"
+mtd2: 00040000 00010000 "bootA"
+mtd3: 00040000 00010000 "bootB"
+mtd4: 00040000 00010000 "flashcfg"
+mtd5: 00040000 00010000 "slave_param"
+mtd6: 00200000 00010000 "kernelA"
+mtd7: 00200000 00010000 "kernelB"
+mtd8: 00480000 00010000 "rootfsA"
+mtd9: 00480000 00010000 "rootfsB"
+mtd10: 00180000 00010000 "file_system"
+mtd11: 00040000 00010000 "reserved"
+
+=======================================================
+Start run collect command:SHELL:cat /proc/modules
+ cat /proc/modules
+hw_tftpc 4324 0 - Live 0xbfac9000 (PO)
+btv_adpt 2224 0 - Live 0xbfac5000 (PO)
+video_diag_adpt 2828 0 - Live 0xbfac1000 (PO)
+ethoam_adpt 8360 0 - Live 0xbfabb000 (PO)
+qos_adpt 3524 2 hw_tftpc,video_diag_adpt, Live 0xbfab7000 (PO)
+l2ext 9544 3 video_diag_adpt,ethoam_adpt,qos_adpt, Live 0xbfab1000 (PO)
+dbgsoc 1408 0 - Live 0xbfaad000 (PO)
+bbsp_l2_adpt 8904 0 - Live 0xbfaa7000 (PO)
+cpu 4504 1 qos_adpt, Live 0xbfaa2000 (PO)
+acl 63592 0 - Live 0xbfa8f000 (PO)
+l2base 64796 2 l2ext,acl, Live 0xbfa7c000 (PO)
+hw_ptp 16272 2 hw_tftpc,ethoam_adpt, Live 0xbfa75000 (PO)
+hw_bbsp_lswadp 8768 0 - Live 0xbfa6f000 (PO)
+sfwd 299448 7 ethoam_adpt,l2ext,bbsp_l2_adpt,acl,l2base,hw_ptp,hw_bbsp_lswadp, Live 0xbfa22000 (PO)
+commondata 15488 12 video_diag_adpt,ethoam_adpt,qos_adpt,l2ext,dbgsoc,bbsp_l2_adpt,cpu,acl,l2base,hw_ptp,hw_bbsp_lswadp,sfwd, Live 0xbfa1b000 (PO)
+pppoe 4760 0 - Live 0xbfa16000 (O)
+pppox 856 1 pppoe, Live 0xbfa12000 (O)
+ppp_generic 10708 2 pppoe,pppox, Live 0xbfa0c000 (O)
+slhc 2576 1 ppp_generic, Live 0xbfa0a000
+hw_amp 18716 2 acl,hw_ptp, Live 0xbfa02000 (PO)
+hw_module_ppm 15976 0 - Live 0xbf9fb000 (PO)
+hw_module_gmac 7720 0 - Live 0xbf9f6000 (PO)
+hw_module_ploam 45272 0 - Live 0xbf9e7000 (PO)
+hw_module_amp 7768 1 hw_module_gmac, Live 0xbf9e2000 (PO)
+hw_module_feature 6076 11 video_diag_adpt,ethoam_adpt,qos_adpt,cpu,acl,l2base,hw_ptp,hw_bbsp_lswadp,sfwd,hw_module_gmac,hw_module_ploam, Live 0xbf9d6000 (PO)
+hw_dm_pdt 5964 1 hw_tftpc, Live 0xbf9d1000 (PO)
+hw_dm_aes 25680 0 - Live 0xbf9c7000 (O)
+hw_module_dev 31296 4 video_diag_adpt,hw_module_ppm,hw_module_ploam,hw_dm_pdt, Live 0xbf9bc000 (PO)
+hw_module_rf 6244 1 hw_module_dev, Live 0xbf9b7000 (PO)
+hw_module_led 18520 1 hw_module_dev, Live 0xbf9af000 (PO)
+hw_module_key 3500 0 - Live 0xbf9ab000 (PO)
+hw_module_optic 72548 4 hw_module_ppm,hw_module_ploam,hw_module_dev,hw_module_rf, Live 0xbf996000 (PO)
+hw_module_gpio 3621 5 hw_module_dev,hw_module_rf,hw_module_led,hw_module_key,hw_module_optic, Live 0xbf992000 (PO)
+hw_module_i2c 2444 5 hw_module_ppm,hw_module_dev,hw_module_rf,hw_module_optic,hw_module_gpio, Live 0xbf98e000 (PO)
+hw_module_common 29780 17 btv_adpt,video_diag_adpt,ethoam_adpt,qos_adpt,bbsp_l2_adpt,hw_ptp,hw_bbsp_lswadp,hw_module_ppm,hw_module_gmac,hw_module_ploam,hw_module_dev,hw_module_rf,hw_module_led,hw_module_key,hw_module_optic,hw_module_gpio,hw_module_i2c, Live 0xbf983000 (PO)
+hi_oam 34552 1 ethoam_adpt, Live 0xbf977000 (PO)
+hi_gpon 117304 0 - Live 0xbf957000 (PO)
+hi_ponlp 61356 6 hw_module_ppm,hw_module_gmac,hw_module_ploam,hw_module_dev,hw_module_optic,hi_gpon, Live 0xbf945000 (PO)
+hi_bridge 567008 16 btv_adpt,video_diag_adpt,ethoam_adpt,qos_adpt,dbgsoc,bbsp_l2_adpt,hw_ptp,hw_module_gmac,hw_module_amp,hw_module_dev,hw_module_led,hw_module_optic,hw_module_common,hi_oam,hi_gpon,hi_ponlp, Live 0xbf8b7000 (PO)
+hi_dma 4256 1 hi_ponlp, Live 0xbf8b2000 (PO)
+hi_serdes 98720 2 hi_gpon,hi_bridge, Live 0xbf896000 (PO)
+hi_timer 2612 3 qos_adpt,hw_module_dev,hi_gpon, Live 0xbf892000 (PO)
+hi_i2c 4484 1 hw_module_i2c, Live 0xbf88d000 (PO)
+hi_gpio 2392 2 hw_module_gpio,hi_gpon, Live 0xbf889000 (PO)
+hi_pie 43924 2 video_diag_adpt,hw_ptp, Live 0xbf87b000 (O)
+pkt_ring 2596 1 hi_pie, Live 0xbf877000 (PO)
+hi_spi 9488 2 hi_bridge,hi_gpio, Live 0xbf871000 (PO)
+hi_sysctl 16812 13 hw_module_ploam,hw_module_dev,hw_module_optic,hi_gpon,hi_ponlp,hi_bridge,hi_dma,hi_serdes,hi_timer,hi_i2c,hi_gpio,hi_pie,hi_spi, Live 0xbf869000 (O)
+hw_ssp_depend 33372 5 hw_ptp,hw_module_ploam,hw_module_feature,hw_dm_pdt,hw_module_dev,[permanent], Live 0xbf85d000 (PO)
+hw_himem_soc_config 728 1 hw_ssp_depend, Live 0xbf85b000 (PO)
+hw_smp_dm 32376 11 ethoam_adpt,bbsp_l2_adpt,l2base,hw_ptp,hw_bbsp_lswadp,hw_module_amp,hw_module_feature,hw_dm_pdt,hw_module_dev,hw_module_led,hw_module_optic, Live 0xbf850000 (PO)
+hw_ssp_basic 85568 56 btv_adpt,video_diag_adpt,ethoam_adpt,qos_adpt,l2ext,dbgsoc,bbsp_l2_adpt,cpu,acl,l2base,hw_ptp,hw_bbsp_lswadp,sfwd,commondata,hw_amp,hw_module_ppm,hw_module_gmac,hw_module_ploam,hw_module_amp,hw_module_feature,hw_dm_pdt,hw_module_dev,hw_module_rf,hw_module_led,hw_module_key,hw_module_optic,hw_module_gpio,hw_module_i2c,hw_module_common,pkt_ring,hw_ssp_depend,hw_smp_dm,[permanent], Live 0xbf838000 (PO)
+hw_ssp_gpl 2644 8 sfwd,commondata,hw_amp,hw_module_ppm,hw_module_common,hw_ssp_depend,hw_smp_dm,hw_ssp_basic, Live 0xbf836000 (O)
+jffs2 66840 1 - Live 0xbf822000
+zlib_inflate 8948 1 jffs2, Live 0xbf81e000
+zlib_deflate 12468 1 jffs2, Live 0xbf819000
+hi_drv_wdt 1448 2 hw_module_dev,hw_module_optic, Live 0xbf815000 (O)
+uart_suspend 1196 0 - Live 0xbf811000 (O)
+8250_dw 2172 0 - Live 0xbf80d000
+8250 14476 2 uart_suspend,8250_dw, Live 0xbf806000
+serial_core 11084 3 8250, Live 0xbf800000
+
+=======================================================
+Start run collect command:SHELL:cat /proc/wap_proc/feature
+ cat /proc/wap_proc/feature
+FeatureName                     Enable CustomDef ID
+HW_SSMP_FEATURE_ACCESSMNGT       0      1  1   
+HW_SSMP_FEATURE_APM              1      1  2   
+HW_SSMP_FEATURE_APMLAN           1      1  3   
+HW_SSMP_FEATURE_APMRF            0      0  4   
+HW_SSMP_FEATURE_APMVOICE         0      0  5   
+HW_SSMP_FEATURE_APMWLAN          0      0  6   
+HW_SSMP_FEATURE_BATTERY          0      0  7   
+HW_SSMP_FEATURE_CWMP_CTCOM       0      1  8   
+HW_SSMP_FEATURE_CWMP_CU          0      1  9   
+HW_SSMP_FEATURE_CWMP_DEF         1      1  10  
+HW_SSMP_FEATURE_CWMP_JSCT        0      1  11  
+HW_SSMP_FEATURE_MNGT_AHCT        0      1  12  
+HW_SSMP_FEATURE_MNGT_CQCT        0      1  13  
+HW_SSMP_FEATURE_MNGT_GDCT        0      1  14  
+HW_SSMP_FEATURE_MNGT_HLJCT       0      1  15  
+HW_SSMP_FEATURE_MNGT_JSCT        0      1  16  
+HW_SSMP_FEATURE_MNGT_GZCT        0      1  17  
+HW_SSMP_FEATURE_MNGT_NXCT        0      1  18  
+HW_SSMP_FEATURE_MNGT_HUNCT       0      1  19  
+HW_SSMP_FEATURE_MNGT_GSCT        0      1  20  
+HW_SSMP_FEATURE_MNGT_JXCT        0      1  21  
+HW_SSMP_FEATURE_MNGT_XJCT        0      1  22  
+HW_SSMP_FEATURE_MNGT_PCCW        0      1  23  
+HW_SSMP_FEATURE_MNGT_QHCT        0      1  24  
+HW_SSMP_FEATURE_MNGT_SHCT        0      1  25  
+HW_SSMP_FEATURE_MNGT_SZCT        0      1  26  
+HW_SSMP_FEATURE_MNGT_TELMEX      0      1  27  
+HW_SSMP_FEATURE_MNGT_UNICOM      0      1  28  
+HW_SSMP_FEATURE_MNGT_YNCT        0      1  29  
+HW_SSMP_FEATURE_OUI_STATIC       1      1  30  
+HW_SSMP_FEATURE_QUICKCFG         0      0  31  
+HW_SSMP_FEATURE_RESET_CTCOM      0      1  32  
+HW_SSMP_FEATURE_RESET_CU         0      1  33  
+HW_SSMP_FEATURE_RESET_DEF        1      1  34  
+HW_SSMP_FEATURE_RESET_JSCT       0      1  35  
+HW_SSMP_FEATURE_TR069            0      0  36  
+HW_SSMP_FEATURE_USB              0      0  37  
+HW_SSMP_FEATURE_WEB              1      1  38  
+HW_SSMP_FEATURE_USD              0      0  39  
+HW_SSMP_FEATURE_CWMP_PWDKEY      0      1  40  
+HW_SSMP_FEATURE_CWMP_ATCNOTIFY   0      0  41  
+HW_SSMP_FEATURE_DISABLE_UART     0      0  42  
+HW_SSMP_FEATURE_CWMP_CANCELTRS   0      0  43  
+BBSP_FT_SNTP                     0      1  44  
+HW_SSMP_FEATURE_DEBUG_ETH        0      0  45  
+HW_SSMP_FEATURE_SET_ROOT_NAME    1      1  46  
+HW_SSMP_FEATURE_USBPRINTER       0      0  47  
+HW_SSMP_FEATURE_ADMIN_LOGIN      0      1  48  
+HW_SSMP_FEATURE_PASSWDMODE_MD5   0      1  49  
+HW_SSMP_FEATURE_USBSTORAGE       0      0  50  
+SSMP_FEATURE_SAMBA_WAN_ACCESS    0      0  51  
+HW_SSMP_FEATURE_PWDCOMPLEX       0      0  52  
+HW_SSMP_FEATURE_MNGT_BJCU        0      1  53  
+HW_SSMP_FEATURE_SNTP_NO_SYN      0      1  54  
+HW_SSMP_FEATURE_GET_FROM_DB      0      1  55  
+HW_SSMP_FEATURE_WEB_ONLY_PWD     0      1  56  
+HW_SSMP_FEATURE_WEB_ADMIN_LOG    0      1  57  
+HW_SSMP_FEATURE_PTVDF            0      1  58  
+HW_SSMP_FEATURE_SNTP_LOG         0      0  59  
+HW_SSMP_FEATURE_CWMP_LOGIN_LOG   0      1  60  
+FT_CWMP_SERVER_ONE_CONNECT       0      1  61  
+HW_SSMP_FEATURE_CFG_BACKUP       1      1  62  
+HW_SSMP_FT_SYSLOG                0      1  63  
+HW_SSMP_FEATURE_WEB_SHA256       0      1  64  
+HW_SSMP_FEATURE_CLI_SHA256       0      1  65  
+HW_SSMP_FEATURE_FTP_SHA256       0      1  66  
+HW_SSMP_FT_P2PDHCP               0      1  67  
+HW_SSMP_FT_DIAG_URL_CFM          0      0  68  
+FT_CWMP_ACCEPT_ALL_CONT_REQUEST  0      1  69  
+HW_FT_CLI_WEB_PASSWORD_SYN       0      1  70  
+HW_FT_NTP_RANDOM_RETRY           0      1  71  
+HW_FT_CWMP_BOOL_STRING           0      1  72  
+HW_FT_CWMP_UNIQUE_CONNECT_URL    0      1  73  
+HW_SSMP_FT_CWMP_PROBE_SERVER     0      1  74  
+HW_SSMP_FT_USE_UTC_TIME_ONLY     0      1  75  
+HW_SSMP_FT_OLT_SET_TIMEZONE      0      1  76  
+SSMP_FT_INFORM_ADDITION_PARAM    0      1  77  
+HW_SSMP_FEATURE_USBSMART         0      1  78  
+HW_BBSP_FEATURE_START_E          0      0  79  
+BBSP_FT_8010_DT                  0      1  80  
+BBSP_FT_ACCLIMIT                 0      1  81  
+BBSP_FT_ACL                      1      1  82  
+BBSP_FT_ALG                      0      1  83  
+BBSP_FT_ARP                      0      1  84  
+BBSP_FT_BT                       0      1  85  
+BBSP_FT_CTC                      0      1  86  
+BBSP_FT_DDNS_IP                  0      1  87  
+BBSP_FT_DDNS_PPP                 0      1  88  
+BBSP_FT_DHCP_HOST                0      1  89  
+BBSP_FT_DHCP_HOSTNUM             0      1  90  
+BBSP_FT_DHCP_MAIN                0      1  91  
+BBSP_FT_DHCPOPTION               1      1  92  
+BBSP_FT_DHCP_CLIENT_OPTION       0      0  93  
+BBSP_FT_DHCP_SLAVE               0      1  94  
+BBSP_FT_DHCPS_OPTION             0      0  95  
+BBSP_FT_DHCPS_COND_POOL          0      1  96  
+BBSP_FT_SUPPORT_DEL_BR00         0      1  97  
+BBSP_FT_DMZ_IP                   0      1  98  
+BBSP_FT_DMZ_PPP                  0      1  99  
+BBSP_FT_DNS                      0      1  100 
+BBSP_FT_DOSFILTER                1      1  101 
+BBSP_FT_DSCP_PRI                 1      1  102 
+BBSP_FT_FIREWALL                 0      1  103 
+BBSP_FT_GDCT                     0      1  104 
+BBSP_FT_HLJCT                    0      1  105 
+BBSP_FT_IGMP_ENABLE              0      0  106 
+BBSP_FT_IPFILTERIN               0      1  107 
+BBSP_FT_IPFILTEROUT              1      1  108 
+BBSP_FT_IPV6                     0      0  109 
+BBSP_FT_IPV6_CORE                0      0  110 
+BBSP_FT_IPV6_DHCP6S              0      0  111 
+BBSP_FT_IPV6_DIAG                0      0  112 
+BBSP_FT_IPV6_DSLITE              0      0  113 
+BBSP_FT_IPV6_LANDEV              0      0  114 
+BBSP_FT_IPV6_ROUTE               0      0  115 
+BBSP_FT_IPV6_WANCFG              0      0  116 
+BBSP_FT_IPV6_UNNUMBER            0      0  117 
+BBSP_FT_JSCT                     0      1  118 
+BBSP_FT_L3                       0      0  119 
+BBSP_FT_L3_ALL                   0      1  120 
+BBSP_FT_L3IGMP                   1      1  121 
+BBSP_FT_LANBIND_IP               0      0  122 
+BBSP_FT_LANBIND_PPP              0      0  123 
+BBSP_FT_LANBIND_SSID             1      1  124 
+BBSP_FT_LANHOSTIP                1      1  125 
+BBSP_FT_MACFILTER                1      1  126 
+BBSP_FT_MAINCHIP_5115            1      0  127 
+BBSP_FT_MAINCHIP_V100            0      0  128 
+BBSP_FT_MAINCHIP_V200            0      0  129 
+BBSP_FT_MOBILY                   0      1  130 
+BBSP_FT_MULTICAST_BRIDGE         0      0  131 
+BBSP_FT_MULTICAST_ROUTEIP        0      1  132 
+BBSP_FT_MULTICAST_ROUTEPPP       0      1  133 
+BBSP_FT_MULTICAST_WANPROXY       0      0  134 
+BBSP_FT_NAT                      1      1  135 
+BBSP_FT_ONTACCESSCTL             1      1  136 
+BBSP_FT_PCCW                     0      1  137 
+BBSP_FT_PING                     1      1  138 
+BBSP_FT_PORTAL                   0      1  139 
+BBSP_FT_PORTMAP_IP               0      1  140 
+BBSP_FT_PORTMAP_PPP              0      1  141 
+BBSP_FT_PORTTRIGGER_IP           0      1  142 
+BBSP_FT_PORTTRIGGER_PPP          0      1  143 
+BBSP_FT_PPPOE_EM                 1      1  144 
+BBSP_FT_QOS_CAR                  1      1  145 
+BBSP_FT_QOS_CFG                  0      1  146 
+BBSP_FT_QOS_CLA                  1      1  147 
+BBSP_FT_QOS_CLEAR                1      1  148 
+BBSP_FT_QOS_DIS                  1      1  149 
+BBSP_FT_QOS_DISMODE              1      1  150 
+BBSP_FT_QOS_MIRROR               1      1  151 
+BBSP_FT_QOS_POLICER              1      1  152 
+BBSP_FT_QOS_QSCHEN               1      1  153 
+BBSP_FT_QOS_QUEUE                1      1  154 
+BBSP_FT_RINGCHK                  1      1  155 
+BBSP_FT_ROUTE                    0      0  156 
+BBSP_FT_ROUTE_POLICY             0      0  157 
+BBSP_FT_ROUTE_STATIC             0      1  158 
+BBSP_FT_ROUTE_CURRENT            0      1  159 
+BBSP_FT_SEC                      1      1  160 
+BBSP_FT_SHCT                     0      1  161 
+BBSP_FT_SZCT                     0      1  162 
+BBSP_FT_TELMEX                   0      1  163 
+BBSP_FT_TYPELIMIT                0      1  164 
+BBSP_FT_TYPE_PORTAL              0      1  165 
+BBSP_FT_UPNP_MAIN                0      1  166 
+BBSP_FT_UPNP_SLV                 0      1  167 
+BBSP_FT_URLFIL                   0      1  168 
+BBSP_FT_WAN                      0      1  169 
+BBSP_FT_WAN_CFG                  0      1  170 
+BBSP_FT_WAN_ETHLINK              0      1  171 
+BBSP_FT_WAN_IP                   0      1  172 
+BBSP_FT_WAN_PPP                  0      1  173 
+BBSP_FT_WANPRI_POLICY            1      1  174 
+BBSP_FT_WLANMACFILER             0      0  175 
+BBSP_FT_FJCT                     0      1  176 
+BBSP_FT_HUNCT                    0      1  177 
+BBSP_FT_CQCT                     0      1  178 
+BBSP_FT_INTERNET_WAN_AUTO_BIND   0      1  179 
+BBSP_FT_BTV_DOUBLE_MVLAN         0      1  180 
+BBSP_FT_BJCU                     0      1  181 
+BBSP_FT_R13_ONETRACK             0      1  182 
+BBSP_FT_LAN_BIND_MORE_WAN        0      1  183 
+BBSP_FT_SMARTQOS                 0      0  184 
+BBSP_FT_UPLINKQOS                0      1  185 
+BBSP_FT_UPLINKQOS_PDTSUPPORT     0      1  186 
+BBSP_FT_L2M_DNPBITNOCARE         0      1  187 
+BBSP_FT_L2M_DN_TRANS_EXTEND      0      1  188 
+BBSP_FT_L2_UL_USE_ACL            0      1  189 
+BBSP_FT_L2_DL_USE_ACL            0      1  190 
+BBSP_FT_L2_DL_REDIR_EGR          0      1  191 
+L2M_DEFAULT_RULE_DROP            0      1  192 
+TAG0_AS_NORMAL_1TAG              0      1  193 
+BBSP_FT_OUT_FLOW_FILTER          0      0  194 
+BBSP_FT_QOS_FLOWCTRL             0      0  195 
+BBSP_FT_NON_TR069_VOIP_WAN       1      0  196 
+BBSP_FT_IPV6_READY               0      0  197 
+BBSP_FT_1731                     0      1  198 
+BBSP_FT_L2MAC_LEARN_DISABLE      0      1  199 
+BBSP_FT_VOIP_WAN                 1      0  200 
+BBSP_FT_STB_ZERO_CONFIG          0      0  201 
+BBSP_FT_IGMP_SNOOPINGENABLE_SET  0      0  202 
+BBSP_FT_BTV_PKG_TAB_SUPPORT      0      1  203 
+BBSP_FT_BTV_HW_ME_DECLARATION    1      1  204 
+BBSP_FT_DNS_CLIENT               1      1  205 
+BBSP_FT_BTV_MULTICVLAN_CONFIG    0      0  206 
+BBSP_FT_BTV_WANDROP_SPEC_PACKET  0      0  207 
+BBSP_FT_BTV_QUERY_CVLAN          0      1  208 
+BBSP_FT_BTV_QUERY_MVLAN          0      1  209 
+BBSP_FT_BTV_QUERY_MAC_DROP       0      0  210 
+BBSP_FT_WAN_NAT_AUTO_ENABLE      0      1  211 
+BBSP_FT_DEL_TR069_WAN_CWMP       1      1  212 
+BBSP_FT_WAN_SYN_UPLINK           0      1  213 
+BBSP_FT_MODIFY_DEFAULT_URL       0      1  214 
+BBSP_FT_DHCPC                    1      1  215 
+BBSP_FT_DHCPD                    1      1  216 
+BBSP_FT_DHCP_RENEW               1      1  217 
+BBSP_FT_DHCP_LAN_DEFAULT         1      1  218 
+BBSP_FT_DHCP_SAVE_PING_RESULT    0      1  219 
+BBSP_FT_DHCP_PING_PARA           0      1  220 
+BBSP_FT_PING_INTERNET_WAN        1      1  221 
+BBSP_FT_SAVE_USER_DEV            0      1  222 
+BBSP_FT_DISPLAY_USER_DEV6        0      0  223 
+BBSP_FT_USER_DEV6_ADDR_NUM       0      0  224 
+BBSP_FT_WAN_CFG_AUTO_ARP_PING    0      1  225 
+BBSP_FT_UP_IGMP_MLD_TO_PON       0      1  226 
+BBSP_FT_UP_TAG_IGMP_TO_PON       0      1  227 
+BBSP_FT_DN_IGMP_MLD_TO_LAN       0      1  228 
+BBSP_FT_OLT_CONTROL_MC           0      1  229 
+BBSP_FT_QOS_CFG_MODE             1      1  230 
+BBSP_FT_CLOSE_WEB_ONLINE         0      1  231 
+BBSP_FT_INTERNET_WAN_LED         0      0  232 
+BBSP_FT_IGMP_QUERY_DIRECT_EGR    0      1  233 
+BBSP_FT_IGMP_VLAN_MAC_FWD_MODE   0      1  234 
+IPV6_NODE_CONV_WITH_E8C_4_0      0      1  235 
+BBSP_FT_AUTO_IP_TEST             0      0  236 
+BBSP_FT_REDIRECT                 0      1  237 
+BBSP_FT_REDIRECT_PONSTATECHANGE  0      1  238 
+BBSP_FT_REDIRECT_PONSTATEDOWN    0      1  239 
+BBSP_FT_REDIRECT_DEF_PPP_WAN     0      1  240 
+BBSP_FT_REDIRECT_L2USER          0      1  241 
+BBSP_FT_QOS_SPDLMT               0      1  242 
+BBSP_FT_LAYER2BRIDGING           0      0  243 
+BBSP_FT_SERVICELIST_BY_LAYER2    0      0  244 
+BBSP_FT_BRIDGE_MODE_BY_LAYER2    0      0  245 
+BBSP_FT_MULT_SESSION_VLAN_LIMIT  1      0  246 
+BBSP_FT_ARPPING                  0      1  247 
+BBSP_FT_MODIFY_PRI_OR_TC         0      0  248 
+BBSP_FT_VLAN_VLAUE_RETURN        0      1  249 
+BBSP_FT_SEC_FORCE_TELNETLANEN    0      0  250 
+BBSP_FT_PPPOE_DETECTUPSTREAM     0      1  251 
+BBSP_FT_QOS_RULE_WAN_PRI         0      1  252 
+BBSP_FT_SEC_WAN_ACCESS           0      1  253 
+BBSP_FT_IPV4_PRO_SHUTDOWN        0      1  254 
+BBSP_FT_IP_PROTOCOL_CFG_CHK      0      1  255 
+BBSP_FT_PPPOEEM_IGNORE_WANSTAT   0      0  256 
+BBSP_FT_IPNEIGH_PRIVATEINFO      0      1  257 
+BBSP_FT_DHCPV6_ONE_SESSION       0      0  258 
+BBSP_FT_IPV6_6RD                 0      0  259 
+BBSP_FT_CMD_SHOW_PPPOE_WAN       0      1  260 
+BBSP_FT_DISPLAY_DHCP_SVR_INFO    0      1  261 
+BBSP_FT_E8C_IPPINGDIAGNOSTICS    0      1  262 
+BBSP_FT_DROP_NNI_DNS             0      1  263 
+BBSP_FT_TR098_OBJECT_NOEFFECT    0      1  264 
+BBSP_FT_PARENTAL_CONTROL         0      0  265 
+BBSP_FT_PARENTAL_CTRL_URL_MODE   0      0  266 
+BBSP_FT_CU                       0      1  267 
+BBSP_FT_GDCT_A8C                 0      0  268 
+FT_DNSQUERY_TIMEOUT_PER_TIME     1      1  269 
+BBSP_FT_TELNET_PORT_MODE         0      1  270 
+BBSP_FT_INTERNET_INNER_PORT      0      1  271 
+BBSP_FT_DMZ_PRIORITY             0      1  272 
+BBSP_FT_UPNP_SNAT_DISABLE        0      0  273 
+BBSP_FT_CLIENT_ACCESSIN_LOG      0      1  274 
+BBSP_FT_SYNC_ETH_PVID_TO_SSID    0      1  275 
+HW_BBSP_FT_IPTABLE_SUPPORT       0      1  276 
+BBSP_FT_DHCPS_UNI_CTL            0      0  277 
+BBSP_FT_IPTV_EMULATOR            1      1  278 
+BBSP_FT_TRACEROUTE_ICMP          0      1  279 
+BBSP_FT_FIREWALL_FLOW_LOG        0      0  280 
+BBSP_FT_RADIO_WAN_LOAD           0      0  281 
+BBSP_FT_CONFIG_IPV6_SESSION      0      0  282 
+FT_RFC6092_IPV6_FILTER           0      1  283 
+BBSP_FT_BR0_RA_EUI64             0      1  284 
+BBSP_FT_BR0_DNS_GUA              0      1  285 
+BBSP_FT_PONLOCAL_ARPREPLY        1      1  286 
+FT_URL_FILTER_SUPPORT_HTTPS      0      1  287 
+HW_BBSP_FEATURE_END_E            0      0  288 
+BBSP_FT_PM_PORTLIST              0      0  289 
+BBSP_FT_PPPOE_PADO_TIME_OUT      0      1  290 
+BBSP_FT_VIDEO_DIAGNOSE           1      1  291 
+BBSP_FT_PORT_ACL                 0      0  292 
+BBSP_FT_STATIC_MAC_CONFIG        1      0  293 
+BBSP_FT_PORT_MAC_LEARN_STATUS    1      0  294 
+BBSP_FT_BBF247                   0      1  295 
+BBSP_FT_FIREWALL_DUAL            0      0  296 
+BBSP_FT_PORTMAPPING_DROP_RULE    0      1  297 
+BBSP_FT_SNAT_IPMAPPING           0      1  298 
+WAN_WHITELIST_HTTP_PROTOCOL      0      1  299 
+BBSP_FT_ALL_WAN_IN_ONE_MAC       0      0  300 
+BBSP_FT_PCP                      0      1  301 
+BBSP_FT_PPPOE_AUTHFAIL_CODE      0      1  302 
+FT_UPNP_PORTMAP_ON_WAN           1      1  303 
+FT_WAN_SUPPORT_TYPE              1      1  304 
+FT_WAN_SUPPORT_TYPE_TR069_VOIP   0      1  305 
+FT_WAN_SUPPORT_TYPE_BRIDGE       0      0  306 
+BBSP_FT_CONNTRACK_SAVE_INTF      0      0  307 
+BBSP_FT_AUTO_VIDEODIAG           0      1  308 
+HW_AMP_FEATURE_COMMON            1      1  309 
+HW_AMP_FEATURE_CTC               0      1  310 
+HW_AMP_FEATURE_HUNCT             0      1  311 
+HW_AMP_FEATURE_QHCT              0      1  312 
+HW_AMP_FEATURE_TELMEX            0      1  313 
+HW_AMP_FEATURE_WLAN              0      0  314 
+HW_AMP_FEATURE_DT                0      1  315 
+HW_AMP_FEATURE_BJCU              0      1  316 
+HW_AMP_FEATURE_EXT_MSG           1      0  317 
+HW_AMP_FT_DYN_MOD_LOID_SN_PWD    1      1  318 
+HW_AMP_FT_PQ_REVERSE_PRI         1      1  319 
+HW_AMP_FT_LOID_NOT_SAVE          0      1  320 
+HW_AMP_FEATURE_LOID_O5AUTH_SHOW  0      1  321 
+HW_AMP_FEATURE_10GPON            0      1  322 
+HW_AMP_FEATURE_L2WIFI            0      1  323 
+FT_REBOOT_ETH_BY_PON_STATE       0      0  324 
+FT_CHECK_RX_POWER                0      0  325 
+HW_AMP_FT_AUTO_OFFLINE           0      0  326 
+HW_AMP_FEATURE_RX_EXTEND_LED     0      1  327 
+HW_AMP_FT_RX_EXTEND_LED_CTC      0      0  328 
+HW_AMP_FT_DISCOVERY_ONLINE       0      1  329 
+HW_AMP_FEATURE_ETHPON_BIND       0      1  330 
+HW_AMP_FEATURE_USE_SCENE         0      1  331 
+HW_AMP_FEATURE_P2P               0      1  332 
+HW_AMP_FEATURE_ETH_POE           0      0  333 
+HW_AMP_FT_OMCI_UPDATE_SPEEDUP    1      1  334 
+AMP_FT_IGNORE_3RD_IPHOST_FLOW    0      1  335 
+HW_AMP_FEATURE_FON               0      1  336 
+HW_AMP_FT_OMCI_TRIGGER_PONLED    0      1  337 
+HW_VSPA_FEATURE_VOIP             0      0  338 
+HW_SSMP_FEATURE_MNGT_FJCT        0      1  339 
+HW_SSMP_FEATURE_MNGT_SCCT        0      1  340 
+HW_SSMP_FEATURE_MNGT_CT          0      1  341 
+HW_SSMP_FEATURE_PATCH            0      0  342 
+HW_SSMP_FEATURE_BASE64           1      1  343 
+HW_SSMP_FEATURE_DCOM             0      0  344 
+HW_SSMP_FEATURE_CLI_CHINA_MODE   0      1  345 
+HW_SSMP_FEATURE_OMCI_LOAD        0      1  346 
+HW_AMP_FEATURE_FORBID_VEIP       1      1  347 
+HW_SSMP_FEATURE_DIGCONFIG        0      0  348 
+HW_SSMP_FEATURE_MXU_JSCT         0      0  349 
+HW_SSMP_FEATURE_SIM_CARD         0      0  350 
+HW_SSMP_FEATURE_PK               0      0  351 
+HW_SSMP_FEATURE_PK_CU            0      0  352 
+HW_SSMP_FEATURE_PK_CMCC          0      0  353 
+HW_SSMP_FEATURE_MONITORCOLL      0      1  354 
+HW_FEATURE_NOTIFY_CWMP_SOURCE    0      1  355 
+HW_SSMP_FEATURE_FTP_PWD_COMPAT   0      1  358 
+HW_SSMP_FEATURE_CLI_PWD_COMPAT   0      1  359 
+HW_SSMP_FEATURE_WEB_HTTP_MODE    0      1  360 
+HW_SSMP_FEATURE_HTTP_PORT_MODE   0      1  361 
+HW_SSMP_FT_OMCI_STAND_LOAD       0      1  362 
+HW_SSMP_FEATURE_SHOWTR069INFO    0      1  363 
+HW_SSMP_FEATURE_SAFE_CHANNEL     0      1  364 
+HW_SSMP_FEATURE_UNICOM_GROUP     0      1  365 
+HW_SSMP_FEATURE_UNICOM_CHECKSN   0      1  366 
+FT_PLUGIN_PERMISSION_ENABLE      0      1  367 
+HW_SSMP_FEATURE_GDBUS_CHANNEL    0      0  368 
+HW_SSMP_FEATURE_CWMP_AUTH        0      0  369 
+HW_SSMP_FEATURE_CPE_KEEPALIVE    0      1  370 
+BBSP_FT_IGMP_VEIP_SUPPORT        0      1  371 
+HW_SSMP_FEATURE_WIFIAP_HTTP      0      0  372 
+HW_SSMP_LOG_ALARMINFO            0      1  373 
+BBSP_FT_SYNC_IPROUTER_AND_IPIF   0      1  374 
+HW_SSMP_FEATURE_WIFIAP_USABLE    1      0  375 
+HW_FT_CWMP_STACK_SWITCH          0      1  376 
+FT_TR181_FIREWALL                0      0  377 
+SSMP_FEATURE_EMPTY_UINT32        0      0  378 
+BBSP_FT_PING_WAN                 0      0  379 
+BBSP_FT_DHCPS_DEF_OPT125         0      1  380 
+HW_SSMP_FEATURE_CLOSE_HTTPS      1      0  381 
+HW_SSMP_WEB_MODIFY_AMDIN_PWD     1      1  382 
+HW_BBSP_FT_SEC_ACL_SUPPORT       1      0  383 
+HW_BBSP_FT_SEC_FIREWALL_SUPPORT  1      0  384 
+BBSP_FEATURE_V6_FORMAT_SUPPORT   0      0  385 
+HW_SSMP_FEATURE_CSRF_SUPPORT     1      0  386 
+BBSP_FT_ETHOAM_SUPPORT_N2ONE     0      0  387 
+HW_SSMP_FEATURE_WEB_EXP_LOCK     0      1  388 
+HW_SSMP_FEATURE_LOG_VIEW_AUTH    1      1  389 
+HW_SSMP_FEATURE_ROS              0      1  390 
+HW_SSMP_FEATURE_OLT_XML          0      1  391 
+BBSP_FT_DNS_V6_PRI               0      1  392 
+BBSP_FT_DNS_SERVER_SWITCH        0      1  393 
+SSMP_FEATURE_TR069_KEYNODE_RSV   0      1  394 
+BBSP_FT_VOIP_OPTION121           0      1  395 
+BBSP_FT_WAN_MSS_AUTO_ADJUST      0      1  396 
+BBSP_FT_LAN_OPTION66             0      0  397 
+BBSP_FT_DISABLE_MAC_BTV          0      1  398 
+BBSP_FT_BTV_SINGLE_PKT           1      1  399 
+HW_SSMP_FEATURE_COOKIE_ENC       0      1  400 
+BBSP_FT_WIFI_BTV_SWITCH          1      1  401 
+BBSP_FT_OSGI_POP_WINDOWS         0      1  402 
+BBSP_FT_WAN_SEND_PADT            0      1  403 
+BBSP_FT_OTT_BTV_SWITCH           0      0  404 
+BBSP_FT_SAME_MVLAN_DIFF_MFLOW    0      1  405 
+FT_BTV_DEFAULT_TRANS_MULTIVLAN   0      1  406 
+FT_SUPPORT_INTERNET_ROUTE_BTV    0      1  407 
+BBSP_FT_VDF_BTV_SWITCH           0      1  408 
+BBSP_FT_ILLEGAL_MULTIADDR_DROP   0      0  409 
+BBSP_FT_LAN_BIND_THREE_EXPORT    0      1  410 
+BBSP_FT_LAN_BIND_ONE_WANPORT     1      1  411 
+BBSP_FT_LAN_BIND_SESSION_WAN     0      0  412 
+FT_NFCONN_TIME_SET               0      0  413 
+BBSP_FT_TR069_CONFIG_IPFILTER    0      1  414 
+BBSP_FT_ROUTE_BRIDGE_TRANSLATE   0      1  415 
+BBSP_FT_PPPOE_EM_HIDEPWD         0      1  416 
+BBSP_FT_PPPOE_EM_TIMEOUTCTRL     0      1  417 
+SSMP_MONITOR_COLLECTOR_E8C       0      1  418 
+BBSP_FT_WAN_LASTERR_IPVER_IND    0      1  419 
+BBSP_FT_BTV_WAN_PRI_CONTROL      0      1  420 
+BBSP_FT_BTV_WAN_MVLAN_UNCFG      0      0  421 
+BBSP_FT_VEIP_UP_SWITCH_IGMP      0      0  422 
+BBSP_FT_CLOSE_WEB_ONLINE_ONCE    0      1  423 
+FT_DISABLE_VOIP_FROM_WIFI        0      1  424 
+BBSP_FT_WAN_SRC_IP_DROP          0      1  425 
+BBSP_FT_LAN_HOST_ACCESS          0      1  426 
+FT_SUPPORT_NET_VOIP_DNS          0      1  427 
+FT_CWMP_WAIT_OSGI                0      1  428 
+BBSP_FT_UPnP_PRIORITY_LOW        0      0  429 
+BBSP_FT_PING_BR0                 0      1  430 
+FT_CLI_KICK_USER                 1      1  431 
+SSMP_FT_REPORT_WAN_CONN_TYPE     0      1  432 
+BBSP_FT_YJYX_IPV4_ONLY           0      1  433 
+BBSP_FT_PING_TRACEROUTE          0      1  434 
+BBSP_FT_BTV_WAN_PROTOCOL_IGNORE  0      1  435 
+BBSP_FT_BTV_LANWAN_BOND_V4_V6    0      1  436 
+BBSP_FT_CU_VOIPNAME_NOCONVERT    0      1  437 
+BBSP_FT_ONT_HTTP_DOWNLOAD        0      1  438 
+BBSP_FT_IPFLT_NEWATTRI           1      1  439 
+FT_PPPOE_UP_INFORM_ITMS          0      0  440 
+FT_TRACEROUTE_HOP_ONLY_IP        0      0  441 
+FT_PING_DOMAIN_A_4A              0      0  442 
+BBSP_FT_HTTP_ADD_PORT_MAPPING    0      0  443 
+FT_PING_TIMEOUT_PER_PACKET       0      1  444 
+HW_SSMP_FT_YUEME_DISC_NAME       0      1  445 
+HW_BBSP_FT_LLDP                  0      0  446 
+FT_UNI_RING_CHECK_ALWAYON        0      1  447 
+MAC_FT_RG_MAC_TIMER_CTL          0      1  448 
+BBSP_FT_OLT_CONTROL_MC_AUTO      0      1  449 
+FT_REMOTE_LOCAL_WAN              0      1  450 
+FT_FEATURE_TDE                   0      1  451 
+BBSP_FT_SUPPORT_CLASS_A_IP       0      1  452 
+FT_TDE_BRAZIL                    0      0  453 
+FT_HW_NODE_NONE                  0      0  454 
+FT_VLAN_TERMINATION              0      0  455 
+FT_DSCP_TO_8021P_TEMPLATE        0      1  456 
+FT_IPSEC_ALG_FILTER_EXTEND       0      1  457 
+FT_L2TP_VPN                      0      1  458 
+FT_BBSP_DHCPR                    0      1  459 
+FT_BBSP_COND_DOMAIN_NAME         0      1  460 
+HW_AMP_FT_EPON_BUTT_CHIP_TYPE    0      0  461 
+HW_BBSP_FEATURE_8021X            0      0  462 
+FT_SUPPORT_FRAME_DETECTION       0      1  463 
+FT_RIP_DYNAMIC_ROUTE             0      0  464 
+FT_OPT60_ANY_P_ANY_S_DEF_POOL    0      0  465 
+BBSP_FT_PPPOEEM_AUTO_MULTIPLE    0      1  466 
+FT_FORCE_MODIFY_PASSWORD         0      1  467 
+BBSP_FT_IPVER_CTRL_BY_WAN        0      0  468 
+BBSP_FT_ETH_VLANTRNAS_TO_WAN     0      0  469 
+BBSP_FT_PORTMAP_INNER_PORTLINK   0      1  470 
+FT_PERFORMANCE_DIAGNOSE          0      1  471 
+HW_FT_CWMP_SSL_CHECK_SNTP        1      1  472 
+FT_WANDOWN_IGMPOK                0      1  473 
+SSMP_FT_NOT_CUSTOMIZE_CLI_ENC    0      0  474 
+HW_SSMP_FT_CHK_PWD_COMPLEX       0      1  475 
+BBSP_FT_ROUTE_STATIC_LAN         0      0  476 
+BBSP_FT_MANUAL_DIAL_RESET        0      1  477 
+BBSP_FT_DNS_SERVER_SWITCH_CYCLE  0      0  478 
+FT_OMCI_TR069_INTERNET_WAN       0      0  479 
+BBSP_FT_CMCC                     0      0  480 
+BBSP_FT_CMCC_RMS                 0      1  481 
+BBSP_FT_IPFLT_IGNORE_FWLEVEL     0      1  482 
+BBSP_FT_URLFLT_IGNORE_FWLEVEL    0      1  483 
+FT_UNI_DEVICE_DETETION           0      1  484 
+BBSP_FT_TYPEX_PKT_SWITCH         0      0  485 
+BBSP_FT_DOCSIS_EROUTER           0      0  486 
+HW_FT_CWMP_TR143_ON_BRIDGE_WAN   1      0  487 
+FT_UPLOAD_TWO_CONNECT            1      1  488 
+HW_SSMP_FT_LAN_HTTPS_E           0      1  489 
+FT_SAMPLE_SPEEDTEST_TOTAL        0      1  490 
+FT_SPEEDTEST_STOPONTIME          0      1  491 
+FT_SAMPLE_SPEEDTEST              0      1  492 
+FT_SPEEDTEST_NOREDIRECT          0      0  493 
+HW_FT_OSGI_FAST_START            0      1  494 
+HW_FT_OSGI_PLUGIN_VERIFY         0      0  495 
+FT_CWMP_GET_SYNTAX               0      0  496 
+FT_FLUSH_DNS_CACHE_INC_STATIC    0      0  497 
+HW_SSMP_FT_SNTP_SYN_FLAG         0      1  498 
+HW_SSMP_FT_CWMP_FACTORY_MODE     0      1  499 
+BBSP_FT_CT_PRIVATE_TRACERT       0      1  500 
+BBSP_FT_BTV_EM_WAN               0      1  501 
+BBSP_FT_TRACERT_SEL_PKTTYPE      0      1  502 
+AMP_FT_ZTE_ENTITY                0      1  503 
+FT_SYSTEM_COPY                   1      1  504 
+FT_LAN_GUESTWIFI_POOL            0      1  505 
+FT_DHCP_COND_POOL_60_43_OPT      0      1  506 
+BBSP_FT_SINGTEL_PORTMAP          0      1  507 
+DDNS_ONLY_INTERNET_WAN           0      1  508 
+DDNS_CONFIG_ADV_PARA             0      1  509 
+BBSP_FT_HGDETECT                 0      1  510 
+HW_FT_OSGI_JVM_FROM_VAR          0      1  511 
+FT_OSGI_SYSAPP_SPACE_NCHECK      0      0  512 
+HW_FT_ALU_OMCI_LOAD              0      1  513 
+FT_IPTV_STATUS                   0      1  514 
+HW_FT_OSGI_CPLUGIN               1      1  515 
+HW_SSMP_FEATURE_CTRG             0      0  516 
+FT_CHANGE_NOTIFY_DBUS            0      0  517 
+WAP_FT_EBO_ENABLE                0      0  518 
+HW_FT_SUPPORT_DNS_FORWARD        0      0  519 
+FT_BBSP_AWIFI_SWITCH             0      1  520 
+FT_ACCLIMIT_NOT_EFFECT           0      1  521 
+FT_ICMPPING_OPTIMIZE_HIGHPRI     0      1  522 
+FT_DHCPC_SERVERID_CHECK          0      1  523 
+FT_ARPPING_NO_RESET_WAN          0      0  524 
+FT_BR0_DHCP_POOL_AUTO            0      0  525 
+HW_SSMP_FT_OMCI_SNTP             0      1  526 
+FT_STATICDNS_CFG_ONLYLAN         0      1  527 
+BBSP_FT_IGNORE_OLT_CFG_VOIPWAN   0      1  528 
+FT_RT_SERVICETYPE_VLAN_RELATED   0      1  529 
+HW_SSMP_FT_CLI_INPUT_RANGE       0      1  530 
+HW_SSMP_FT_SNTP_WANOUT           0      1  531 
+HW_SSMP_FT_TDE_TR069             0      1  532 
+HW_SSMP_FT_CLI_NEED_QMARK        0      1  533 
+SSMP_FT_TDE_OPEN_SHELL           0      1  534 
+SSMP_FT_TDE_AUTH_SU_CMD          0      1  535 
+HW_SSMP_FT_CLI_DB_SAVE           0      1  536 
+FT_CWMP_PRVTNODE_CONVERT         0      1  537 
+BBSP_FT_CTCOM_MACFLT             0      1  538 
+FT_SSMP_WEB_LOGIN_WITHOUT_PWD    0      1  539 
+BBSP_FT_PATH_FORMAT              0      1  540 
+BBSP_FT_STATIC_ADDR_CHECK        0      1  541 
+FT_SSMP_USBPORT_REVERSE          0      0  542 
+BBSP_FT_RG_VLAN_RULE_CONFIG      0      1  543 
+HW_SSMP_FT_WAN_HTTPPORT_CHANGE   0      1  544 
+FT_LAN_DEV_ENABLE_LAY2           0      1  545 
+FT_ROS_TELECOM_GLOBAL            0      1  546 
+FT_BTV_NO_BIND_INETERNET_ROUTE   0      1  547 
+FT_USERDEV_TRAFFIC_HARD_STAT     0      1  548 
+BBSP_FT_REDIAL_AFTER_PADT        0      1  549 
+FT_MONITOR_COLLECTOR_FTP_TFTP    0      1  550 
+HW_FEATURE_CHECKUPG_SPACE        0      1  551 
+BBSP_FT_WAN_ETH_IF_CONFIG        0      1  552 
+FT_APPDBRESET_ALL                0      1  553 
+HW_FT_SSMP_LAN_TRANSPARENT       0      0  554 
+FT_PERF_40                       0      1  555 
+FT_PERF_50                       0      0  556 
+FT_PERF_DROP_ROUTINE_COLLECT     0      1  557 
+FT_PERF_DROP_FILE_REPORT         0      1  558 
+FT_PERF_MONITER_TOTAL_VALUE      0      0  559 
+BBSP_FT_P2P_NAC                  0      0  560 
+HW_SSMP_FT_VIETTEL_WEB_CFG       0      1  561 
+BBSP_FT_VIETTEL_MVLAN_ACT        0      1  562 
+FT_SMART_HOME_SUPPORT            0      0  563 
+FT_CLOSE_WEB_OPEN_BR0            1      1  564 
+FT_OLT_CONFIG_ACCESS_CONTROL     1      1  565 
+FT_WEB_AISCTRL                   1      1  566 
+FT_PPPOE_ALARM                   0      1  567 
+FT_USER_DEV_FILTER_IPV6          0      1  568 
+FT_SSH_PORT_FORWARDING           0      1  569 
+HW_SSMP_FEATURE_BBF247           0      1  570 
+HW_SSMP_FT_CMCC_CLEAR_LOG        0      1  571 
+BBSP_FT_CT_TRACEROUTE_TRANSFORM  0      1  572 
+FT_LANHOSTS_SUPPORT_NOTIFY       0      1  573 
+FT_SSMP_IACCESS_NOGISINFOREPORT  0      1  574 
+FT_SSMP_IACCESS_SUPPORT_LAN      0      1  575 
+HW_FT_OSGI_DPI_PROCAPPIDHOOK     0      1  576 
+AMP_FT_L3_ETH_FLOW               0      1  577 
+HW_FT_AIS_APP_TELNET_ONT         1      1  578 
+FT_ZTE_OLT_QOS_ADPAPT            0      0  579 
+FT_SSMP_KICKOFF_WEB_USER         1      1  580 
+BBSP_FT_GET_LAN_NET_INFO_ONLINE  0      1  581 
+FT_CLOSE_AUTO_ADD_IN_CT_PING     0      1  582 
+FT_IGNORE_OPTION_NEXTHOP         0      1  583 
+FT_IACCESS_SUPPORT_SECONDPLAT    0      1  584 
+FT_INFORM_NEW_STBMAC_ONLY        0      1  585 
+FT_GUEST_USE_ALL_SLVPOOL         0      1  586 
+BBSP_FT_SHXCNCATV                0      1  587 
+BBSP_FT_BTV_FORBID_DEFAULT       0      1  588 
+FT_SSMP_SXGD_WEB_LOGIN_PWD_NULL  0      1  589 
+BBSP_DHCP_OPTION125_SELECT       0      1  590 
+FT_FULLROUTE_KEEP_POLICYROUTE    0      1  591 
+BBSP_FT_DHCPV4_DIA_SAMETIME      0      1  592 
+BBSP_FT_DNS_REDIRECT_LOCAL       0      0  593 
+SSMP_ABROAD_APP_OPERATION_ONT    0      0  594 
+FT_OLT_UTC_TIME                  0      1  595 
+SSMP_TIANYI_APP_OPERATION_ONT    0      0  596 
+FT_CWMP_TCP_NODELAY              0      1  597 
+FT_SSMP_TIANYI_FLASH_CUT_ONT     0      0  598 
+BBSP_FT_MAC_VLAN_RULE_EXT        0      1  599 
+FT_NO_TR069_DNS                  0      1  600 
+BBSP_FT_PCP_NONCE                1      0  601 
+BBSP_FT_STBMAC_INFORM_1BY1       0      1  602 
+BBSP_FT_HOST_SHOW_STBMAC         0      1  603 
+HW_FT_WIFI_NOT_SENSITIVE_TEST    0      1  604 
+HW_FT_WIFI_SENSITIVE_TEST        0      0  605 
+HW_FT_JVM_HEAP_LIMIT_OPTIMIZE    0      0  606 
+FT_COLLECT_MONITOR_REPORT        0      1  607 
+BBSP_FT_DO_NOT_RELEASE           0      1  608 
+BBSP_FT_ONT_LEASING_PACKET       0      1  609 
+HW_AMP_FT_INNER_BUCKLE_EXIST     0      0  610 
+BBSP_FT_GET_HOST_INFO_ONLINE     0      1  611 
+FT_PLUGIN_VERSION_CHECK_ON       0      0  612 
+HW_FT_CFG_LOG_SPLIT              0      1  613 
+BBSP_FT_STB_ZERO_PORT_MAC        0      1  614 
+HW_FT_LOG_HIDE_PANIC             1      1  615 
+SSMP_FT_PPP_TR143_MODIFYMSS      0      0  616 
+FT_SSMP_CTREE_ENCRYPT_KEY        0      1  617 
+FT_IACCESS_USE_SPECSN            0      1  618 
+FT_WEB_FORCE_PASSWORD            0      1  619 
+BBSP_FT_BTV_PART_PUB_CONF        0      1  620 
+FT_CWMP_GPV_SPECIAL_SET          0      1  621 
+BBSP_FT_TRANSLATE_FLOW_MERGE     0      1  622 
+FT_TI_GEM_ENQUEUE                0      1  623 
+FT_WEB_DIRECT_HTTPS_BHARTI       0      1  624 
+HW_SSMP_FT_LOG_PSI_CFG           0      0  625 
+SSMP_FT_SNTP_TR069WAN_SYN        0      1  626 
+FT_LOCAL_DNS_ALL_WAN             0      1  627 
+BBSP_FT_DSCP_DEFAULT_PRI         0      0  628 
+FT_SET_PON_PSWD_OFFLINE          0      1  4096
+FT_WLAN_NOT_TRIM_SSID            0      1  4097
+HW_AMP_FEATURE_CNT               0      1  4098
+HW_AMP_FEATURE_APPM_NOT_START    0      1  4099
+FT_IGNORE_PQ_MODE                0      1  4100
+HW_AMP_FEATURE_SINGLE_WLAN       0      0  4101
+HW_AMP_FEATURE_DOUBLE_WLAN       0      0  4102
+HW_AMP_FEATURE_11AC              0      0  4103
+HW_AMP_FEATURE_GZCMCC            0      1  4104
+HW_AMP_FEATURE_BBF247            0      1  4105
+HW_AMP_FEATURE_NC                0      1  4106
+HW_AMP_FEATURE_STARHUBNC         0      1  4107
+HW_AMP_FEATURE_TELECOM           0      1  4108
+HW_AMP_FEATURE_DT_HUNGARY        0      1  4109
+HW_AMP_FEATURE_PCCW              0      1  4110
+HW_AMP_FEATURE_NWT               0      1  4111
+HW_AMP_FEATURE_BT                0      1  4112
+HW_AMP_FEATURE_SONET             0      1  4113
+HW_AMP_FEATURE_WAPI              0      1  4114
+HW_AMP_FEATURE_UNE               0      1  4115
+HW_AMP_FEATURE_FORBID_SN         0      1  4116
+HW_AMP_FEATURE_FT                0      1  4117
+HW_AMP_FT_AUTOCHAN_11            0      1  4118
+HW_AMP_FEATURE_TXDIS_LOSON       0      1  4119
+HW_AMP_FT_CU_LED_MODE            0      1  4120
+HW_AMP_FEATURE_WDS               0      1  4121
+HW_AMP_FEATURE_RMS               0      1  4122
+HW_AMP_FT_CMCC_ISP               0      1  4123
+HW_AMP_FEATURE_PWR_LMT           1      1  4124
+HW_AMP_FEATURE_RF_SPECLIGHT      0      1  4125
+HW_AMP_FEATURE_SET_WLAN_ADV_PAR  0      1  4126
+HW_AMP_FEATURE_SET_REGULATORYDO  0      1  4127
+HW_AMP_FEATURE_ADD_OR_DEL_SSID_  0      1  4128
+HW_AMP_FEATURE_SET_PON_PASSWORD  0      1  4129
+HW_AMP_FEATURE_SHOW_PASSWORD     1      1  4130
+HW_AMP_FEATURE_SHOW_ISPSSID      0      1  4131
+HW_AMP_FEATURE_PTVDF             0      1  4132
+HW_AMP_FEATURE_SSID1_STARTWITH_  0      1  4133
+HW_AMP_FEATURE_LNCU              0      1  4134
+HW_AMP_FEATURE_ETHREBOOT_BYPON   0      1  4135
+HW_AMP_FEATURE_NON_FIRST_SSID_F  0      1  4136
+HW_AMP_FEATURE_WPS_TIMEOUT       0      1  4137
+HW_AMP_FEATURE_WPS_MULIT_PBC     0      1  4138
+AMP_FT_SN_HIDDEN                 0      1  4139
+HW_AMP_FEATURE_ONLY_SSID1        0      1  4140
+HW_AMP_FEATURE_NERGHBORAP_MASK   0      1  4141
+HW_AMP_FEATURE_RECUR_JUMP        0      1  4142
+HW_AMP_FEATURE_LOIDAUTHLED       0      1  4143
+HW_AMP_FEATURE_FORBID_DGI        0      1  4144
+AMP_FT_WIFI_WORK_MODE            0      1  4145
+AMP_FT_REMOVE_CROSSWALL          0      1  4146
+HW_AMP_FEATURE_LOS_ASSERT_CLEAR  0      1  4147
+HW_AMP_FEATURE_TRIPLET_3BB       0      1  4148
+HW_AMP_FEATURE_AIS               1      1  4149
+AMP_FT_SPECIAL_AUTH_SHOW         0      1  4150
+HW_AMP_FEATURE_WIFI_POWER_FIX    0      1  4151
+HW_AMP_FEATURE_OPTIC             1      0  4152
+HW_AMP_FEATURE_BOARD_P2P_RF      0      0  4153
+HW_AMP_FEATURE_WLAN_ENABLE_ITMS  0      1  4154
+PDT_FT_WLAN_PWD_TR069_PLAINTEXT  0      1  4155
+HW_AMP_FEATURE_ISPSSID_VISIBILI  0      1  4156
+HW_AMP_FEATURE_TX_BEAMFORMING_S  0      1  4157
+HW_AMP_FEATURE_TDE_HG8141W_LIGH  0      1  4158
+HW_AMP_FEATURE_MCS_VISIBILITY    0      1  4159
+HW_AMP_FEATURE_TDE_SEPCIAL_CHAR  0      1  4160
+HW_AMP_FEATURE_CHANNEL_WIDTH     0      1  4161
+HW_AMP_FEATURE_ONT_AUTHENTICATI  0      1  4162
+HW_AMP_FEATURE_WLAN_MODE_N       0      1  4163
+AMP_FT_RSSI_THRESHOLD            0      1  4164
+HW_AMP_FT_SPEEDTEST_BTV          0      1  4165
+HW_AMP_FEATURE_TRUERG            0      1  4166
+HW_AMP_FEATURE_TRUE              0      1  4167
+FT_WLAN_MAC_CONTROL_ENABLE       0      1  4168
+FT_WLAN_KEY_PROCLAIM_ENABLE      0      1  4169
+FT_WLAN_CAMERA_WIFI_LED          0      1  4170
+AMP_FT_CATV_LED_BY_POWER         0      1  4171
+HW_AMP_FT_IPONLY                 0      1  4172
+HW_AMP_FT_IOT_ZIGBEE_EXIST       0      0  4173
+HW_AMP_FT_FEATURE_AWIFI          0      1  4174
+HW_AMP_GDCT_APMODULEENABLE_INFO  0      1  4175
+AMP_FT_WLAN_AUTO_ANTIJAM         0      1  4176
+AMP_FT_WLAN_FOBID_ASSOC          0      1  4177
+HW_AMP_FT_LAN_WAIT_WIFI          0      1  4178
+HW_AMP_FEATURE_TDEWIFI           0      1  4179
+HW_AMP_FEATURE_11ACONLY          0      1  4180
+HW_AMP_FEATURE_FON_CERTIFY       0      1  4181
+HW_AMP_FEATURE_UPNP_CONFIG       0      1  4182
+HW_AMP_FT_IOT_ZWAVE_EXIST        0      0  4183
+AMP_FT_RF_ADJUST                 0      1  4184
+HW_AMP_FT_1LED2COLOR_LIGHT_CTC   0      1  4185
+HW_AMP_FT_LED_MODE_TIANYI        0      1  4186
+HW_AMP_FEATURE_SCS_SUPPORT       0      1  4187
+HW_AMP_FEATURE_WIFI_COUNTRY_FIX  0      1  4188
+FT_PLUGIN_PERMISSION_CONTROL_ON  0      1  4189
+HW_AMP_FEATURE_BYTEL             0      1  4190
+FT_AMP_ETH_INFO_TIANYI           0      1  4191
+FT_WLAN_AUTOCHANNELSCOPE         0      1  4192
+HW_AMP_FEATURE_WIFI_COUNTRY_SHO  1      1  4193
+HW_AMP_FEATURE_U2000_WLANENABLE  0      1  4194
+FT_WLAN_CABLEVISION              0      1  4195
+FT_NO_NEED_LISTEN_MT_PORT        0      1  4196
+HW_AMP_CMCC_RMS_HUB              0      1  4197
+BBSP_FT_TEMPLATE_CAPTURE         0      1  4198
+BBSP_FT_RFC2544                  0      1  4199
+FT_CMCC_RMS_OSGI                 0      1  4200
+BBSP_FT_DISNAMEANDPWD            1      1  4201
+BBSP_FT_PARENT_TIMTE_FILTER      0      1  4202
+FT_MAC_ROUTE_E8C_OPTION60        0      1  4203
+FT_MSSADJUST_FOR_ROUTEWAN        0      1  4204
+BBSP_FT_WEB_WAN_STATISTIC        0      1  4205
+BBSP_FT_AIS_TELNET               0      1  4206
+BBSP_FT_WEB_TELNET_HIDE          0      1  4207
+FT_FULLROUTE_ROUTEVOICEWAN_NAT   0      1  4208
+FT_PPPV6_ONDEMAND_DEPENDON_V4    0      1  4209
+FT_DATASPEEDLIMIT_NOT_EFFECT     0      1  4210
+BBSP_FT_HIDE_MLD_CONFIGURE       0      1  4211
+BBSP_FT_STB_ZERO_CONFIG_EXT      0      1  4212
+FT_LANPREFIX_STORE_ON            0      1  4213
+BBSP_FT_XJCT                     0      1  4214
+BBSP_FT_HENCT                    0      1  4215
+BBSP_FT_HEBCT                    0      1  4216
+BBSP_FT_GXCT                     0      1  4217
+BBSP_FT_FORBID_LAN_TR069_ACCESS  0      1  4218
+FT_BBSP_DNS_NSFOCUS              0      1  4219
+FT_BBSP_TRACEROUTE_NSFOCUS       0      1  4220
+FT_VOICE_WAN_MODE_CHECK          0      1  4221
+FT_PIE_FAST_ACK                  0      1  4222
+FT_FAST_ACK_SUPPORT_SACK         1      1  4223
+BBSP_FT_FORCERENEW_LAN_UPDOWN    0      1  4224
+BBSP_FT_NSLOOKUP_RESPONSETIME    0      1  4225
+BBSP_FT_BELTELECOM               0      1  4226
+BBSP_FT_WEB_CONFIG_DNS           0      1  4227
+HW_BBSP_FT_SET_IPIF_NAME         1      1  4228
+FT_SLAVE_NO_ASSIGN_ADDR          0      1  4229
+BBSP_FT_SONET                    0      1  4230
+BBSP_FT_SONET_HN8055Q            0      1  4231
+BBSP_FT_TRIPLET                  0      1  4232
+BBSP_FT_HU                       0      1  4233
+BBSP_FT_PTVDF                    0      1  4234
+BBSP_FT_TR069_WAN_ONLY_READ      0      1  4235
+BBSP_FT_L2_BC_TO_CPU_USE_ACL     0      1  4236
+BBSP_FT_INTERNET_LED_TRI_STATE   0      1  4237
+BBSP_FT_INTERNET_LED_EXIST       0      1  4238
+BBSP_FT_SMART_QOS_EXT            0      1  4239
+BBSP_FT_PARENTAL_CTRL_URL_FLT    0      0  4240
+BBSP_FT_IPPROTOCOL_VER           0      1  4241
+BBSP_FT_MULTICAST_TO_UNICAST     0      1  4242
+BBSP_FT_DHCPS _COND_POOL         0      0  4243
+BBSP_FT_LOCAL_SWITCH             0      1  4244
+BBSP_FT_BRIDGEWAN_AUTO_PPPOEEM   0      0  4245
+BBSP_FT_E8C_PK_IGMPENABLE        0      1  4246
+BBSP_FT_CMCC_TLS                 0      1  4247
+BBSP_FT_WAN_STATISTICS           0      0  4248
+BBSP_FT_PTVDFB                   0      1  4249
+BBSP_FT_TELECOM                  0      1  4250
+BBSP_FT_SOFTGRE                  0      1  4251
+HW_BBSP_FT_HIDE_IPINTERFACE_2    0      1  4252
+BBSP_FT_BJUNICOM                 0      1  4253
+BBSP_FT_DROP_NNI_PADI_PADR       0      1  4254
+BBSP_FT_UNICOM_DIS_VOICE         0      1  4255
+BBSP_FT_PORTMAPPING_ADMIN        0      1  4256
+HW_BBSP_FEATURE_IPV6_UNNUMBER    0      1  4257
+BBSP_FT_LAN_SEC_DIS              1      1  4258
+BBSP_FT_IPV6_PORTMAPPING         0      0  4259
+BBSP_FT_IPV6_IPFILTER            0      0  4260
+FT_NOMAL_HIDE_DHCP_RELAY_125     0      1  4261
+FT_NOMAL_NO_RIGHT_SLAVE_POOL     0      1  4262
+BBSP_FT_GUIDE_PPPOE_WAN_CFG      0      0  4263
+FT_WAN_SRC_IP_DROP               0      1  4264
+BBSP_FT_ACL_CUT                  1      0  4265
+L2M_PDT_LAN_UNICAST_ISOLATE      0      1  4266
+FT_NORMAL_ONLY_SHOW_PPPOE_INFO   1      1  4267
+BBSP_FT_SCCT                     0      1  4268
+HW_FT_DHCP_CHECK_STATIC_ARP      0      1  4269
+BBSP_FT_BTV_ALL_PORT             0      0  4270
+BBSP_FT_OTT_FIRST_SWITCH         0      0  4271
+BBSP_FT_RINGCHK_ONEPORT_DOWN     0      1  4272
+BBSP_FT_USERDEV_TRAFFIC          0      1  4273
+BBSP_FT_DEF_RT6_NODE             0      1  4274
+HW_BBSP_FT_FEATURE_TDE           0      1  4275
+FT_DHCP_EXP_BACKOFF              0      1  4276
+BBSP_FT_DMZ_INTERFACE            0      1  4277
+BBSP_FT_VEDIO_DIAG_MIN_CAR       1      1  4278
+BBSP_FT_TAG_TYPE                 1      1  4279
+BBSP_FT_DHCPC_LAST_IP_CFG        0      1  4280
+BBSP_FT_NETOPEN_SERVER_DNS       0      1  4281
+BBSP_FT_LANHTTP_EDIT_DISABLE     0      1  4282
+FT_MULTICAST_VLAN_TAG            0      1  4283
+BBSP_FT_ACCESS_CONTROL           1      1  4284
+FT_LAN_SPLIT_ADDR_ADRESSPOOL     0      1  4285
+FT_OSGI_REGISTER_ONDEMAND_WAN    0      1  4286
+BBSP_FT_SINGTEL_EX               0      1  4287
+BBSP_FT_SINGTEL_IGMP             0      1  4288
+BBSP_FT_USER_MOD_PPPOE           0      1  4289
+BBSP_FT_IPTV_OPT60_ENCRY         0      1  4290
+BBSP_FT_NO_FILTER_TELNET         0      1  4291
+BBSP_FT_OPTION250_MACVLAN        0      1  4292
+BBSP_FT_TR069_VOIP_NOMTU         0      1  4293
+BBSP_FT_ACCESS_EQUIPMENT_MAC     0      1  4294
+BBSP_FT_OPTION_POLICY            0      1  4295
+BBSP_FT_DECOUPLE_IPIF_DHCPD      0      1  4296
+BBSP_FT_PPPUSER_RELATE_SET       0      1  4297
+FT_LAN_HOST_MAX_CFG              0      1  4298
+FT_USERDEV_TRAFFIC_WLANSHOW      0      0  4299
+HW_SSMP_FEATURE_AHCMCC           0      1  4300
+FT_WEB_FORCESUPPORT              0      1  4301
+FT_WEB_PDTTYPE_JSCMCC            0      1  4302
+FT_SSMP_PLUGIN_CFGDEF            0      1  4303
+FT_CWMP_INFORM_STBID             0      0  4304
+FT_CWMP_USERDEV_IPMAC_REPORT     0      1  4305
+FT_SMARTSTATUS_NORMAL            0      1  4306
+FT_WEB_OVERSEA_REGIST_PAGE       0      1  4307
+FT_BJCT_UPSPEED_TEST             0      1  4308
+BBSP_FT_WAN_LAN_TELNET_BOTH_TAP  0      1  4309
+HW_SSMP_FEATURE_ZJCMCC_RMS       0      1  4310
+FT_AUTO_GENERATE_LOID            0      1  4311
+FT_E8C_QOE                       0      1  4312
+FT_SPEED_TEST_ACK                1      1  4313
+FT_SSMP_AUDIT_PLUGIN             0      1  4314
+FT_CWMP_NODE_AUDIT_PLUGIN        0      1  4315
+FT_CWMP_AUDIT_ON_INTERNET_WAN    0      1  4316
+HW_SSMP_FEATURE_MNGT_HUBCT       0      1  4317
+HW_SSMP_FEATURE_MNGT_SDCU        0      1  4318
+HW_SSMP_FEATURE_MNGT_BJCT        0      1  4319
+HW_SSMP_FEATURE_MNGT_ENTEL       0      1  4320
+HW_SSMP_FEATURE_MNGT_NMGCT       0      1  4321
+HW_SSMP_FEATURE_MNGT_TJCU        0      1  4322
+HW_SSMP_FEATURE_MNGT_TJCT        0      1  4323
+HW_SSMP_FEATURE_MNGT_GXCT        0      1  4324
+HW_SSMP_FEATURE_MNGT_GDCMCC      0      1  4325
+HW_SSMP_FEATURE_MNGT_JSCMCC      0      1  4326
+HW_SSMP_FEATURE_MNGT_YNCMCC      0      1  4327
+HW_SSMP_FEATURE_MNGT_GLOBE       0      1  4328
+HW_SSMP_FEATURE_MNGT_BYTEL       0      1  4329
+FT_DNS_OPENTIME_SHOW             0      1  4330
+FT_RMS_SPEEDTEST_UNICOM          0      1  4331
+FT_HTTP_SPEEDTEST_UNICOM         0      1  4332
+FT_SSMP_UPDN_LOCALTIME           0      1  4333
+FT_CMCC_HIDE_LOIDREG             0      1  4334
+HW_FT_SSMP_LAN_TRANSPAREN        0      1  4335
+FT_SSMP_HIGHTEMPERATURE          0      0  4336
+HW_SSMP_FEATURE_RUNNINGTIME      0      1  4337
+HW_SSMP_FT_QOE_CDN               0      1  4338
+FT_PRONAME_WITHOUT_ETHERNET      0      1  4339
+FT_INFORM_SPECIAL_SN             0      1  4340
+FT_SET_CMD_RIGTHE_INIT           0      1  4341
+FT_SSMP_IACCESS_ACS_SUPPORT      0      1  4342
+FT_SSMP_IACCESS_WEB_RESTORE      0      1  4343
+FT_GMACCHIP_SHOW5116H            0      1  4344
+FT_GMACCHIP_SHOW5116             0      1  4345
+FT_NORMAL_UPDOWNLOADCFG          0      1  4346
+FT_FIRMWARE_UPGRADE_PAGE         0      1  4347
+FT_VERSION_FORMAT_DOT_ALLCHANNE  0      1  4348
+FT_SSMP_CLR_WEB_LOGIN_FAILCNT    0      1  4349
+FT_RMS_REGISTER_LOID_PASSWORD    0      1  4350
+FT_SAVE_PASSWORD_AND_LOID        0      1  4351
+FT_WEB_MODIFY_OWNER_PWD          0      1  4352
+FT_SSMP_AIS_DOWNGRADE_CHECK      0      1  4353
+FT_MONITORCOLL_PARALIST_NO_WAN   0      1  4354
+HW_SSMP_FEATURE_JSCT_ADD_E       0      1  4355
+FT_SSMP_AIS_HUMAX                1      1  4356
+FT_SSMP_STBBIND                  0      1  4357
+FT_SSMP_STBBIND_EX               0      1  4358
+HW_SSMP_FEATURE_MNGT_SHXCT       0      1  4359
+HW_SSMP_FEATURE_CLEAR_GEOGRAPHY  0      1  4360
+FT_SET_LOID_BY_APP_URL           0      1  4361
+FT_SSMP_TESTURL_EUPPPOE          0      1  4362
+FT_OSGI_CHECK_MAC_SN             0      1  4363
+FT_OSGI_CHECK_MAC_PASSWORD       0      1  4364
+HW_OSGI_FT_HANGZHOUMARK          0      1  4365
+HW_OSGI_FT_CIOTMARK              0      1  4366
+HW_OSGI_FT_HIDEHUAWEI            0      1  4367
+FT_SSMP_AUTH_PASSWORD            0      1  4368
+FT_SSMP_RESETKEY_DEFALT_ALL      0      1  4369
+FT_SSMP_CFGRESET_CLEAR_LOID      0      1  4370
+FT_SSMP_CMCC_ADD_PPPOENAME       0      1  4371
+FT_SSMP_NOT_SUPPORT_LOIDJUMP     0      1  4372
+FT_SSMP_APP_CHECK_LOGININFO      1      1  4373
+FT_MNGT_GLOBE2                   0      1  4374
+FT_CLOSE_USB_POWER               0      1  4375
+SSMP_FT_SHOWFTPPAGE              0      0  4376
+HW_SSMP_FEATURE_BT_COUL          0      0  4377
+HW_SSMP_FEATURE_UPSBAT_ALARM     0      1  4378
+FT_BIND_EVENT_WITH_LONGRESET     0      1  4379
+HW_SSMP_FEATURE_MNGT_JLCT        0      1  4380
+HW_SSMP_FEATURE_MNGT_SDCT        0      1  4381
+HW_SSMP_FEATURE_MNGT_HAINCT      0      1  4382
+HW_SSMP_FEATURE_MNGT_SONET       0      1  4383
+HW_SSMP_FEATURE_MNGT_MGTS        0      1  4384
+HW_SSMP_FEATURE_MNGT_TELECOM     0      1  4385
+HW_SSMP_FEATURE_WEB_LOIDREG      0      1  4386
+HW_SSMP_FEATURE_WEB_OPTICDETECT  0      0  4387
+HW_SSMP_FEATURE_DM_LEDSWITCH     1      1  4388
+HW_SSMP_FEATURE_DM_SMBA          0      0  4389
+HW_SSMP_FEATURE_DM_LEDRESETKEY   0      0  4390
+HW_SSMP_FEATURE_DLNA             0      0  4391
+HW_SSMP_FEATURE_MODIFYPWDPAGE    1      1  4392
+HW_SSMP_FEATURE_UNCHANGEURL      0      1  4393
+HW_SSMP_FEATURE_UNCHANGEUSER     0      1  4394
+HW_SSMP_FEATURE_UNCHANGEPERIOD   0      1  4395
+HW_SSMP_FEATURE_DISABLEACSAPPLY  0      1  4396
+HW_SSMP_FEATURE_UNCHANGETIME     0      1  4397
+HW_SSMP_FEATURE_MONITORDIAG      0      1  4398
+HW_SSMP_FEATURE_DM_RESETLED      0      1  4399
+HW_SSMP_PONONLINE_DISABLEREG     0      0  4400
+HW_SSMP_FEATURE_SHOWCPUMEM       1      1  4401
+HW_SSMP_FEATURE_WEBSSLPAGE       0      0  4402
+HW_SSMP_FEATURE_WEBADMIN_EXIST   1      1  4403
+HW_SSMP_FEATURE_E8C_LONGRESET    0      1  4404
+HW_SSMP_FEATURE_ONT_WEBPASSWORD  1      1  4405
+HW_SSMP_FT_OTHEROLT_BLOCKAPP     0      1  4406
+SSMP_FEATURE_MNGT_DT_HUNGARY     0      1  4407
+HW_SSMP_FEATURE_WEB_PWD_CHECK    0      1  4408
+HW_SSMP_FEATURE_UMTS_SUPPORT     0      1  4409
+HW_SSMP_FEATURE_DUAL_CORE        0      1  4410
+HW_SSMP_FEATURE_NWT              0      1  4411
+HW_SSMP_FEATURE_WEB_BJUNICOM     0      1  4412
+SSMP_FT_ONE_COMMON_WEBUSER       0      1  4413
+HW_SSMP_FEATURE_WEB_SONET        0      1  4414
+HW_SSMP_FEATURE_KEYSAVE_SUPPORT  0      1  4415
+HW_SSMP_FEATURE_DISPLAYTR069     0      1  4416
+HW_SSMP_FEATURE_FT_VERSION       0      1  4417
+HW_SSMP_FEATURE_PRINTK_SILENCE   0      1  4418
+FT_WEB_MODIFY_USER_PWD           0      1  4419
+FT_LTE_SUPPORT                   0      1  4420
+HW_OSGI_FT_BUNDLELOADWEB         0      1  4421
+FT_SUPPORT_RESTORE_LED_STATUS    0      1  4422
+FT_WEB_DISPLAY_LOIDREG           1      1  4423
+FT_DM_CFGRESET_SAVE_LOID         0      1  4424
+HW_SSMP_FT_SIMULATE_PROGRESS     0      1  4425
+HW_SSMP_FEATURE_CHECKCODE        0      1  4426
+HW_FEATURE_ADPT_ALOLT_VERISON    0      1  4427
+HW_SSMP_FT_PON_WEB_PAGE          1      0  4428
+HW_SSMP_FEATURE_GXBMONITOR       0      0  4429
+HW_SSMP_FEATURE_YUEME            0      1  4430
+SSMP_FT_FLICKERPOWER_POWERON     0      1  4431
+FT_FEATURE_SINGTEL               0      1  4432
+HW_SSMP_FEATURE_RESET_NO_LOGIN   0      1  4433
+HW_SSMP_FEATURE_CMCC_RMS         0      1  4434
+FT_SET_LOID_BY_URL               0      1  4435
+FT_SSMP_VERSION_FORMAT_DOT       0      1  4436
+HW_SSMP_FT_WEB_3BBJUMP           0      1  4437
+HW_SSMP_FEATURE_MU_DEFCOMMON     1      1  4438
+FT_FEATURE_BZTLF                 0      1  4439
+HW_SSMP_FEATURE_CQCMCC           0      1  4440
+HW_SSMP_FEATURE_DEVICEINFO       0      1  4441
+FT_CTCUSTOM_VERSION              0      1  4442
+HW_SSMP_FEATURE_UPGRADECHECK     0      1  4443
+FT_CWMP_CMCC_RMS                 0      1  4444
+FT_CWMP_UPDIAGNOSE_SCCT          0      1  4445
+FT_FEATURE_TDECOMMON             0      1  4446
+SSMP_FT_CLI_NO_AUTH              0      1  4447
+VOICE_FT_WEB_PBXPrefix           0      0  4448
+
+=======================================================
+Start run collect command:SHELL:cat /proc/wap_proc/spec
+ cat /proc/wap_proc/spec
+SpecName                         Type   Len  Value 
+AMP_SPEC_ALL_ISP_RATE_LIMIT      uint   4    10000
+AMP_SPEC_ANT_GAIN                uint   4    2
+AMP_SPEC_EPON_MODE               uint   4    1
+AMP_SPEC_GEMPORT_NUM             uint   4    32
+AMP_SPEC_MAX_MACFILTER_NUM       uint   4    8
+AMP_SPEC_MAX_STA_NUM             uint   4    32
+AMP_SPEC_MULTI_LLID_NUM          uint   4    1
+AMP_SPEC_MULTI_SUB_CFG_ATTR_SIX  uint   4    1
+AMP_SPEC_NOT_UPLOAD_ME           string 4    "329"
+AMP_SPEC_PQPERLLID_NUM           uint   4    4
+AMP_SPEC_PQPERPORT_NUM           uint   4    8
+AMP_SPEC_PQPERTCONT_NUM          uint   4    8
+AMP_SPEC_REPORT_EQUIP_ID         uint   4    0
+AMP_SPEC_REPORT_EQUIP_ID_LIST    string 1    ""
+AMP_SPEC_SRINDICATION            uint   4    1
+AMP_SPEC_SSID_NUM_MAX_BAND       uint   4    4
+AMP_SPEC_STATISTICS_PERIOD       uint   4    0
+AMP_SPEC_TCONT_NUM               uint   4    8
+AMP_SPEC_UNI_LLID_NUM            uint   4    1
+BBSP_SPEC_ACCESS_WEB_FROM_OMCI   string 4    "WAN"
+BBSP_SPEC_CPUQOS_ARP_CAR         uint   4    800
+BBSP_SPEC_CPUQOS_DHCPv4_CAR      uint   4    800
+BBSP_SPEC_CPUQOS_DHCPv6_CAR      uint   4    800
+BBSP_SPEC_CPUQOS_ICMPv6_CAR      uint   4    800
+BBSP_SPEC_CPUQOS_L2UNMULTI_CAR   uint   4    1000
+BBSP_SPEC_CPUQOS_MAX_IN_CAR      uint   4    45000
+BBSP_SPEC_CPUQOS_MIN_IN_CAR      uint   4    200
+BBSP_SPEC_CPUQOS_PPPoE_CTL_CAR   uint   4    800
+BBSP_SPEC_CPUQOS_WEB_CAR         uint   4    1000
+BBSP_SPEC_CPUS_RPS_PLAN          uint   4    0
+BBSP_SPEC_CPU_BEFOR_VOICE_CAR    uint   4    30000
+BBSP_SPEC_DNS_DOMAINNAME         string 1    ""
+BBSP_SPEC_DPI_PKTLIMIT_NUM       uint   4    160
+BBSP_SPEC_DS_IPV6_CAR            uint   4    0
+BBSP_SPEC_DS_LITE_CAR            uint   4    0
+BBSP_SPEC_ETHOAM_MA              uint   4    16
+BBSP_SPEC_ETHOAM_MD              uint   4    8
+BBSP_SPEC_ETHOAM_MEP             uint   4    16
+BBSP_SPEC_ETHOAM_MEP_LAN         uint   4    8
+BBSP_SPEC_ETHOAM_MEP_PON         uint   4    8
+BBSP_SPEC_ETHOAM_MEP_TAG_MODE    uint   4    1
+BBSP_SPEC_ETHOAM_PM              uint   4    1
+BBSP_SPEC_ETHOAM_PM_PER_MEP      uint   4    1
+BBSP_SPEC_FILTERWAN_BYVLAN       string 3    "-1"
+BBSP_SPEC_FWD_SESSIONNUM         uint   4    16000
+BBSP_SPEC_IFM_WANNUM             uint   4    8
+BBSP_SPEC_IGMP_MODE              string 5    "GPON"
+BBSP_SPEC_IGMP_PROGRAMNUM        uint   4    255
+BBSP_SPEC_IGMP_USERNUM_PERPORT   uint   4    32
+BBSP_SPEC_IPV4_ROUTE_MAXNUM      uint   4    32
+BBSP_SPEC_IPV6_ROUTE_MAXNUM      uint   4    32
+BBSP_SPEC_IPV6_SESSIONNUM        uint   4    8192
+BBSP_SPEC_IPV6_SESSION_FWD_TYPE  uint   4    1
+BBSP_SPEC_IP_FPM_STAS_NUM        uint   4    0
+BBSP_SPEC_L2_UNI_NATIVE_VLAN     uint   4    1
+BBSP_SPEC_L3_UNI_NATIVE_VLAN     uint   4    4095
+BBSP_SPEC_LAN_DHCPADDMAX         string 1    ""
+BBSP_SPEC_LAN_DHCPADDMIN         string 1    ""
+BBSP_SPEC_MACLEARN_DEPTH         uint   4    1024
+BBSP_SPEC_MACLEARN_DISABLE_CAP   uint   4    1
+BBSP_SPEC_MOBILE_TERMINAL        string 47   "HUAWEI_Mate;HUAWEI_P;android;iPhone;Honor;vivo"
+BBSP_SPEC_NAPT_ASYMMETRY_ACC     uint   4    1
+BBSP_SPEC_NAPT_DIR_ATTR          string 10   "SEPARATED"
+BBSP_SPEC_NAPT_ITEM_NUM          uint   4    8192
+BBSP_SPEC_NAPT_MODE              string 35   "BBSP_SPEC_PORT_RESTRICTED_CONE_NAT"
+BBSP_SPEC_NAT_PORTMAPNUM         uint   4    32
+BBSP_SPEC_NAT_PORTTRIGGERNUM     uint   4    32
+BBSP_SPEC_QOSMODE_EFFECT         string 29   "BBSP_SPEC_QOSCFG_ENQUEUE_PRI"
+BBSP_SPEC_QOS_QUEUENUM           uint   4    128
+BBSP_SPEC_QOS_QUEUENUMPERPORT    uint   4    4
+BBSP_SPEC_REMOTEWAN_ASSIGN_ID    uint   4    0
+BBSP_SPEC_RINGCHK_VLAN_SHCT      string 17   "0,82,83,85,45,46"
+BBSP_SPEC_RIP_RATE               uint   4    40
+BBSP_SPEC_RIP_ROUTENUM           uint   4    128
+BBSP_SPEC_ROSTEL_GRE_OPT60       string 1    ""
+BBSP_SPEC_ROUTEWAN_MAXNUM        uint   4    8
+BBSP_SPEC_SEC_SIPWHITENUM        uint   4    4
+BBSP_SPEC_SERVICELIST_INT_KEY    string 4    "HSI"
+BBSP_SPEC_SERVICELIST_IPTV_KEY   string 5    "IPTV"
+BBSP_SPEC_SERVICELIST_TR069_KEY  string 4    "ACS"
+BBSP_SPEC_SERVICELIST_VOIP_KEY   string 6    "VOICE"
+BBSP_SPEC_TRFFIC_BURST_CHK_NUM   uint   4    2
+BBSP_SPEC_UNTAGWAN_FWD_MODE      uint   4    1
+BBSP_SPEC_USR_CFG_ROUTE_MAXNUM   uint   4    256
+BBSP_SPEC_V4V6_CAP               uint   4    3
+BBSP_SPEC_VLAN_CONFLICT_PROC     uint   4    1
+BBSP_SPEC_VLAN_SWITCH_NUM        uint   4    0
+BBSP_SPEC_WANBTV_RATELIMIT_NUM   uint   4    64
+BBSP_SPEC_WAN_IPORPPPCONNNUM     uint   4    2
+BBSP_SPEC_Y1731_MULTI_PRI_SPT    uint   4    1
+CWMP_SPEC_TRANSCOMPLE_VERSION    string 22   "V300R016C10SPC100B011"
+HW_SPEC_APP_UPGRADECHECK_SPACE   uint   4    5120
+HW_SPEC_CHECKIMGUPG_SPACE        uint   4    1024
+OPTION60_BIND_COUNT_IN_GROUP     uint   4    8
+OPTION60_BIND_OPTIONGROUP_CNT    uint   4    4
+OPTION60_MACBIND_DHCPRECORDCNT   uint   4    32
+OSGI_SPEC_FORBID_PREBUNDLE_LIST  string 30   "/etc/wap/customize/plugin_pre"
+OSGI_SPEC_SECURITY_CFG           string 27   "/etc/wap/customize/cpa.txt"
+OSGI_SPEC_SYSBUNDLE_LIST         string 30   "/etc/wap/customize/plugin_sys"
+SPEC_APPREMOTE_VERSION           string 4    "1.0"
+SPEC_CPUS_BALANCE_PLAN           uint   4    0
+SPEC_DATA_MODEL_MAP              string 1    ""
+SPEC_DHCP_BACKOFF_DURATION       string 1    ""
+SPEC_FAST_ACK_ENCAP_OP_NUM       uint   4    3
+SPEC_FAST_ACK_FLOW_CNT           uint   4    0
+SPEC_FAST_ACK_SACK_SKIP_PKT_NUM  uint   4    20
+SPEC_FAST_ACK_TCPRMEMDEFAULT     uint   4    640000
+SPEC_FAST_ACK_TCPRMEMMAX         uint   4    1024000
+SPEC_FAST_ACK_TCPRMEMMIN         uint   4    4096
+SPEC_FAST_ACK_WARNING_FACTOR     uint   4    128
+SPEC_FAST_ACK_WARNING_SACKCNT    uint   4    3
+SPEC_FAST_ACK_WARNING_TIME       uint   4    1000
+SPEC_FAST_ACK_WIN_SIZE           uint   4    3000
+SPEC_FAST_SACK_OPTION_CNT        uint   4    128
+SPEC_IACCESS_SECONDPLAT_URL      string 1    ""
+SPEC_IPV4_IPoE_MIN_MTU           uint   4    1000
+SPEC_IPV4_PPPoE_MIN_MTU          uint   4    120
+SPEC_IPV6_MIN_MTU                uint   4    1280
+SPEC_ISOLATE_DHCP_POOL           string 1    ""
+SPEC_ITRANSINIT                  uint   4    10
+SPEC_ITXINITE                    uint   4    12
+SPEC_JVM_SMOOTH_LIST             string 37   "/etc/wap/customize/plugin_pre_smooth"
+SPEC_LAN_DEV_LAY2_SOURCE         string 12   "X_HW_BRIDGE"
+SPEC_LOACALRESET_LED_FREQUENCE   uint   4    0
+SPEC_LOWER_LAYER_MAX_MTU         uint   4    1500
+SPEC_LTE_NET_MODE                uint   4    4
+SPEC_MAC_TRAFFIC_STAS_NUM        uint   4    8
+SPEC_MMNGX_DLWAITTIME            uint   4    0
+SPEC_MONITOR_FILE_PREFIX         uint   4    0
+SPEC_NOT_REFRESH_KEY_SUPPORT     uint   4    1
+SPEC_NO_HTTPS_JUMP               string 1    ""
+SPEC_O4_LIGHT_OPEN_TIME          uint   4    5
+SPEC_O4_LIGHT_STABLE_TIME        uint   4    20
+SPEC_O4_WAIT_EQD_TIME            uint   4    10
+SPEC_O4_WAIT_POP_UPTIME          uint   4    18
+SPEC_O5RANG_FLAG                 uint   4    1
+SPEC_O5_LIGHT_OPEN_TIME          uint   4    2
+SPEC_O5_LIGHT_STABLE_TIME        uint   4    10
+SPEC_O5_WAIT_EQD_TIME            uint   4    5
+SPEC_PK_FLAG_FILE_PATH           string 24   "/mnt/jffs2/pk_200m_perf"
+SPEC_PORTMAPPING_CHECKPOLICY     uint   4    0
+SPEC_POWER_CONS_CYCLIC           uint   4    400
+SPEC_POWER_CONS_DOZE             uint   4    360
+SPEC_POWER_CONS_WATCHFUL         uint   4    65535
+SPEC_POWER_MNGT_CAP              uint   4    3
+SPEC_PPPOE_BACKOFF_DURATION      string 1    ""
+SPEC_PRIVATE_EQD_FLAG            uint   4    1
+SPEC_REMOTELRESET_LED_FREQUENCE  uint   4    0
+SPEC_RESETSHORT_LED_FREQUENCE    uint   4    0
+SPEC_SEND_SPEEDTEST_DELAY        uint   4    0
+SPEC_SSMP_CHKPWD_LENGTH          uint   4    6
+SPEC_SSMP_WEBLOGOUT_SHOWPARA     string 1    ""
+SPEC_STANDA_EQD_FLAG             uint   4    0
+SPEC_TR143_DELAYTIME             uint   4    3
+SPEC_TR143_TCPRMEMDEFAULT        uint   4    0
+SPEC_TR143_TCPRMEMMAX            uint   4    0
+SPEC_TR143_TCPRMEMMIN            uint   4    0
+SPEC_TR143_TCPWMEMDEFAULT        uint   4    0
+SPEC_TR143_TCPWMEMMAX            uint   4    0
+SPEC_TR143_TCPWMEMMIN            uint   4    0
+SPEC_VEDIO_DIAG_CBB_BITRATE      uint   4    10485760
+SPEC_VEDIO_DIAG_IP_MAX_CAR       uint   4    1500
+SPEC_VENDER_CLASSID_DEFAULT      string 4    "ITV"
+SPEC_WAIT_EQD_PROC_TIME          uint   4    5
+SSMP_SPEC_APM_BATTERYCHANGETIME  uint   4    5
+SSMP_SPEC_APM_BOOTDELAY          uint   4    60
+SSMP_SPEC_APM_BTOE_CHANGETIME    uint   4    5
+SSMP_SPEC_APM_MAXDEVICE          uint   4    32
+SSMP_SPEC_APP_REPORTURL          string 1    ""
+SSMP_SPEC_APP_TESTURL            string 1    ""
+SSMP_SPEC_ARPPING_PERIOD         uint   4    0
+SSMP_SPEC_BJUNICOM_PDLIST        string 1    ""
+SSMP_SPEC_CFG_CALLWAITTIME       uint   4    20000
+SSMP_SPEC_CFM_MAXOBJNUM          uint   4    60
+SSMP_SPEC_CHKEND_HOUR            uint   4    5
+SSMP_SPEC_CHKIDLE_MINCNT         uint   4    5
+SSMP_SPEC_CHKIDLE_MINTRAFFIC     uint   4    0
+SSMP_SPEC_CHKIDLE_RNDFACTOR      uint   4    174
+SSMP_SPEC_CHKONLINE_TIME         uint   4    1209600
+SSMP_SPEC_CHKSTART_HOUR          uint   4    2
+SSMP_SPEC_CLI_CLOSE_WAITTIME     uint   4    5
+SSMP_SPEC_CLI_CUSTOMIZE_CMDLIST  string 18   "cmd_aissingle.xml"
+SSMP_SPEC_CLI_ENABLE             uint   4    1
+SSMP_SPEC_CLI_HISTORYNUM         uint   4    20
+SSMP_SPEC_CLI_LOGIN_PROMPT_STR   string 29   "............easy98020 login:"
+SSMP_SPEC_CLI_MAXTELNETNUM       uint   4    1
+SSMP_SPEC_CLI_PROMPT             string 4    "WAP"
+SSMP_SPEC_CLI_REDLINEVERSION     uint   4    1
+SSMP_SPEC_CLI_REMOTETELNET       uint   4    1
+SSMP_SPEC_CLI_SHELL_PROMPT_STR   string 19   "
+ERROR::Fail to query err info!
+ErrCode = 0xf720205d
